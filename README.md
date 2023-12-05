@@ -1,29 +1,26 @@
 # Sampling
 
-## Contents:
-1. [Description](https://github.com/rachaellam/dsi-workshop#description)
-2. [Learning Outcomes](https://github.com/rachaellam/dsi-workshop#learning-outcomes)
-3. [Logistics](https://github.com/rachaellam/dsi-workshop#logistics)
-4. [Marking Scheme](https://github.com/rachaellam/dsi-workshop#marking-scheme)
-5. [Policies](https://github.com/rachaellam/dsi-workshop#policies)
-6. [Folder Structure](https://github.com/rachaellam/dsi-workshop#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/rachaellam/dsi-workshop#acknowledgements-and-contributions)
+## Content
 
-## Description:
-The course was created by the University of Toronto's Data Science Institute. The beginning of the course will introduce the basic language of Unix shell including how to navigate and manipulate files and directories. Learners will then learn certain commands, how to create scripts and write basic functions using pipes, filters and loops. 
+1. [Description](https://github.com/UofT-DSI/sampling#description)
+2. [Learning Outcomes](https://github.com/UofT-DSI/sampling#learning-outcomes)
+3. [Logistics](https://github.com/UofT-DSI/sampling#logistics)
+4. [Marking Scheme](https://github.com/UofT-DSI/sampling#marking-scheme)
+5. [Policies](https://github.com/UofT-DSI/sampling#policies)
+6. [Folder Structure](https://github.com/UofT-DSI/sampling#folder-structure)
+7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/sampling#acknowledgements-and-contributions)
 
-The next portion of the course will be dedicated to getting started with version control and GitHub, and how it connects to the ethical discussions of reproducibility. Learners will learn how to set up Git and initialize and utilize repositories, including recording, viewing and undoing changes. They will also learn how to create branches and collaborate with others with shared branches. This course will put it all together and introduce some more advanced commands such as de-bugging and history editing.
+## Description
 
-Finally, learners will determine how to problem-solve by identifying where the issue is and how to search with Google and Stack Overflow. This will then lead to the topic of reproducibility and how to contribute by commenting code and writing documentation.
-
-This course is designed for those who have a degree in something other than Computer Science/Statistics who are looking to enhance their data science skills for their career.
+The goal of this module is to introduce the essentials of sampling, probability, and survey methodology. This includes simple probability samples, stratified sampling, cluster sampling, dealing with non-response, estimating and survey quality. Students will consider the theoretical foundations of different sampling approaches, as well as practical applications of this knowledge towards contexts such as market research, political polling, and the Canadian census. Analysis using the R programming language will also be highlighted, drawing on skills developed in Module 3.
 
 ## Learning Outcomes
-Students will know how to...
-1. Access the terminal and write scripts using basic commands, variables, pipes, filters and loops. This will be assessed in Assignment 1.
-2. Use version control to preserve personal work, access and edit pervious code versions, collaborate with others, and find and debug errors. This will be assessed in Assignment 2.
-3. Solve problems independently by identifying issues, researching, or properly formulating questions using components of reproducibility. This will be assessed in both Assignment 1 and Assignment 2.
-4. Synthesize all work within wider discussions of ethics and inequity. Students will actively scrutinize who is and isn't in our datasets and develop knowledge of past abuses of power to better engage their work with ethical considerations. This will be assessed in Assignment 2.
+Students will know how to:
+
+1. Ability to implement simple probability samples.
+2. Ability to understand more complicated sampling procedures and the tradeoffs involved.
+3. Ability to identify and understand sources of error or inaccuracies in data as a result of sampling strategies.
+4. Development of intuition around survey quality.
 
 ## Logistics
 
@@ -101,10 +98,7 @@ Example:
 
 Added photo labelled "git_commit.png" will be referenced in markdown file as `![w:1000 left](pics/git_commit.png)`
 
-## Acknowledgements and Contributions
 ## Achnowledgements
-* Who helped make theses slides
-* We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-### Contributions 
-* `bash-git-github` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the [GitHub
-issues](https://github.com/anjalisilva/bash-git-github/issues).
+
+Radu Craiu, and the Department of Statistical Sciences, suggested this course. Rohan Alexander managed its development. Annie Collins developed the materials intially.
+
