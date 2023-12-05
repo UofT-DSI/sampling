@@ -1,0 +1,22 @@
+---
+title: 'ASSIGNMENT: Sampling and Reproducibility in R'
+author: 'YOUR NAME'
+output: 
+  pdf_document:
+    number_sections: true
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Read blogpost [*Contact tracing can give a biased sample of COVID-19 cases*](https://andrewwhitby.com/2020/11/24/contact-tracing-biased/) by Andrew Whitby
+
+# Examine the code in whitby_covid_tracing.R. Identify all stages at which sampling is occurring in the model outlined by Whitby. At each stage, describe in words the sampling procedure, with reference to the functions used, sample size (either exact number or descriptor, i.e. “whole population”, “wedding attendees”, etc.), sampling frame, any underlying distributions involved, and the connection to the procedure outlined in the blogpost.
+
+# Run the R script file called whitby_covid_tracing.R as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
+
+# Reduce the number of repetitions of `pbsapply` to 1000 (from 50000). Run the script file multiple times and observe the outputted graphs. Comment on reproducibility.
+
+# Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
