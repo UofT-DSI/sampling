@@ -52,8 +52,9 @@ The course will be held over two weeks, four days a week. Each day will be 2.5 h
 ## Marking Scheme
 | Assessment       | Weight |  Due Date |
 |------------------|--------|----------|
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  15%  |   March 5, 2024      |
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  15% | March 5, 2024 | 
+| Participation |  10%  |        |
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  10%  |   March 5, 2024      |
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  10% | March 5, 2024 | 
 | [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 5, 2024  |
 | [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |   15%  |  March 12, 2024        |
 | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) |   40%  |  March 9, 2024   |
