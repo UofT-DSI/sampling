@@ -12,11 +12,9 @@
 
 ## Description
 
-The goal of this module is to introduce the essentials of sampling, probability, and survey methodology. This includes simple probability samples, stratified sampling, cluster sampling, dealing with non-response, estimating and survey quality. Students will consider the theoretical foundations of different sampling approaches, as well as practical applications of this knowledge towards contexts such as market research, political polling, and the Canadian census. Analysis using the R programming language will also be highlighted, drawing on skills developed in Module 3.
+The goal of this module is to introduce the essentials of sampling, probability, and survey methodology. This includes simple probability samples, stratified sampling, cluster sampling, dealing with non-response, estimating and survey quality. Students will consider the theoretical foundations of different sampling approaches, as well as practical applications of this knowledge towards contexts such as market research, political polling, and the Canadian census. Analysis using the Python programming language will also be highlighted, drawing on skills developed in Module 3.
 
 ## Learning Outcomes
-Students will know how to:
-
 1. Ability to implement simple probability samples.
 2. Ability to understand more complicated sampling procedures and the tradeoffs involved.
 3. Ability to identify and understand sources of error or inaccuracies in data as a result of sampling strategies.
@@ -25,13 +23,14 @@ Students will know how to:
 ## Logistics
 
 ### Course Contacts
-* Instructor: [**Name**] [Pronouns] [degree]. hyperlinked email
-  * Email etiquette
-  * Other comments 
-* TA: [**Name**] [pronouns] [degree]. hyperlinkedEmail
+* Instructor: [**Morris Greenberg**] [He/Him] [MSc., Statistics]. [morris.greenberg@mail.utoronto.ca](morris.greenberg@mail.utoronto.ca)
+* Instructor: [**Mandy Yao**] [She/Her] [MSc, Statistics]. [mandy.yao@mail.utoronto.ca](mandy.yao@mail.utoronto.ca)
+  * Email etiquette: Emails are welcomed. Please email both instructors if emailing. We will try to respond within 48-hours.
+  
+
 
 ### Delivery instructions
-The workshop will be held over three weeks, three days a week. Two of the three days will be 2-hours long and the last day will be 3-hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
+The course will be held over two weeks, four days a week. Each day will be 2.5 hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
 
 ### Technology Requirements
 1. Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
@@ -40,65 +39,56 @@ The workshop will be held over three weeks, three days a week. Two of the three 
 ### Lesson Schedule
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Unix Shell I <br>(introducing the Shell, introductory commands, files and directories)       | [Assignment 1]() | [Slides]() |
-| 2      | Unix Shell II<br>(input/output and pipes/filters)                                            | [Assignment 1]() | [Slides]() |
-| 3      | Unix Shell III<br>(shell scripts, shell functions, parameters, flow control)                 | [Assignment 1]() | [Slides]() |
-| 4      | Version Control and GitHub I<br>(introducing version control and GitHub, basic Git commands) | [Assignment 2]() | [Slides]() |
-| 5      | Version Control and GitHub II<br>(remote repositories; branching)                            | [Assignment 2]() | [Slides]() |
-| 6      | Version Control and GitHub III <br>(collaborating, dealing with conflicts)                   | [Assignment 2]() | [Slides]() |
-| 7      | Problem solve, reproducibility, ethics, inequity                                             | [Assignment 1]() <br> [Assignment 2]() | [Slides]() |
-| 8      | Professional Skills - Industry Case Study                                                    | [Assignment 2]() | [Slides]() |
-| 9      | Data Science Foundations - Review and Practice                                               |                  | [Slides]() |
+| 1      | Introduction, Probability                                                                    |                  | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/00-Introduction-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/01-Probability-slides.pptx) |
+| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/02-Populations%2C%20censuses%2C%20surveys%2C%20and%20observational%20data-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/03-Essentials%20of%20sampling%2C%20asking%2C%20and%20observing-slides.pptx)|
+| 3      | Errors, simple probability samples, Stratified sampling                                      | [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) <br> [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/04-Errors-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/05-Simple%20probability%20samples-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/06-Stratified%20sampling-slides.pptx) |
+| 4      | Cluster Sampling | [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) | [Slides](https://github.com/UofT-DSI/sampling/blob/main/lectures/07-Cluster%20sampling-slides.pptx) |
+| 5      |   TBD                        | TBD |  |
+| 6      |   TBD              | TBD | |
+| 7      |    TBD                                          | TBD |  |
+| 8      |    TBD                                           | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) | |
+
 
 ## Marking Scheme
-| Assessment       | Weight | Description | Due Date |
-|------------------|--------|-------------|----------|
-| [Assignment 1]() |        |             |          |
-| [Assignment 2]() |        |             |          |
-|                  |        |             |          |
+| Assessment       | Weight |  Due Date |
+|------------------|--------|----------|
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  15%  |   March 5, 2024      |
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  15% |  | March 5, 2024
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 5, 2024  |
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |   15%  |  March 12, 2024        |
+| [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) |   40%  |  March 9, 2024   |
 
 ## Policies
-The course is a live-coding class. Students are expected to follow along with the coding, creating files and folders to navigate and manipulate. Students should be active participants while coding and are encouraged to ask questions throughout. Although slides will be available for students to reference, they should be referenced before or after class, as during class will be dedicated to coding with the instructor.
+Questions are encouraged! Extensions for assessments may be granted but the hard deadline for all assessments is March 16, 2024. Please ask for extensions as soon as possible. 
 
 **How to submit assignments, late policy, academic integrity.**
+## Assignment Submission:
+Submissions for assignments are on gradescope.ca (you should all have been invited to this). When submitting an assignment, make sure to tag your pages to each relevant question.
+
+## Late Policy:
+Submissions can be submitted late on an as needed basis. The hard deadline for all assessments, however, is March 16, 2024.
+
+## Academic Integrity:
+We will indicate when assignments can be collaborative vs. individual. For individual assignments, please write your own solutions. If you use any outside resources, please cite them. Using large language models is discouraged but allowed. We have found that using answers from these are variable at best. Please use your best judgment.
 
 ## Folder Structure
 Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1 *assignments*:
-This folder contains the assignments for the workshop. Students are expected to complete them one week after the content has been delivered.
+### 1 *assessment*:
+This folder contains the assessments for the workshop. Students are expected to complete them one week after the content has been delivered.
 
-### 2. *homework*:
-This folder contains homework for students to practice Unix and Git/GitHub workshops. Please complete the Unix Shell homework in the first week, and the Git/GitHub homework in the second.
+### 2. *lectures*:
+This folder contains the powerpoint files for the slides. 
 
-There are pdf copies of the homework and markdown files, which can be edited. The homework can change based on the amount of content that was completed each day.
+### 3. *resources-exercises*:
+Exercises are just a suggestion but will help students throughout the workshop, as content is cumulative and will only get more difficult. Unfortunately, there is not enough time to review previous content each class so while these exercises are **not** graded, they are highly recommended.
 
-Homework is just a suggestion but will help students throughout the workshop, as content is cumulative and will only get more difficult. Unfortunately, there is not enough time to review previous content each class so while this homework is **not** graded, it is highly recommended.
-
-### 3. *lessons*:
-This folder contains the pdf and html version of the slides. Either the pdf slides or the html slides can be used when teaching. If slides are edited to contain any gifs, the instructor will need to use the html slides so that the gifs are active.
-
-pdf slides should be referenced before class to prepare or after class to review. During class will be live-coding, therefore, there is no need to follow them during class. They contain all information that was discussed in class and are a great resource in the future if students need to reassess their knowledge.
-
-### 4. *post-course*:
-This folder contains the exit surveys for students to complete. It holds both the md and docx versions of the survey.
-
-### 5. *slides-resources*:
-This folder contains all editable slides. To edit, download the entire folder, including the *pics* folder as this folder contains the pictures which are relationally referenced in the markdown files.
-
-To change a photo, edit the markdown where photos are referenced.
-
-Example: 
-
-Change `![w:1150 center](pics/github.png)` to `![bg](pics/github.png)`
-
-To add a photo, add photo to the *pics* folder and reference it within the markdown file.
-
-Example:
-
-Added photo labelled "git_commit.png" will be referenced in markdown file as `![w:1000 left](pics/git_commit.png)`
+### 4. *lesson plans*:
+These were used to plan the course but we are not following them exactly so feel free to ignore.
 
 ## Achnowledgements
 
 Radu Craiu, and the Department of Statistical Sciences, suggested this course. Rohan Alexander managed its development. Annie Collins developed the materials intially.
+
+
 
