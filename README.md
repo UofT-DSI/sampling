@@ -74,7 +74,7 @@ We will indicate when assignments can be collaborative vs. individual. For indiv
 ## Folder Structure
 Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1 *assessment*:
+### 1. *assessment*:
 This folder contains the assessments for the workshop. Students are expected to complete them one week after the content has been delivered.
 
 ### 2. *lectures*:
