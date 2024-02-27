@@ -61,7 +61,7 @@ The course will be held over two weeks, four days a week. Each day will be 2.5 h
 ## Policies
 Questions are encouraged! Extensions for assessments may be granted but the hard deadline for all assessments is March 16, 2024. Please ask for extensions as soon as possible. 
 
-**How to submit assignments, late policy, academic integrity.**
+
 ## Assignment Submission:
 Submissions for assignments are on gradescope.ca (you should all have been invited to this). When submitting an assignment, make sure to tag your pages to each relevant question.
 
