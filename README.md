@@ -49,22 +49,19 @@ The course will be held over two weeks, four days a week. Each day will be 2.5 h
 | 8      |    TBD                                           | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) | |
 
 
-## Marking Scheme
-| Assessment       | Weight |  Due Date |
-|------------------|--------|----------|
+## Marking Scheme and Assignment Submission
+Please submit your assignments as pdf files using the google forms linked in the table below.
+| Assessment       | Weight |  Due Date | Submission Link |
+|------------------|--------|-----------|-----------------|
 | Participation |  10%  |        |
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  10%  |   March 5, 2024      |
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  10% | March 5, 2024 | 
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 5, 2024  |
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |   15%  |  March 12, 2024        |
-| [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) |   40%  |  March 9, 2024   |
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  10%  |   March 5, 2024      | [https://forms.gle/pQW2mwzSXPSXcchB9](https://forms.gle/pQW2mwzSXPSXcchB9) |
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  10% | March 5, 2024 | [https://forms.gle/xHSfCMq8QAa2PUyQA](https://forms.gle/xHSfCMq8QAa2PUyQA) |
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 5, 2024  | [https://forms.gle/voo6ndjo7wjY72Zv8])(https://forms.gle/voo6ndjo7wjY72Zv8)|
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |   15%  |  March 12, 2024        | [https://forms.gle/SwsuDdrxiwNJVWdd6](https://forms.gle/SwsuDdrxiwNJVWdd6)|
+| [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) |   40%  |  March 9, 2024   |[https://forms.gle/QDbissy89WnY3JQP8](https://forms.gle/QDbissy89WnY3JQP8)|
 
 ## Policies
 Questions are encouraged! Extensions for assessments may be granted but the hard deadline for all assessments is March 16, 2024. Please ask for extensions as soon as possible. 
-
-
-## Assignment Submission:
-Submissions for assignments are on gradescope.ca (you should all have been invited to this). When submitting an assignment, make sure to tag your pages to each relevant question.
 
 ## Late Policy:
 Submissions can be submitted late on an as needed basis. The hard deadline for all assessments, however, is March 16, 2024.
