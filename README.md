@@ -56,7 +56,7 @@ Please submit your assignments as pdf files using the google forms linked in the
 | Participation |  10%  |        |
 | [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  10%  |   March 5, 2024      | [https://forms.gle/pQW2mwzSXPSXcchB9](https://forms.gle/pQW2mwzSXPSXcchB9) |
 | [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  10% | March 5, 2024 | [https://forms.gle/xHSfCMq8QAa2PUyQA](https://forms.gle/xHSfCMq8QAa2PUyQA) |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 5, 2024  | [https://forms.gle/voo6ndjo7wjY72Zv8](https://forms.gle/voo6ndjo7wjY72Zv8)|
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 12, 2024  | [https://forms.gle/voo6ndjo7wjY72Zv8](https://forms.gle/voo6ndjo7wjY72Zv8)|
 | [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |   15%  |  March 12, 2024        | [https://forms.gle/SwsuDdrxiwNJVWdd6](https://forms.gle/SwsuDdrxiwNJVWdd6)|
 | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) |   40%  |  March 9, 2024   |[https://forms.gle/QDbissy89WnY3JQP8](https://forms.gle/QDbissy89WnY3JQP8)|
 
