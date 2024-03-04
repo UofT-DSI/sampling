@@ -46,7 +46,7 @@ The course will be held over two weeks, four days a week. Each day will be 2.5 h
 | 5      |  Nonresponse (cont.), Estimation and survey quality, Respondent-driven sampling| | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/08-Nonresponse-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/09-Estimation%20and%20survey%20quality-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/11-Respondent-driven%20sampling-slides.pptx)|  
 | 6      |  Respondent-driven sampling (cont.), Advanced data collection, Reproducibility  | | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/11-Respondent-driven%20sampling-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/12-Advanced%20data%20collection-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/13-Reproducibility-slides.pptx)| 
 | 7      |  Differential privacy, Ethics, Inequity  | | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/14-Differential%20privacy-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/15-Ethics-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/16-Inequity-slides.pptx) |  
-| 8      |    Case Study                               | | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) | 
+| 8      |    Case Study                               | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) | |
 
 
 ## Marking Scheme and Assignment Submission
