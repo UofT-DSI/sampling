@@ -22,3 +22,9 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 | Limitations, known biases                             |                                                                                            |                                             |                                                                                             |
 | Citation                                              |                                                                                            |                                             |                                                                                             |
 | Links to any documentation or additional sources used |                                                                                            |                                             |                                                                                             |
+
+## Criteria
+
+|Criteria|Pass|Fail|
+|--------|----|----|
+|Population of the data table|The table has been correctly populated from the sources.|The table has been populated, but the information provided is incorrect.|

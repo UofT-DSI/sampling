@@ -16,3 +16,10 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
 3.	You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
 
+
+## Criteria
+
+|Criteria|Pass|Fail|
+|--------|----|----|
+|Purpose of the survey|The purpose of the survey is clearly identified and explained.|The purpose of the survey was not clearly identified and/or explained.|
+|Survey Features|The survey features has been described well.|The survey features has not been described well. It is still missing information relating to the purpose of the survey.|

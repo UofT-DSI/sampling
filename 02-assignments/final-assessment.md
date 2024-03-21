@@ -26,7 +26,7 @@ Sixty-seven percent of female respondents agreed with the statement. Critique th
    > b. Do you favor or oppose changing environmental regulations so that while they still protect the public, they cost American businesses less and lower product costs?
 
 7. **Observe Figure 3.2 in Salganik (2018).**  
-   ![Image](./Picture1.png)
+   ![Image](./images/picture1.png)
    > a. Describe a situation in which these errors cancel out.  
    > b. Describe a situation in which these errors compound.
 
@@ -62,11 +62,9 @@ Sixty-seven percent of female respondents agreed with the statement. Critique th
     > b. A sample of public libraries in California to study the availability of computer resources, and the per capita expenditures.  
     > c. An aerial survey to estimate the number of walrus in the pack ice near Alaska between 173 degrees East and 154 degrees West longitude.
 
-12. A city council of a small city wants to know the proportion of eligible voters that oppose having an incinerator of Phoenix garbage opened just outside of the city limits. They randomly select 100 residential numbers from the city’s telephone book that contains 3,000 such numbers. Each selected residence is then called and asked for (a) the total number of eligible voters and (b) the number of voters opposed to the incinerator. A total of 157 voters were surveyed; of these, 23 refused to answer the question. Of the remaining 134 voters, 112 opposed the incinerator, so the council estimates the proportion by with: p = 112/134 = 0.83582 and V(p) = 0.83582(1 − 0.83582)/134 = 0.00102. **Are these estimates valid? Why, or why not?**
+12. Kleppel et al. (2004) report on a study of wetlands in upstate New York. Four wetlands were selected for the study: Two of the wetlands drain watersheds from small towns and the other two drain suburban watersheds. Quantities such as pH were measured at two to four randomly selected sites within each of the four wetlands. **Describe why this is a cluster sample. What are the psus? The ssus? How would you estimate the average pH in the suburban wetlands?**
 
-13. Kleppel et al. (2004) report on a study of wetlands in upstate New York. Four wetlands were selected for the study: Two of the wetlands drain watersheds from small towns and the other two drain suburban watersheds. Quantities such as pH were measured at two to four randomly selected sites within each of the four wetlands. **Describe why this is a cluster sample. What are the psus? The ssus? How would you estimate the average pH in the suburban wetlands?**
-
-14. The new candy Green Globules is being test-marketed in an area of upstate New York. The market research firm decided to sample 6 cities from the 45 cities in the area and then to sample supermarkets within cities, wanting to know the number of cases of Green Globules sold. 
+13. The new candy Green Globules is being test-marketed in an area of upstate New York. The market research firm decided to sample 6 cities from the 45 cities in the area and then to sample supermarkets within cities, wanting to know the number of cases of Green Globules sold. 
 
     | City | Number of Supermarkets | Number of Cases Sold                           |
     |------|-----------------------|------------------------------------------------|
@@ -79,7 +77,7 @@ Sixty-seven percent of female respondents agreed with the statement. Critique th
 
     Obtain summary statistics for each cluster. Estimate the total number of cases sold, and the average number sold per supermarket, along with the standard errors of your estimates.
 
-15. The American Council of Learned Societies (ACLS) used a stratified random sample of selected ACLS societies in seven disciplines to study publication patterns and computer and library use among scholars who belong to one of the member organizations of the ACLS (Morton and Price, 1989). The data are shown in the table below.
+14. The American Council of Learned Societies (ACLS) used a stratified random sample of selected ACLS societies in seven disciplines to study publication patterns and computer and library use among scholars who belong to one of the member organizations of the ACLS (Morton and Price, 1989). The data are shown in the table below.
 
     | Discipline    | Membership | Number Mailed | Valid Returns | Female Members (%) |
     |---------------|------------|---------------|---------------|--------------------|
@@ -94,13 +92,19 @@ Sixty-seven percent of female respondents agreed with the statement. Critique th
 
     Calculate the response rate in each stratum for the survey. Is there evidence that the nonresponse rate varies among the strata, or that it is related to the percentage female membership?
 
-16. Kosmin and Lachman (1993) had a question on religious affiliation included in 56 consecutive weekly household surveys; the subject of household surveys varied from week to week from cable TV use, to preference for consumer items, to political issues. After four callbacks, the unit nonresponse rate was 50%; an additional 2.3% refused to answer the religion question. The authors say: “Nationally, the sheer number of interviews and careful research design resulted in a high level of precision . . . Standard error estimates for our overall national sample show that we can be 95% confident that the figures we have obtained have an error margin, plus or minus, of less than 0.2%. This means, for example, that we are more than 95% certain that the figure for Catholics is in the range of 25.0% to 26.4% for the U.S. population.”
+15. Kosmin and Lachman (1993) had a question on religious affiliation included in 56 consecutive weekly household surveys; the subject of household surveys varied from week to week from cable TV use, to preference for consumer items, to political issues. After four callbacks, the unit nonresponse rate was 50%; an additional 2.3% refused to answer the religion question. The authors say: “Nationally, the sheer number of interviews and careful research design resulted in a high level of precision . . . Standard error estimates for our overall national sample show that we can be 95% confident that the figures we have obtained have an error margin, plus or minus, of less than 0.2%. This means, for example, that we are more than 95% certain that the figure for Catholics is in the range of 25.0% to 26.4% for the U.S. population.”
     > a. Critique the preceding statement.  
     > b. If you anticipated item nonresponse, do you think it would be better to insert the question of interest in different surveys each week, as was done here, or to use the same set of additional questions in each survey? Explain your answer. How would you design an experiment to test your conjecture?
 
-17. The goal of the National Comorbidity Survey Replication is to estimate the prevalence of mental disorders in the United States. Read the survey description by Kessler et al. (2004). **What aspects of this survey might affect data quality? What design features were implemented to improve the quality of the survey?**
+16. The goal of the National Comorbidity Survey Replication is to estimate the prevalence of mental disorders in the United States. Read the survey description by Kessler et al. (2004). **What aspects of this survey might affect data quality? What design features were implemented to improve the quality of the survey?**
 
-18. One problem that has occurred in surveys on sexual behavior in the United States is that, typically, men report more opposite-sex sexual partners than women do. This has led some researchers to be skeptical of the data quality, since one would expect the total number of opposite-sex partners for men to equal the total number of opposite-sex partners for women. Read the article by Tourangeau and Smith (1996) on asking sensitive questions. **What steps did the authors take to reduce measurement error in their study?**
+17. One problem that has occurred in surveys on sexual behavior in the United States is that, typically, men report more opposite-sex sexual partners than women do. This has led some researchers to be skeptical of the data quality, since one would expect the total number of opposite-sex partners for men to equal the total number of opposite-sex partners for women. Read the [article](./tourangeau_sensitive_questions.pdf) by Tourangeau and Smith (1996) on asking sensitive questions. **What steps did the authors take to reduce measurement error in their study?**
+
+## Criteria
+
+|Criteria|Pass|Fail|
+|--------|----|----|
+|All questions have been answered correctly|Every question has been answered correctly.|At least one question was not answered correctly.|
 
 ## References
 - Frankovic, K. (2008). Race, gender, and bias in the electorate. Retrieved March 4, 2022, from https://www.cbsnews.com/news/race-gender-and-bias-in-the-electorate/
