@@ -1,39 +1,48 @@
 # Sampling
 
-## Content
-
-1. [Description](https://github.com/UofT-DSI/sampling#description)
-2. [Learning Outcomes](https://github.com/UofT-DSI/sampling#learning-outcomes)
-3. [Logistics](https://github.com/UofT-DSI/sampling#logistics)
-4. [Marking Scheme](https://github.com/UofT-DSI/sampling#marking-scheme)
-5. [Policies](https://github.com/UofT-DSI/sampling#policies)
-6. [Folder Structure](https://github.com/UofT-DSI/sampling#folder-structure)
-7. [Acknowledgements and Contributions](https://github.com/UofT-DSI/sampling#acknowledgements-and-contributions)
-
 ## Description
 
 The goal of this module is to introduce the essentials of sampling, probability, and survey methodology. This includes simple probability samples, stratified sampling, cluster sampling, dealing with non-response, estimating and survey quality. Students will consider the theoretical foundations of different sampling approaches, as well as practical applications of this knowledge towards contexts such as market research, political polling, and the Canadian census. Analysis using the Python programming language will also be highlighted, drawing on skills developed in Module 3.
 
 ## Learning Outcomes
-1. Ability to implement simple probability samples.
-2. Ability to understand more complicated sampling procedures and the tradeoffs involved.
-3. Ability to identify and understand sources of error or inaccuracies in data as a result of sampling strategies.
-4. Development of intuition around survey quality.
+1. Implement simple probability samples.
+2. Evaluate the complicated sampling procedures and the tradeoffs involved.
+3. Identify and understand sources of error or inaccuracies in data as a result of sampling strategies.
+4. Develop intuition around survey quality.
 
 ## Logistics
 
 ### Course Contacts
-* Instructor: [**Morris Greenberg**] [He/Him] [MSc., Statistics]. [morris.greenberg@mail.utoronto.ca](morris.greenberg@mail.utoronto.ca)
-* Instructor: [**Mandy Yao**] [She/Her] [MSc, Statistics]. [mandy.yao@mail.utoronto.ca](mandy.yao@mail.utoronto.ca)
-  * Email etiquette: Emails are welcomed. Please email both instructors if emailing. We will try to respond within 48-hours.
+**Questions can be submitted to the #questions channel on Slack**
+
+* Instructor: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
+* TA: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
   
+### Delivery of Module
+The module will run sychronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
+### How the Instructor will deliver
+The instructors will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01-slides`. All instructors will also upload any live coding files to this repository for any learners to revisit under `/live-code`.
+ 
+### Expectations
+Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
 
-### Delivery instructions
-The course will be held over two weeks, four days a week. Each day will be 2.5 hours. Being mindful of online fatigue, there will be one break during each class where students are encouraged to stretch, grab a drink and snacks, or ask any additional questions.
-
-### Technology Requirements
-1. Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+### Policies
+* **Accessibility:** We want to provide an accessible learning environment for all. If there is something we can do to make this course more accessible to you, please let us know.
+* **Course communications:** Communications take place over email or on Slack. If communicating over email, please include "DSI-Sampling" or similar in the subject line, e.g. "DSI-Sampling: Sampling question"
+* **Camera:** Keeping your camera on is optional.
+* **Microphone:** Please keep microphones muted unless you need to speak. Please indicate your name before speaking as some Zoom configurations make it hard to tell who is talking!
+* **Assessment:** There will be homework which **is not** graded, but highly recommended, and there will be two assignments which **are** graded.
+ 
+### Requirements
+* Learners are not expected to have any coding experience, we designed the learning contents for beginners.
+* Learners are encouraged to ask questions, and collaborate with others to enhance learning.
+* Learners must have a computer and an internet connection to participate in online activities.
+* Learners must have VSCode installed with the following extensions: 
+    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* Learners must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be use as a supportive tool to seek out answers to questions you may have.
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 
 ### Lesson Schedule
@@ -43,48 +52,67 @@ The course will be held over two weeks, four days a week. Each day will be 2.5 h
 | 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/02-Populations%2C%20censuses%2C%20surveys%2C%20and%20observational%20data-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/03-Essentials%20of%20sampling%2C%20asking%2C%20and%20observing-slides.pptx)|
 | 3      | Errors, simple probability samples, Stratified sampling                                      | [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) <br> [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/04-Errors-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/05-Simple%20probability%20samples-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/06-Stratified%20sampling-slides.pptx) |
 | 4      | Cluster Sampling, Nonresponse | [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/07-Cluster%20sampling-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/08-Nonresponse-slides.pptx) |
-| 5      |  Nonresponse (cont.), Estimation and survey quality, Respondent-driven sampling| | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/08-Nonresponse-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/09-Estimation%20and%20survey%20quality-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/11-Respondent-driven%20sampling-slides.pptx)|  
-| 6      |  Respondent-driven sampling (cont.), Advanced data collection, Reproducibility  | [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md)| [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/11-Respondent-driven%20sampling-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/12-Advanced%20data%20collection-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/13-Reproducibility-slides.pptx)| 
-| 7      |  Differential privacy, Ethics, Inequity  | | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/14-Differential%20privacy-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/15-Ethics-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/16-Inequity-slides.pptx) |  
-| 8      |    Case Study                               | [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) | |
+| 5      |  Nonresponse (cont.), Estimation and survey quality, and Reproducibility| | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/08-Nonresponse-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/09-Estimation%20and%20survey%20quality-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/11-Respondent-driven%20sampling-slides.pptx)|  
+| 6      |  Differential privacy, Ethics, Inequity  | [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/14-Differential%20privacy-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/15-Ethics-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/16-Inequity-slides.pptx) | 
 
 
 ## Marking Scheme and Assignment Submission
 Please submit your assignments as pdf files using the google forms linked in the table below.
-| Assessment       | Weight |  Due Date | Submission Link |
-|------------------|--------|-----------|-----------------|
-| Participation |  10%  |        |
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |  10%  |   March 5, 2024      | [https://forms.gle/pQW2mwzSXPSXcchB9](https://forms.gle/pQW2mwzSXPSXcchB9) |
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |  10% | March 5, 2024 | [https://forms.gle/xHSfCMq8QAa2PUyQA](https://forms.gle/xHSfCMq8QAa2PUyQA) |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  15% |  March 12, 2024  | [https://forms.gle/voo6ndjo7wjY72Zv8](https://forms.gle/voo6ndjo7wjY72Zv8)|
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |   15%  |  March 12, 2024        | [https://forms.gle/SwsuDdrxiwNJVWdd6](https://forms.gle/SwsuDdrxiwNJVWdd6)|
-| [Final Assessment](https://github.com/UofT-DSI/sampling/blob/main/assessment/Final%20Assessment.md) |   40%  |  March 9, 2024   |[https://forms.gle/QDbissy89WnY3JQP8](https://forms.gle/QDbissy89WnY3JQP8)|
 
-## Policies
-Questions are encouraged! Extensions for assessments may be granted but the hard deadline for all assessments is March 16, 2024. Please ask for extensions as soon as possible. 
+All assignments are pass or fail.
 
-## Late Policy:
-Submissions can be submitted late on an as needed basis. The hard deadline for all assessments, however, is March 16, 2024.
+| Assessment       |  Due Date | Submission Link |
+|------------------|-----------|-----------------|
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |   TBD      | [https://forms.gle/pQW2mwzSXPSXcchB9](https://forms.gle/pQW2mwzSXPSXcchB9) |
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |TBD | [https://forms.gle/xHSfCMq8QAa2PUyQA](https://forms.gle/xHSfCMq8QAa2PUyQA) |
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  TBD  | [https://forms.gle/voo6ndjo7wjY72Zv8](https://forms.gle/voo6ndjo7wjY72Zv8)|
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |  TBD       | [https://forms.gle/SwsuDdrxiwNJVWdd6](https://forms.gle/SwsuDdrxiwNJVWdd6)|
 
-## Academic Integrity:
-We will indicate when assignments can be collaborative vs. individual. For individual assignments, please write your own solutions. If you use any outside resources, please cite them. Using large language models is discouraged but allowed. We have found that using answers from these are variable at best. Please use your best judgment.
+## Resources
+Feel free to use the following as resources:
+
+### Documents
+- [probability-cheatsheet-1](./04-resources/probability-cheatsheet-1.pdf)
+- [probability-cheatsheet-2](./04-resources/probability-cheatsheet-2.pdf)
+- [probability-cheatsheet-3](./04-resources/probability-cheatsheet-3.png)
+- [CLT Demo](./04-resources/5.1-probability-clt-demo.py)
+- [LLN Demo](./04-resources/5.1-probability-lln-demo.py)
+- [Amazon Exercises](./04-resources/amazon-exercises.pdf)
+- [Multiple Imputation Exercises](./04-resources/sampling-multiple-imputation-exerises.py)
+
+### Videos
+- [Survey Sampling Methods](https://www.youtube.com/watch?v=tuJnu8RAUuU)
+- [Population vs Sample](https://www.youtube.com/watch?v=r-rFO_2NsgI)
+- [Survey Margin of Error: What is it? How does it relate to sample size?](https://www.youtube.com/watch?v=nilZF1KmCg4)
+- [Reproducibility in Research](https://www.youtube.com/watch?v=EvoVb_QLRK8)
+- [Probability Playlist](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
+
+
+
+### How to get help
+![image](/steps-to-ask-for-help.png)
+
+<hr>
 
 ## Folder Structure
-Below are the folders contained in this repo with a description of what they contain and information on how to use them.
 
-### 1. *assessment*:
-This folder contains the assessments for the workshop. Students are expected to complete them one week after the content has been delivered.
+```markdown
+|-- 01-slides
+|-- 02-assignments
+|-- 03-instructors
+|-- 04-resources
+|-- .gitignore
+```
 
-### 2. *lectures*:
-This folder contains the powerpoint files for the slides. 
+* **slides:** Course slides as PDF files
+* **live-coding:** Notebooks from class live coding sessions
+* **assignments:** Graded assignments
+* **resources**: Contains additional resources
+* **instructors:** Instructions for the Instructor on what to teach
+* README: This file!
+* .gitignore: Files to exclude from this folder, specified by the instructor
 
-### 3. *resources-exercises*:
-Exercises are just a suggestion but will help students throughout the workshop, as content is cumulative and will only get more difficult. Unfortunately, there is not enough time to review previous content each class so while these exercises are **not** graded, they are highly recommended.
-
-### 4. *lesson plans*:
-These were used to plan the course but we are not following them exactly so feel free to ignore.
-
-## Achnowledgements
+## Acknowledgements
 
 Radu Craiu, and the Department of Statistical Sciences, suggested this course. Rohan Alexander managed its development. Annie Collins developed the materials intially.
 

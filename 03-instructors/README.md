@@ -17,12 +17,19 @@ The `/04-resources` directory contains additional resources the learners can use
 
 ### Week 1
 
-TBD
+| Lesson | Topic                                                                                        | Assignments      | Resources  |
+|--------|----------------------------------------------------------------------------------------------|------------------|------------|
+| 1      | Introduction, Probability                                                                    |                  | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/00-Introduction-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/01-Probability-slides.pptx) |
+| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/02-Populations%2C%20censuses%2C%20surveys%2C%20and%20observational%20data-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/03-Essentials%20of%20sampling%2C%20asking%2C%20and%20observing-slides.pptx)|
+| 3      | Errors, simple probability samples, Stratified sampling                                      | [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) <br> [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/04-Errors-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/05-Simple%20probability%20samples-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/06-Stratified%20sampling-slides.pptx) |
 
 ### Week 2
 
-TBD
-
+| Lesson | Topic                                                                                        | Assignments      | Resources  |
+|--------|----------------------------------------------------------------------------------------------|------------------|------------|
+| 4      | Cluster Sampling, Nonresponse | [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/07-Cluster%20sampling-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/08-Nonresponse-slides.pptx) |
+| 5      |  Nonresponse (cont.), Estimation and survey quality, and Reproducibility| | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/08-Nonresponse-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/09-Estimation%20and%20survey%20quality-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/11-Respondent-driven%20sampling-slides.pptx)|  
+| 6      |  Differential privacy, Ethics, Inequity  | [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) | [Slides 1](https://github.com/UofT-DSI/sampling/blob/main/lectures/14-Differential%20privacy-slides.pptx) <br> [Slides 2](https://github.com/UofT-DSI/sampling/blob/main/lectures/15-Ethics-slides.pptx) <br> [Slides 3](https://github.com/UofT-DSI/sampling/blob/main/lectures/16-Inequity-slides.pptx) | 
 ## How do you assign assignments?
 Assignments are given and assigned at the start of each week at the end of the first lecture. The instructor will announce to the learners what the assignment is about, and how everything they will learn within the week will equip them to work on the assignment.
 
