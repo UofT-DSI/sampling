@@ -1,7 +1,7 @@
 # Assignment: Questionnaire Design (Part A)
 ## Module 5: Sampling
 
-### Part A  - After Section 5.2
+### Part A  - After Populations, censuses, surveys, and observational
 Select one of the scenarios below and design a survey to meet the need(s) outlined in the prompt.
 
 1.	In two to three sentences, describe the purpose of your survey

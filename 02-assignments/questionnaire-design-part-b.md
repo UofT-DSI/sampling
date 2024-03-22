@@ -1,7 +1,7 @@
 # Assignment: Questionnaire Design (Part B)
 ## Module 5: Sampling
 
-### Part B - After Section 5.3
+### Part B - After Essentials of sampling, asking, and observing
 
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
