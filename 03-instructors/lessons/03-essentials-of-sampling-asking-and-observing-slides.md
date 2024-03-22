@@ -187,4 +187,4 @@ Slides intentionally left sparse; elaborate from notes in Lohr (2019) Section 1.
 
 # Next
 
-5.4 Errors
+Errors

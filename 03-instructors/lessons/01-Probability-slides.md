@@ -13,11 +13,9 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# Learning Outcomes
+# Learning Goal
 
 *How do we calculate and interpret probabilities? What is a statistical distribution?*
-
-1. …
 
 ---
 
@@ -596,5 +594,5 @@ The Law of Averages can be thought of as a more general version of the Law of La
 
 # Next
 
-5.2 Populations, censuses, surveys, and observational data
+Populations, censuses, surveys, and observational data
 

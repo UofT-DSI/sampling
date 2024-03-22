@@ -253,5 +253,5 @@ Wu and Thompson, Section 1.5.3
 
 # Next
 
-5.3 Essentials of sampling, asking, and observing
+Essentials of sampling, asking, and observing
 

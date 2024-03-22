@@ -113,26 +113,6 @@ $ echo "Data Science Institute"
 
 ---
 
-# Respondent-Driven Sampling (level: Advanced)
-
-- *How might our study be impacted if certain participants in our study recruit other respondents to our study? How do we effectively analyze a sample collected in this manner?*
-  - What is respondent-driven sampling?
-  - Existing methods for studying hidden populations
-  - Benefits and considerations
-  - Estimation
-- Reference: Salganik and Heckathorn, 2004, ‘Sampling and Estimation in Hidden Populations Using Respondent-Driven Sampling’, *Sociological Methodology* , 34, pp. 193-239
-
----
-
-# Advanced Topics (level: Advanced)
-
-- *What happens when things aren’t so simple?*
-  - Calculating sample sizes
-  - Multistage and multiphase sampling
-  - Multiple imputation in Python and R
-
----
-
 # Differential Privacy (level: Advanced)
 
 - *How can probability be used to create privacy and anonymity in large data sets?*
