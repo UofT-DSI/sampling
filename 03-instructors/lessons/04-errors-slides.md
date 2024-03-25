@@ -93,11 +93,15 @@ Lohr, 2019, Section 1.3
 - Allowing the sample to consist entirely of volunteers
 
 ---
-
 # Overcoverage versus Undercoverage
 
 - **Undercoverage** may occur when certain individuals are not able to be reached by the survey (i.e. they do not own a phone or have a permanent address) or because individual-level data is systematically inaccessible (i.e. individuals in the prison system or long-term care facilities)
 - **Overcoverage** may occur when ineligible units in the general population are not removed from the frame population, or when those who are collecting data are not properly informed about sample eligibility and collect data from ineligible individuals
+
+---
+
+# Exercise
+What would undercoverage and overcoverage looks like if you have to sample the City of Toronto?
 
 ---
 

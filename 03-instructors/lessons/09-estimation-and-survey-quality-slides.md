@@ -94,6 +94,10 @@ $ echo "Data Science Institute"
 
 ---
 
+# Exercise: What kind of survey would you use to sample students from the 3 main universities in the Greater Toronto Area?
+
+---
+
 # Improving Coverage
 
 - Remove duplicates from the sampling frame

@@ -38,6 +38,10 @@ $ echo "Data Science Institute"
 
 ---
 
+# Exercise: Could someone file a lawsuit again the government agency citing potential harms as a result of personal information uncovered in the data linkage?
+
+---
+
 # Case Study: The Netflix Prize
 
 - In 2006, Netflix released a data set of 100 million movie ratings from almost 500,000 users as part of a contest to improve its movie recommendation algorithm. The data had PII removed and slight perturbations introduced in some ratings. Similar to the GIC example, researchers Arvind Narayanan and Vitaly Shmatikov combined the Netflix data with user data from IMDb to identify individuals who left particular movie ratings in the Netflix data.

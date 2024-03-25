@@ -64,6 +64,10 @@ $ echo "Data Science Institute"
 
 ---
 
+# Exercise: What are some trade-offs between cluster sampling and stratified sampling?
+
+---
+
 # Cluster sampling versus stratified sampling
 
 - Both are non-overlapping subpopulations for a given population
