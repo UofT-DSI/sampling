@@ -1,4 +1,4 @@
-# Data Sciences Institute Summer Course
+# Data Sciences Institute
 # Module 5: Sampling
 # Section 5.1: Probability
 # Law of Large Numbers Demo
