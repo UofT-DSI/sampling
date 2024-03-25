@@ -51,11 +51,7 @@ Camera is optional although highly encouraged. We understand that not everyone m
 
 
 ## Marking Scheme and Assignment Submission
-Rubrics for each assignment (pass/fail) are included in each assignment document in the 'assessments' folder. Please submit your assignments using the google forms linked in the table below.
--	Assignment 1: https://forms.gle/GoAkM7f8vKCFaVow5 
--	Assignment 2: https://forms.gle/cFdKwnwsBSbXi3GD9
--	Assignment 3: https://forms.gle/kQcvQEUztqNXW3697
--	Assignment 4: https://forms.gle/JWN16TCB25pudc3A7
+Rubrics for each assignment (pass/fail) are included in each assignment document in the 'assessments' folder. Please submit your assignments using your existing google folders.
 
 
 ## Policies
