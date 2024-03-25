@@ -197,5 +197,5 @@ Stratified sampling often requires supplemental information about a population i
 
 ---
 # Next
-Cluster sampling
+Differential Privacy
 

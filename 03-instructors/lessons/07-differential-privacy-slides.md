@@ -212,4 +212,4 @@ Based on Salganik (2018), Figure 6.6
 ---
 
 # Next
-Ethics
+Cluster Sampling

@@ -127,4 +127,4 @@ May want to refer to the assignment that was completed in the lab as an example 
 ---
 
 # Next
-Differential Privacy
+Inquity
