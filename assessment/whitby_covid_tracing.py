@@ -17,6 +17,7 @@ ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
 
+
 def simulate_event(m):
   """
   Simulates the infection and tracing process for a series of events.
@@ -32,46 +33,66 @@ def simulate_event(m):
   - A tuple containing the proportion of infections and the proportion of traced cases
     that are attributed to weddings.
   """
-  # Create DataFrame for people at events with initial infection and traced status
-  events = ['wedding'] * 200 + ['brunch'] * 800
-  ppl = pd.DataFrame({
-      'event': events,
-      'infected': False,
-      'traced': np.nan  # Initially setting traced status as NaN
-  })
+    
+    # Create the data for the DataFrame
+    event = (['weddng' + str(i) for i in range(1, 3)] * 100) + (['brunch' + str(i) for i in range(1, 81)] * 10)
+    infected = [False] * len(event)
+    traced = [None] * len(event)
 
-  # Explicitly set 'traced' column to nullable boolean type
-  ppl['traced'] = ppl['traced'].astype(pd.BooleanDtype())
+    # Create the DataFrame
+    ppl = pd.DataFrame({'event': event, 'infected': infected, 'traced': traced})
 
-  # Infect a random subset of people
-  infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
-  ppl.loc[infected_indices, 'infected'] = True
+    #print(ppl.head())  # Print the first few rows of the DataFrame
 
-  # Primary contact tracing: randomly decide which infected people get traced
-  ppl.loc[ppl['infected'], 'traced'] = np.random.rand(sum(ppl['infected'])) < TRACE_SUCCESS
+    # Explicitly set 'traced' column to nullable boolean type
+    ppl['traced'] = ppl['traced'].astype(pd.BooleanDtype())
 
-  # Secondary contact tracing based on event attendance
-  event_trace_counts = ppl[ppl['traced'] == True]['event'].value_counts()
-  events_traced = event_trace_counts[event_trace_counts >= SECONDARY_TRACE_THRESHOLD].index
-  ppl.loc[ppl['event'].isin(events_traced) & ppl['infected'], 'traced'] = True
+    # # Infect a random subset of people
+    num_infected = int(len(ppl) * ATTACK_RATE)
+    infected_indices = np.random.choice(len(ppl), num_infected, replace=False)
+    ppl.loc[infected_indices, 'infected'] = True
 
-  # Calculate proportions of infections and traces attributed to each event type
-  ppl['event_type'] = ppl['event'].str[0]  # 'w' for wedding, 'b' for brunch
-  wedding_infections = sum(ppl['infected'] & (ppl['event_type'] == 'w'))
-  brunch_infections = sum(ppl['infected'] & (ppl['event_type'] == 'b'))
-  p_wedding_infections = wedding_infections / (wedding_infections + brunch_infections)
+    # Primary contact tracing: randomly decide which infected people get traced
+    infected_indices = np.where(ppl['infected'])[0]
+    traced = np.random.rand(sum(ppl['infected'])) <TRACE_SUCCESS
+    ppl.loc[infected_indices, 'traced'] = traced
 
-  wedding_traces = sum(ppl['infected'] & ppl['traced'] & (ppl['event_type'] == 'w'))
-  brunch_traces = sum(ppl['infected'] & ppl['traced'] & (ppl['event_type'] == 'b'))
-  p_wedding_traces = wedding_traces / (wedding_traces + brunch_traces)
+    # Print summary of 'traced' column
+    #ppl['traced'].value_counts()
 
-  return p_wedding_infections, p_wedding_traces
+    # Secondary contact tracing based on event attendance
 
-# Set the random seed for reproducibility
-np.random.seed(10)
+    events_traced = ['weddng1', 'weddng2']  # Example list of events traced
 
-# Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
+    # Count the occurrences of each event in 'traced' individuals
+    event_trace_counts = ppl.loc[ppl['traced'], 'event'].value_counts()
+
+    # Filter events based on SECONDARY_TRACE_THRESHOLD
+    events_traced = [event for event, count in event_trace_counts.items() if count >= SECONDARY_TRACE_THRESHOLD]
+
+    # Mark individuals as traced if infected and event is in events_traced
+    ppl.loc[ppl['infected'] & ppl['event'].isin(events_traced), 'traced'] = True
+
+    # Print summary of 'traced' column
+    #ppl['traced'].value_counts()
+
+    # Calculate event_type
+    ppl['event_type'] = ppl['event'].str[0]
+
+    # Calculate proportions of infections and traces attributed to each event type
+    wedding_infections = ((ppl['infected']) & (ppl['event_type'] == 'w')).sum()
+    brunch_infections = ((ppl['infected']) & (ppl['event_type'] == 'b')).sum()
+    p_wedding_infections = wedding_infections / (brunch_infections + wedding_infections)
+
+    wedding_traces = ((ppl['infected']) & (ppl['traced']) & (ppl['event_type'] == 'w')).sum()
+    brunch_traces = ((ppl['infected']) & (ppl['traced']) & (ppl['event_type'] == 'b')).sum()
+    p_wedding_traces = wedding_traces / (brunch_traces + wedding_traces)
+
+    return p_wedding_infections, p_wedding_traces
+
+
+# Run the simulation 5000 times
+results = [simulate_event(m) for m in range(5000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
