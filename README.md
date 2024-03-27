@@ -7,7 +7,7 @@
 - [Logistics](#logistics)
    * [Module Contacts](#module-contacts)
    * [Delivery of Module](#delivery-of-module)
-   * [How the Instructor will deliver](#how-the-instructor-will-deliver)
+   * [How the Technical Facilitator will deliver](#how-the-technical-facilitator-will-deliver)
    * [Expectations](#expectations)
    * [Policies](#policies)
    * [Requirements](#requirements)
@@ -35,14 +35,14 @@ The goal of this module is to introduce the essentials of sampling, probability,
 ### Module Contacts
 **Questions can be submitted to the #questions channel on Slack**
 
-* Instructor: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
-* TA: **{Name}** {Pronouns}. Emails to the instructor can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Technical Facilitator: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
+* Learning Support Staff: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
   
 ### Delivery of Module
-The module will run sychronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the instructor will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an instructor or TA will be present on Zoom to assist learners reach the intended learning outcomes.
+The module will run sychronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
-### How the Instructor will deliver
-The instructors will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01-slides`. All instructors will also upload any live coding files to this repository for any learners to revisit under `/live-code`.
+### How the Technical Facilitator will deliver
+The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01-slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live-code`.
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
@@ -117,20 +117,23 @@ Feel free to use the following as resources:
 ## Folder Structure
 
 ```markdown
-|-- 01-slides
-|-- 02-assignments
-|-- 03-instructors
-|-- 04-resources
-|-- .gitignore
+.
+├── 01-slides
+├── 02-assignments
+├── 03-instructors
+├── 04-resources
+├── LICENSE
+├── README.md
+└── steps-to-ask-for-help.png
 ```
 
 * **slides:** Module slides as PDF files
 * **live-coding:** Notebooks from class live coding sessions
 * **assignments:** Graded assignments
 * **resources**: Contains additional resources
-* **instructors:** Instructions for the Instructor on what to teach
+* **instructors:** Instructions for the Technical Facilitator on what to teach
 * README: This file!
-* .gitignore: Files to exclude from this folder, specified by the instructor
+* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
 ## Acknowledgements
 
