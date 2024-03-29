@@ -135,7 +135,7 @@ https://www.livescience.com/difference-between-race-ethnicity.html: Ethnicity ha
 
 # Case Study: US Census
 
-![](./images/16-case-study-us-census.png)
+![](./images/16_case_study_us_census.png)
 
 <!-- 
 https://www.census.gov/programs-surveys/decennial-census/decade.2020.html 
@@ -145,7 +145,7 @@ https://www.census.gov/programs-surveys/decennial-census/decade.2020.html
 
 # Case Study: Canadian Census
 
-![](./images/16-case-study-canadian-census.png)
+![](./images/16_case_study_canadian_census.png)
 
 <!--
 2021

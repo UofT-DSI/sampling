@@ -24,7 +24,7 @@ $ echo "Data Science Institute"
 
 # Key Texts
 
-![bg right:50% w:400](./images/02-Populations-censuses-surveys-and-observational-data-slides.jpg)
+![bg right:50% w:400](./images/02_populations_censuses_surveys_and_observational_data_slides.jpg)
 
 - Wu and Thompson, 2020, *Sampling Theory and Practice* , Springer, Chapter 1
 <!-- Image source: *[Springer](https://link.springer.com/book/10.1007/978-3-030-44246-0)* -->

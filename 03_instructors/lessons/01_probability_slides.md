@@ -21,7 +21,7 @@ $ echo "Data Science Institute"
 
 # Key Texts
 
-![bg right:50% w:500](./images/01-Probability-slides0.jpg)
+![bg right:50% w:500](./images/01_probability_slides0.jpg)
 
 - Pitman, 1993, *Probability* , Springer, Chapters 1-3
 - Image source: *[Springer](https://link.springer.com/book/10.1007/978-1-4612-4374-8)*
@@ -51,7 +51,7 @@ $ echo "Data Science Institute"
 
 - $P(A)$ can be read as “the probability of A”.
 
-<!-- ![bg right:50% w:500](./images/01-Probability-slides1.gif) -->
+<!-- ![bg right:50% w:500](./images/01_probability_slides1.gif) -->
 
 ---
 
@@ -249,7 +249,7 @@ $ echo "Data Science Institute"
 
 # Binomial Distribution
 
-![bg right:50% w:500](./images/01-Probability-slides10.png)
+![bg right:50% w:500](./images/01_probability_slides10.png)
 
 - For a large number of trials *n* , we expect the number of successes to be about *np* .
 - For n = 100 and p = 0.5, the distribution of number of successes is centered around 50 (the most likely) and the total number of successes gets less likely as the numbers get farther from 50.
@@ -318,7 +318,7 @@ $ echo "Data Science Institute"
 
 <!-- Image retrieved from https://commons.wikimedia.org/wiki/File:Uniform*Distribution*PDF_SVG.svg -->
 
-![bg right:50% w:500](./images/01-Probability-slides16.png)
+![bg right:50% w:500](./images/01_probability_slides16.png)
 
 ---
 
@@ -343,7 +343,7 @@ $ echo "Data Science Institute"
     - Number of rain drops that land on a particular area of a roof during a set time interval
     - Number of people who enter a store in a certain time interval
 
-![bg right:50% w:500](./images/01-Probability-slides18.png)
+![bg right:50% w:500](./images/01_probability_slides18.png)
 
 <!-- Image retrieved from https://commons.wikimedia.org/wiki/File:Poisson_pmf.svg -->
 
@@ -372,7 +372,7 @@ $ echo "Data Science Institute"
 - The normal distribution is centered and symmetric about $\mu$. $\sigma$ describes the horizontal spread (how wide the distribution is).
 - The normal distribution can be used to be use to approximate other distributions for easy calculations of probabilities
 
-![bg right:50% w:500](./images/01-Probability-slides21.png)
+![bg right:50% w:500](./images/01_probability_slides21.png)
 
 ---
 
@@ -383,7 +383,7 @@ $ echo "Data Science Institute"
 
     > $$Z = \frac{X-\mu}{\sigma}$$
 
-![bg right:50% w:500](./images/01-Probability-slides21.png)
+![bg right:50% w:500](./images/01_probability_slides21.png)
 
 <!-- Image retrieved from https://www.scribbr.com/statistics/standard-normal-distribution/ -->
 
@@ -393,7 +393,7 @@ $ echo "Data Science Institute"
 
 - Z-Scores represent the probability that a value is less than or equal to the value of a given standardized random variable.
 
-![bg right:50% w:500](./images/01-Probability-slides24.png)
+![bg right:50% w:500](./images/01_probability_slides24.png)
 
 <!-- Image retrieved from http://www.z-table.com/ -->
 
@@ -407,7 +407,7 @@ $ echo "Data Science Institute"
 
 # Law of Large Numbers
 
-![](./images/01-Probability-slides25.png)
+![](./images/01_probability_slides25.png)
 <!-- Pitman (1993), Figure 2 -->
 
 ---
@@ -570,7 +570,7 @@ $ echo "Data Science Institute"
 
 # Example: Tossing a coin
 
-![](./images/01-Probability-slides25.png)
+![](./images/01_probability_slides25.png)
 
 <!--
 Pitman (1993), Figure 2

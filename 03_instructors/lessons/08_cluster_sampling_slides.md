@@ -79,7 +79,7 @@ $ echo "Data Science Institute"
 ---
 
 - Based on Lohr, 2019, Figure 5.1
-![](./images/07-figure-5-1.png)
+![](./images/07_figure_5_1.png)
 
 ---
 
@@ -222,7 +222,7 @@ $ echo "Data Science Institute"
 ---
 
 - Based on Lohr, 2019, Figure 5.2
-![](./images/07-two-stage-cluster-sampling.png)
+![](./images/07_two_stage_cluster_sampling.png)
 
 ---
 

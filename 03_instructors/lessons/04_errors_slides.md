@@ -36,7 +36,7 @@ $ echo "Data Science Institute"
 - Lohr, 2019, Figure 2.3
 **Which of these displays high variance and which displays high bias?**
 
-![w:900](./images/04-Errors-slides0.png)
+![w:900](./images/04_errors_slides0.png)
 
 ---
 
@@ -127,7 +127,7 @@ Non-response will be covered in greater depth in **Module 5.8**
 
 “Representation is about making inferences from your respondents to your target population” - Salganik, 2018
 
-![](./images/04-representation.png)
+![](./images/04_representation.png)
 
 ---
 

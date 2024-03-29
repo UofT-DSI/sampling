@@ -59,7 +59,7 @@ Additional information on lawsuit: https://www.wired.com/2009/12/netflix-privacy
 
 # Introduction to Differential Privacy by Simply Explained
 
-![](./images/14-Differential%20privacy-slides0.jpg)
+![](./images/14_differential_privacy_slides0.jpg)
 [📼 the video](http://www.youtube.com/watch?v=gI0wk1CXlsQ)
 
 ---
@@ -75,7 +75,7 @@ Additional information on lawsuit: https://www.wired.com/2009/12/netflix-privacy
 ---
 
 Based on Nissim et al., Figure 2
-![](./images/14-differential-privacy.png)
+![](./images/14_differential_privacy.png)
 
 ---
 
@@ -112,7 +112,7 @@ Based on Nissim et al., Figure 2
 ---
 
 Based on Nissim et al., Figure 3
-![](./images/14-privacy-loss-parameter.png)
+![](./images/14_privacy_loss_parameter.png)
 
 ---
 
@@ -169,7 +169,7 @@ Differential privacy adds uncertainty to data in the form of **random noise**
   - *m’* will likely **not** be very close to *m*
   - Low accuracy, high privacy
 
-![bg right:40% w:400](./images/14-laplace-distribution.png)
+![bg right:40% w:400](./images/14_laplace_distribution.png)
 
 ---
 
@@ -207,7 +207,7 @@ Differential privacy adds uncertainty to data in the form of **random noise**
 ---
 
 Based on Salganik (2018), Figure 6.6
-![w:800](./images/14-ethical-considerations.png)
+![w:800](./images/14_ethical_considerations.png)
 
 ---
 

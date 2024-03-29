@@ -48,7 +48,7 @@ NOTE: this module only covers SRS and systematic sampling. Cluster and stratifie
 
 - Sampling 20 integers from {1, 2,...,100} (Lohr, 2019, Figure 2.1)
 
-![w:700](./images/05-sampling-20-integers.png)
+![w:700](./images/05_sampling_20_integers.png)
 
 ---
 

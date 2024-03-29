@@ -26,11 +26,7 @@ Sixty-seven percent of female respondents agreed with the statement. Critique th
    > b. Do you favor or oppose changing environmental regulations so that while they still protect the public, they cost American businesses less and lower product costs?
 
 7. **Observe Figure 3.2 in Salganik (2018).**  
-<<<<<<<< HEAD:04-resources/assignments/final-assessment.md
    ![Image](./images/picture1.png)
-========
-   ![Image](./picture-1.png)
->>>>>>>> 70b270f (assessments has been trivially updated.):02-assignments/final-assessment.md
    > a. Describe a situation in which these errors cancel out.  
    > b. Describe a situation in which these errors compound.
 
