@@ -73,7 +73,7 @@ $ echo "Data Science Institute"
 ---
 
 - Adapted from Lohr (2019), Figure 1.1
-![](./images/a_good_sample.png)
+![](./images/02_a_good_sample.png)
 
 <!-- A good sample -->
 

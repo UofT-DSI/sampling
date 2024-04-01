@@ -86,7 +86,7 @@ $ echo "Data Science Institute"
 | A and B are mutually exclusive |  A and B are disjoint   |   A ∩ B = ∅   |              |
 |          If A, then B          |   A is a subset of B    |     A ⊆ B     |              | -->
 
-![](./images/pitman_1993_table_1.png)
+![](./images/01_pitman_1993_table_1.png)
 
 ---
 
@@ -98,7 +98,7 @@ $ echo "Data Science Institute"
 
 2. *$B_1, B_2, ..., B_n$* are **mutually exclusive** – if an outcome is in event *$B_i$* , it is not in any other event
 
-![](./images/partitions.png)
+![](./images/01_partitions.png)
 
 ---
 
@@ -517,7 +517,7 @@ $ echo "Data Science Institute"
 
 - For the standard normal *N(0, 1)* , this means *X* is fairly likely to be between -1 and 1, and that 2.5 would be a very unlikely value of *X.*
 
-![bg right:50% w:500](./images/example_normal_distribution.png)
+![bg right:50% w:500](./images/01_example_normal_distribution.png)
 
 
 <!-- Image retrieved from https://www.scribbr.com/statistics/standard-normal-distribution/ -->
