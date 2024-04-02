@@ -5,7 +5,7 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 1.	In two to three sentences, describe the purpose of your survey
 
-2.	Describe your target population, sampling frame, sampling units, and observational units.
+2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
 
 3.	Using the survey software of your choice (suggested: Google Forms) write a 5-10 question survey to address your chosen scenario. Provide a link here for submission. 
 
