@@ -38,23 +38,23 @@ The goal of this module is to introduce the essentials of sampling, probability,
 * Learning Support Staff: **{Name}** {Pronouns}. Emails to the Technical Facilitator can be sent to {first_name.last_name}@mail.utoronto.ca.
   
 ### Delivery of Module
-The module will run sychronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used for as optional, asychronous work periods. The work periods will also last for up to 3 hours. During these two days, an Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
+The module will run synchronously three times a week on Zoom. The first three days are used as "lectures" and will last a maximum of 3 hours. During this time, the Technical Facilitator will introduce the concepts for the week. The last two days are used as optional, asynchronous work periods. The work periods will also last for up to 3 hours. During these two days, a Technical Facilitator or TA will be present on Zoom to assist learners reach the intended learning outcomes.
 
 ### How the Technical Facilitator will deliver
-The Technical Facilitators will introduce the concepts through a collaborative live coding session usiing the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
+The Technical Facilitators will introduce the concepts through a collaborative live coding session using the Python notebooks found under `/01_slides`. All Technical Facilitators will also upload any live coding files to this repository for any learners to revisit under `/live_code`.
  
 ### Expectations
 Learners are encouraged to be active participants while coding and are encouraged to ask questions throughout the module.
  
 ### Requirements
-* Learners are not expected to have any coding experience, we designed the learning contents for beginners.
-* Learners are encouraged to ask questions, and collaborate with others to enhance learning.
+* Learners are not expected to have any coding experience, we designed the learning content for beginners.
+* Learners are encouraged to ask questions and collaborate with others to enhance learning.
 * Learners must have a computer and an internet connection to participate in online activities.
 * Learners must have VSCode installed with the following extensions: 
     * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* Learners must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be use as a supportive tool to seek out answers to questions you may have.
+* Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
 * We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
-* Camera is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
+* Using a webcam is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Lesson Schedule
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
@@ -67,7 +67,7 @@ Learners are encouraged to be active participants while coding and are encourage
 | 6      | Case Study  | | | 
 
 ## Marking Scheme and Assignment Submission
-Please submit your assignments as pdf files using the google forms linked in the table below.
+Please submit your assignments as PDF files using the Google forms linked in the table below.
 
 All assignments are pass or fail.
 
@@ -127,7 +127,7 @@ Feel free to use the following as resources:
 
 ## Acknowledgements
 
-Radu Craiu, and the Department of Statistical Sciences, suggested this Module. Rohan Alexander managed its development. Annie Collins developed the materials intially.
+Radu Craiu, and the Department of Statistical Sciences, suggested this Module. Rohan Alexander managed its development. Annie Collins developed the materials initially.
 
 
 
