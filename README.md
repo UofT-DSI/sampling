@@ -53,7 +53,7 @@ Learners are encouraged to be active participants while coding and are encourage
 * Learners must have VSCode installed with the following extensions: 
     * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * Learners must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* We expect learners to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
 * Using a webcam is optional although highly encouraged. We understand that not everyone may have the space at home to have the camera on.
 
 ### Lesson Schedule
@@ -73,10 +73,10 @@ All assignments are pass or fail.
 
 | Assessment       |  Due Date | Submission Link |
 |------------------|-----------|-----------------|
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20A).md) |   TBD      | [https://forms.gle/pQW2mwzSXPSXcchB9](https://forms.gle/pQW2mwzSXPSXcchB9) |
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Questionnaire%20Design%20(Part%20B).md) |TBD | [https://forms.gle/xHSfCMq8QAa2PUyQA](https://forms.gle/xHSfCMq8QAa2PUyQA) |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Data%20Documentation%20Comparison%20Worksheet.md) |  TBD  | [https://forms.gle/voo6ndjo7wjY72Zv8](https://forms.gle/voo6ndjo7wjY72Zv8)|
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/assessment/ASSIGNMENT%20-%20Sampling%20and%20Reproducibility.md) |  TBD       | [https://forms.gle/SwsuDdrxiwNJVWdd6](https://forms.gle/SwsuDdrxiwNJVWdd6)|
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/questionnaire_design_part_a.md) |   TBD      | [https://forms.gle/pQW2mwzSXPSXcchB9](https://forms.gle/pQW2mwzSXPSXcchB9) |
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/questionnaire_design_part_b.md) |TBD | [https://forms.gle/xHSfCMq8QAa2PUyQA](https://forms.gle/xHSfCMq8QAa2PUyQA) |
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/data_documentation_comparison_worksheet.md) |  TBD  | [https://forms.gle/voo6ndjo7wjY72Zv8](https://forms.gle/voo6ndjo7wjY72Zv8)|
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/sampling_and_reproducibility.md) |  TBD       | [https://forms.gle/SwsuDdrxiwNJVWdd6](https://forms.gle/SwsuDdrxiwNJVWdd6)|
 
 ## Resources
 Feel free to use the following as resources:
@@ -100,7 +100,7 @@ Feel free to use the following as resources:
 
 
 ### How to get help
-![image](/steps_to_ask_for_help.png)
+![image](./steps_to_ask_for_help.png)
 
 <hr>
 
@@ -110,7 +110,7 @@ Feel free to use the following as resources:
 .
 ├── 01_slides
 ├── 02_assignments
-├── 03_instructors
+├── 03_instructional_team
 ├── 04_resources
 ├── LICENSE
 ├── README.md
@@ -125,9 +125,8 @@ Feel free to use the following as resources:
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
-## Acknowledgements
+## Acknowledgement
 
-Radu Craiu, and the Department of Statistical Sciences, suggested this Module. Rohan Alexander managed its development. Annie Collins developed the materials initially.
-
+We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and most recently, the Mississaugas of the Credit River. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
 
 
