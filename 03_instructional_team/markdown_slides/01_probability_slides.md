@@ -51,8 +51,6 @@ $ echo "Data Science Institute"
 
 - $P(A)$ can be read as “the probability of A”.
 
-<!-- ![bg right:50% w:500](./images/01_probability_slides1.gif) -->
-
 ---
 
 # Example: Rolling a die

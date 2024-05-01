@@ -19,16 +19,16 @@ The `/04_resources` directory contains additional resources the learners can use
 
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Introduction, Probability                                                                    |                  | [Slides 1](./01_slides/00_introduction_slides.pdf) <br> [Slides 2](./01_slides/01_probability_slides.pdf) |
-| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](/01_slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](./01_slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
-| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](./02_assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](./02_assignments/questionnaire_design_part_b.md) | [Slides 1](./01_slides/04_errors_slides.pdf) <br> [Slides 2](./01_slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](./01_slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](./01_slides/07_differential_privacy_slides.pdf) |
+| 1      | Introduction, Probability                                                                    |                  | [Slides 1](../01_slides/00_introduction_slides.pdf) <br> [Slides 2](../01_slides/01_probability_slides.pdf) |
+| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](../01_slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](../01_slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
+| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](../02_assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](../02_assignments/questionnaire_design_part_b.md) | [Slides 1](../01_slides/04_errors_slides.pdf) <br> [Slides 2](../01_slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](../01_slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](../01_slides/07_differential_privacy_slides.pdf) |
 
 ### Week 2
 
 | Lesson | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](./02_assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](./01_slides/09_nonresponse_slides.pdf) <br> [Slide 3](./01_slides/10_ethics_slides.pdf) |
-| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](./02_assignments/sampling_and_reproducibility.md) | [Slides 1](./01_slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](./01_slides/12_reproducibility_slides.pdf) <br> [Slides 3](./01_slides/13_inequity_slides.pdf)|  
+| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](../02_assignments/data_documentation_comparison_worksheet.md) | [Slides 1](../01_slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](../01_slides/09_nonresponse_slides.pdf) <br> [Slide 3](../01_slides/10_ethics_slides.pdf) |
+| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](../02_assignments/sampling_and_reproducibility.md) | [Slides 1](../01_slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](../01_slides/12_reproducibility_slides.pdf) <br> [Slides 3](../01_slides/13_inequity_slides.pdf)|  
 | 6      | Case Study  | | | 
 
 ## How do you assign assignments?
