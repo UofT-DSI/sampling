@@ -29,9 +29,9 @@ This assignment supports learning outcomes 1, 2, 3, and 4:
 
 ## Rubric
 
--	All required components are present and complete **Pass / Fail**
--	Assessment of representativeness is justified based on class content **Pass / Fail**
--	Changes to original survey are justified based on class content and best practices for sampling **Pass / Fail**
+-	All required components are present and complete **Complete / Incomplete**
+-	Assessment of representativeness is justified based on class content **Complete / Incomplete**
+-	Changes to original survey are justified based on class content and best practices for sampling **Complete / Incomplete**
 
 ## Submission Information
 
