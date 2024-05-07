@@ -45,7 +45,7 @@ Your 5-10 question survey:
 ## Rubric
 
 -	All required components are present and complete **Complete / Incomplete**
--	Choice of sampling strategy is justified and related to survey purpose **Complete / Incmoplete**
+-	Choice of sampling strategy is justified and related to survey purpose **Complete / Incomplete**
 
 ## Submission Information
 
