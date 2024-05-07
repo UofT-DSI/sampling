@@ -20,7 +20,7 @@ Please write your explanation here...
 
 ## Criteria
 
-|Criteria|Pass|Fail|
+|Criteria|Complete|Incomplete|
 |--------|----|----|
 |Altercation of the code|The code changes made, made it reproducible.|The code is still not reproducible.|
 |Description of changes|The author explained the reasonings for the changes made well.|The author did not explain the reasonings for the changes made well.|
