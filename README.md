@@ -31,10 +31,13 @@ By the end of the module, participants will be able to:
 
 | Assignment       |  Due Date | 
 |------------------|-----------|
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/questionnaire_design_part_a.md) |   TBD      | 
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/questionnaire_design_part_b.md) |TBD |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/data_documentation_comparison_worksheet.md) |  TBD  | 
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/sampling_and_reproducibility.md) |  TBD       | 
+| [Assignment 1](./02_assignments/a1_sampling_and_reproducibility.md) |  TBD       | 
+| [Assignment 2](./02_assignments/a2_questionnaire_design_part_a.md) |   TBD      | 
+| [Assignment 3](./02_assignments/a3_questionnaire_design_part_b.md) |TBD |
+| [Assignment 4](./02_assignments/a4_data_documentation_comparison_worksheet.md) |  TBD  |
+| [Final Assessment](./02_assignments/final_assessment.md) |   TBD      | 
+
+
 
 ## Contacts
 **Questions can be submitted to the _#cohort-3-help_ channel on Slack**

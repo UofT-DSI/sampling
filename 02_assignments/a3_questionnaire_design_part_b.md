@@ -1,4 +1,4 @@
-# Assignment: Questionnaire Design (Part B)
+# Assignment 3: Questionnaire Design (Part B)
 
 ## Requirements
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
@@ -39,7 +39,7 @@ This assignment supports learning outcomes 1, 2, 3, and 4:
 
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
-* The branch name for your repo should be: `questionnaire-b`
+* The branch name for your repo should be: `assignment-3`
 * What to submit for this assignment:
     * This markdown file (questionnaire_design_part_b.md) should be populated and should be the only change in your pull request.
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/sampling/pull/<pr_id>`

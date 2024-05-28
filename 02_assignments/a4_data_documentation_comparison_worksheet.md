@@ -1,4 +1,4 @@
-# Assignment: Data Documentation Comparison Worksheet
+# Assignment 4: Data Documentation Comparison Worksheet
 
 For each of the three sources listed, find any and all available documentation for the data gathered and identify and describe the survey features indicated in the table below. Some may not be available for all sources.
 
@@ -33,7 +33,7 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
-* The branch name for your repo should be: `data-documentation`
+* The branch name for your repo should be: `assignment-4`
 * What to submit for this assignment:
      * This markdown file (data_documentation_comparison_worksheet.md) should be populated and should be the only change in your pull request.
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/sampling/pull/<pr_id>`

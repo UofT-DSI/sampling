@@ -1,4 +1,4 @@
-# ASSIGNMENT: Sampling and Reproducibility in Python
+# Assignment 1: Sampling and Reproducibility in Python
 
 Read the blog post [Contact tracing can give a biased sample of COVID-19 cases](https://andrewwhitby.com/2020/11/24/contact-tracing-biased/) by Andrew Whitby to understand the context and motivation behind the simulation model we will be examining.
 
@@ -31,7 +31,7 @@ Please write your explanation here...
 
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
-* The branch name for your repo should be: `sampling-and-reproducibility`
+* The branch name for your repo should be: `assignment-1`
 * What to submit for this assignment:
     * This markdown file (sampling_and_reproducibility.md) should be populated.
     * The `whitby_covid_tracing.py` should be changed.
