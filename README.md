@@ -31,10 +31,10 @@ By the end of the module, participants will be able to:
 
 | Assignment       |  Due Date | 
 |------------------|-----------|
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/questionnaire_design_part_a.md) |   TBD      | 
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/questionnaire_design_part_b.md) |TBD |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/data_documentation_comparison_worksheet.md) |  TBD  | 
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_assignments/sampling_and_reproducibility.md) |  TBD       | 
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/questionnaire_design_part_a.md) |   TBD      | 
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/questionnaire_design_part_b.md) |TBD |
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/data_documentation_comparison_worksheet.md) |  TBD  | 
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/sampling_and_reproducibility.md) |  TBD       | 
 
 ## Contacts
 **Questions can be submitted to the _#cohort-3-help_ channel on Slack**
@@ -54,11 +54,11 @@ Participants are encouraged to engage actively during the learning module. They 
 ## Schedule
 | Live Learning Session | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Introduction, Probability                                                                    |                  | [Slides 1](./01_slides/00_introduction_slides.pdf) <br> [Slides 2](./01_slides/01_probability_slides.pdf) |
-| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](./01_slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](./01_slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
-| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](./02_assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](./02_assignments/questionnaire_design_part_b.md) | [Slides 1](./01_slides/04_errors_slides.pdf) <br> [Slides 2](./01_slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](./01_slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](./01_slides/07_differential_privacy_slides.pdf) |
-| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](./02_assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](./01_slides/09_nonresponse_slides.pdf) <br> [Slide 3](./01_slides/10_ethics_slides.pdf) |
-| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](./02_assignments/sampling_and_reproducibility.md) | [Slides 1](./01_slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](./01_slides/12_reproducibility_slides.pdf) <br> [Slides 3](./01_slides/13_inequity_slides.pdf)|  
+| 1      | Introduction, Probability                                                                    |                  | [Slides 1](./01_materials/slides/00_introduction_slides.pdf) <br> [Slides 2](./01_materials/slides/01_probability_slides.pdf) |
+| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](./01_materials/slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](./01_materials/slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
+| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](./02_activities/assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](./02_activities/assignments/questionnaire_design_part_b.md) | [Slides 1](./01_materials/slides/04_errors_slides.pdf) <br> [Slides 2](./01_materials/slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](./01_materials/slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](./01_materials/slides/07_differential_privacy_slides.pdf) |
+| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_materials/slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](./01_materials/slides/09_nonresponse_slides.pdf) <br> [Slide 3](./01_materials/slides/10_ethics_slides.pdf) |
+| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](./02_activities/assignments/sampling_and_reproducibility.md) | [Slides 1](./01_materials/slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](./01_materials/slides/12_reproducibility_slides.pdf) <br> [Slides 3](./01_materials/slides/13_inequity_slides.pdf)|  
 | 6      | Case Study  | | |
 
 ## Requirements
@@ -100,22 +100,26 @@ Feel free to use the following as resources:
 
 ```markdown
 .
-├── 01_slides
-├── 02_assignments
+├── .github
+├── 01_materials
+├── 02_activities
 ├── 03_instructional_team
-├── 04_resources
+├── 04_cohort_three
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png
 ```
 
-* **slides:** Module slides as PDF files
-* **live_coding:** Notebooks from class live coding sessions
-* **assignments:** Graded assignments
-* **resources**: Contains additional resources
-* **instructors:** Instructions for the Technical Facilitator on what to teach
-* README: This file!
-* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
+* **.github**: Contains issue templates and pull request templates for the repository.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **cohort_three**: Additional materials and resources for cohort three.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **README.md**: This file.
+* **steps_to_ask_for_help.png**: Guide on how to ask for help.
 
 ## Acknowledgement
 
