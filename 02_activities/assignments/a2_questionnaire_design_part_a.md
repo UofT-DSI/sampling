@@ -1,4 +1,4 @@
-# Assignment: Questionnaire Design (Part A)
+# Assignment 2: Questionnaire Design (Part A)
 
 ## Requirements
 Select one of the scenarios below and design a survey to meet the need(s) outlined in the prompt.
@@ -53,7 +53,7 @@ Your 5-10 question survey:
 
 ### Submission Parameters:
 * Submission Due Date: `HH:MM AM/PM - DD/MM/YYYY`
-* The branch name for your repo should be: `questionnaire-a`
+* The branch name for your repo should be: `assignment-2`
 * What to submit for this assignment:
     * This markdown file (questionnaire_design_part_a.md) should be populated and should be the only change in your pull request.
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/sampling/pull/<pr_id>`

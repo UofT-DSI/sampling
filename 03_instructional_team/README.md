@@ -1,31 +1,31 @@
 # Technical Facilitator Playbook
 
 ## How do you interact with the repo?
-The Technical Facilitator will deliver the content in the `/01_slides` directory. You are encouraged to live code with participants during live sessions. Please ensure that live coding files are uploaded to a new directory called `/live_code` under `/05_cohort_three` in this repository using a new branch. Please open a pull request for it to be merged.
+The Technical Facilitator will deliver the content in the `/01_materials/slides` directory. You are encouraged to live code with participants during live sessions. Please ensure that live coding files are uploaded to a new directory called `/live_code` under `/05_cohort_three` in this repository using a new branch. Please open a pull request for it to be merged.
 
 ## How does the module flow?
 The module is organized into 2 main directories:
 1. Slides
 2. Assignments
 
-The `/01_slides` directory contains the live learning session slides.
+The `/01_materials/slides` directory contains the live learning session slides.
 
-The `/02_assignments` contains assignments participants should submit for evaluation as  `complete` or `incomplete`. The assignments measure a participant's achievement of the learning outcomes, and help technical facilitators determine if a participant has successfully completed the learning module. 
+The `/02_activities/assignments` contains assignments participants should submit for evaluation as  `complete` or `incomplete`. The assignments measure a participant's achievement of the learning outcomes, and help technical facilitators determine if a participant has successfully completed the learning module. 
 
 ### Week 1
 
 | Live Learning Session | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Introduction, Probability                                                                    |                  | [Slides 1](../01_slides/00_introduction_slides.pdf) <br> [Slides 2](../01_slides/01_probability_slides.pdf) |
-| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](../01_slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](../01_slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
-| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](../02_assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](../02_assignments/questionnaire_design_part_b.md) | [Slides 1](../01_slides/04_errors_slides.pdf) <br> [Slides 2](../01_slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](../01_slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](../01_slides/07_differential_privacy_slides.pdf) |
+| 1      | Introduction, Probability                                                                    |                  | [Slides 1](../01_materials/slides/00_introduction_slides.pdf) <br> [Slides 2](../01_materials/slides/01_probability_slides.pdf) |
+| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](../01_materials/slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](../01_materials/slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
+| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](../02_activities/assignments/a2_questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](../02_activities/assignments/a3_questionnaire_design_part_b.md) | [Slides 1](../01_materials/slides/04_errors_slides.pdf) <br> [Slides 2](../01_materials/slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](../01_materials/slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](../01_materials/slides/07_differential_privacy_slides.pdf) |
 
 ### Week 2
 
 | Live Learning Session | Topic                                                                                        | Assignments      | Resources  |
 |--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](../02_assignments/data_documentation_comparison_worksheet.md) | [Slides 1](../01_slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](../01_slides/09_nonresponse_slides.pdf) <br> [Slide 3](../01_slides/10_ethics_slides.pdf) |
-| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](../02_assignments/sampling_and_reproducibility.md) | [Slides 1](../01_slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](../01_slides/12_reproducibility_slides.pdf) <br> [Slides 3](../01_slides/13_inequity_slides.pdf)|  
+| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](../02_activities/assignments/a4_data_documentation_comparison_worksheet.md) | [Slides 1](../01_materials/slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](../01_materials/slides/09_nonresponse_slides.pdf) <br> [Slide 3](../01_materials/slides/10_ethics_slides.pdf) |
+| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](../02_activities/assignments/a1_sampling_and_reproducibility/a1_sampling_and_reproducibility.md) | [Slides 1](../01_materials/slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](../01_materials/slides/12_reproducibility_slides.pdf) <br> [Slides 3](../01_materials/slides/13_inequity_slides.pdf)|  
 | 6      | Case Study  | | | 
 
 ## How do you assign assignments?
