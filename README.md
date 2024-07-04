@@ -59,7 +59,7 @@ Participants are encouraged to engage actively during the learning module. They 
 | 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](./02_activities/assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](./02_activities/assignments/questionnaire_design_part_b.md) | [Slides 1](./01_materials/slides/04_errors_slides.pdf) <br> [Slides 2](./01_materials/slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](./01_materials/slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](./01_materials/slides/07_differential_privacy_slides.pdf) |
 | 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_materials/slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](./01_materials/slides/09_nonresponse_slides.pdf) <br> [Slide 3](./01_materials/slides/10_ethics_slides.pdf) |
 | 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](./02_activities/assignments/sampling_and_reproducibility.md) | [Slides 1](./01_materials/slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](./01_materials/slides/12_reproducibility_slides.pdf) <br> [Slides 3](./01_materials/slides/13_inequity_slides.pdf)|  
-| 6      | Case Study  | | |
+| 6      |   | | |
 
 ## Requirements
 * Participants are not expected to have any coding experience; the learning content has been designed for beginners.
