@@ -26,15 +26,11 @@ $ echo "Data Science Institute"
 
 # What is stratified sampling?
 
----
-
-# Stratified Sampling
-
 1. Divide the whole population into non-overlapping subpopulations based on shared characteristics. These subpopulations are called **strata** .
 2. Take independent probability samples (often SRS) from each stratum.
 3. Pool individual samples together to calculate overall population estimates.
 
-Stratified sampling often requires supplemental information about a population in order to divide it into separate groups.
+- Stratified sampling often requires supplemental information about a population in order to divide it into separate groups.
   - For example if you have a list of all student emails from a university and you want to stratify by gender, this list will need to be linked with a data source that includes each student’s gender
 
 ---
@@ -45,10 +41,6 @@ Stratified sampling often requires supplemental information about a population i
 - Seeking estimates with known precisions for certain subpopulations
 - Convenience and lower cost
 - Higher precision (lower variance) estimates for population means and totals
-
----
-
-# Sample Estimates and Variability
 
 ---
 
@@ -90,6 +82,8 @@ Stratified sampling often requires supplemental information about a population i
 
   > $$ \hat{V}(\bar{y}) = \sum_{h=1}^{H}\frac{s_h^2}{n_h}(1-\frac{n_h}{N_h})(\frac{N^h}{N})^2 $$
 
+(how much our mean will vary across samples)
+
 - The standard error (SE) and coefficient of variation (CV) remain the same as for an SRS:
 
   > $$ SE(\bar{y})=\sqrt{\hat{V}(\bar{y})} $$
@@ -104,6 +98,7 @@ Stratified sampling often requires supplemental information about a population i
 
 # Weights
 
+- Remember from SRS: a sample weight is how much a sample is 'worth', how much of our original population it represents
 - When using stratified sampling, weights may differ by stratum.
 - The inclusion probability for unit *i* of stratum *h* is,
 
@@ -130,43 +125,29 @@ Stratified sampling often requires supplemental information about a population i
 
 ---
 
-# Defining Strata
+# How do you divide your population into strata?
 
-- How do you divide your population into strata?
-  - Mean values should differ greatly between strata
-    - Stratify by a variable that is closely related to the variable(s) you are trying to estimate
-    - For example, if you wish to estimate average height, you might stratify by age or sex instead of geographic location
-  - Data availability
+- Mean values should differ greatly between strata
+	- Stratify by a variable that is closely related to the variable(s) you are trying to estimate
+	- For example, if you wish to estimate average height, you might stratify by age or sex instead of geographic location
+- Data availability
     - Is there existing survey data to help you define appropriate strata? If not, are you able to collect preliminary data for this purpose?
     - More supplementary data often means more strata
-
----
-
-# Defining Strata (continued...)
-
-- How do you divide your population into strata?
-  - Difficulty and cost
+- Difficulty and cost
     - More strata may mean a higher cost or effort involved
     - Is this additional cost worthwhile for the precision you wish to achieve or the type of analysis you wish to conduct?
 
 ---
 
-# Allocating Observations to Strata
+# How many units should you sample from each stratum?
 
-- How many units should you sample from each stratum?
-  - Proportional Allocation
+- Proportional Allocation
     - Sample the same proportion of units from each stratum
     - Sample weights (𝜋 *hi* ) are the same for each sampled unit regardless of stratum
-  - Optimal Allocation
+- Optimal Allocation
     - Variation among larger sampling units may be greater than variation among smaller sampling units, so a higher proportion of large units should be sampled
     - Useful for businesses, cities, and institutions like schools or hospitals
-
----
-
-# Allocating Observations to Strata (continued...)
-
-- How many units should you sample from each stratum?
-  - Allocation for Precision with Strata
+- Allocation for Precision with Strata
     - Sample to reduce the variation in stratum-level estimates, not population-level estimates
     - Useful when the goal is comparing estimates between strata
 
@@ -196,6 +177,8 @@ Stratified sampling often requires supplemental information about a population i
 - Methods of analysis for probability samples do not apply
 
 ---
+
 # Next
-Differential Privacy
+- Cluster sampling
+- Resampling
 

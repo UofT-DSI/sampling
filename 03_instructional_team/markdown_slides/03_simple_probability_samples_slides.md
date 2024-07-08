@@ -22,33 +22,15 @@ $ echo "Data Science Institute"
 
 ---
 
-# Simple Probability Samples
+# Simple Random Samples
 
 ---
 
-# Probability Sampling
+# Recall
 
 - **Probability sampling** is a sampling method in which every population unit has a selection probability that is known to those conducting the sampling, and units are selected at random.
 - Small probability samples can be used to make inferences about relatively large populations
-
----
-
-# Types of Probability Samples
-
 - A **simple random sample (SRS)** is taken when every possible combination of population units has an equal chance of being sampled
-- A **stratified random sample** is taken when a population is divided into sub-groups called strata and independent simple random samples are selected from each stratum. Strata are usually selected based on shared characteristics, like age or geographic location.
-- A **cluster sample** is taken when a population is divided into sub-groups (**clusters**) that act as the primary sampling units. Clusters are sampled using an SRS, and each individual in the cluster is surveyed or observed.
-- A **systematic sample** is selected using a list of sampling units. A random starting point in the list is selected and then every *k* th subsequent unit is selected to be in the sample.
-
-<!-- 
-NOTE: this module only covers SRS and systematic sampling. Cluster and stratified random sampling are covered in their own modules
--->
-
----
-
-- Sampling 20 integers from {1, 2,...,100} (Lohr, 2019, Figure 2.1)
-
-![w:700](./images/05_sampling_20_integers.png)
 
 ---
 
@@ -67,6 +49,14 @@ NOTE: this module only covers SRS and systematic sampling. Cluster and stratifie
 
 ---
 
+# Sampling With versus Without Replacement
+
+Basically:
+- When we sample with replacement, an observation can be selected more than once
+- When we sample without replacement, once an observation is selected, it cannot be selected again
+
+---
+
 # Sample Estimates and Variability for SRS
 
 ---
@@ -78,11 +68,13 @@ NOTE: this module only covers SRS and systematic sampling. Cluster and stratifie
 
   > $$ \bar{y} = \frac{1}{n}\sum_{i=1}^{n}y_i $$
 
-- for *$x_i$* representing each unit in the sample. $\bar{x}$ is an unbiased estimator of **$\mu$**.
+(the sum of all observations in the sample, divided by sample size *n*.
 
 - The sample variance, *$s_2$* , can be calculated,
 
   > $$ s^2=\frac{1}{n-1}\sum_{i=1}^{n}(y_i-\bar{y})^2 $$ 
+  
+  and tells us how 'spread out' our sample data are.
 
 ---
 
@@ -94,30 +86,39 @@ NOTE: this module only covers SRS and systematic sampling. Cluster and stratifie
 
 - This is a measure of the variability of values of $\bar{y}$ computed from different samples.
 
+- **Estimator variance tells us how much our sample mean would differ across different samples *n***
+
+---
+
+# Estimator Variance
+
 - ***n/N*** is called the **sampling fraction** and represents the proportion of individuals from the population captured in the sample.
 
 - **(1 - *n/N* )** is called the **finite population correction**.
 
-  - As sample size increases, the value of the sampling fraction increases and the value of the finite population correction (and thus, estimate variance) decreases
-  - As sample size increases, we gain more information about the population, and the variance of our estimate decreases
+- As sample size increases, the value of the sampling fraction increases and the value of the finite population correction (and thus, estimate variance) decreases
+
+**As sample size increases, we gain more information about the population, and the variance of our estimate decreases**
 
 ---
 
-# Standard Error and CV
+# Standard Error
 
 - The **standard error (SE)** is the square root of the estimated variance of: $\bar{y}$
 
   > $$ SE(\bar{y})=\sqrt{\hat{V}(\bar{y})}=\sqrt{\frac{s^2}{n}(1-\frac{n}{N})} $$
+
+- **SE tells us how much our sample mean would differ from our population mean, AKA: as sample size increases, we gain more information about the population and the variance of our estimate decreases**
+
+---
+
+# Coefficient of Variation
 
 - The SE can be used to calculate the **coefficient of variation (CV)** for: $\bar{y} \neq 0$
 
   > $$ \hat{C}V(\bar{y})=\frac{SE(\bar{y})}{\bar{y}} $$
 
 - The CV is a unitless measure of relative variability. The estimated CV is the SE expressed as a percentage of the sample mean.
-
----
-
-# Weights
 
 ---
 
@@ -157,11 +158,12 @@ NOTE: this module only covers SRS and systematic sampling. Cluster and stratifie
 
 # Systematic Sampling Considerations
 
-- Systematic sampling is a type of cluster sampling, not SRS
+- Systematic sampling is a type of cluster sampling, not SRS, *but...*
 - If the original population is truly randomized, systematic samples behave similarly to SRS and the same analysis methods can be used
 - If the original population is in increasing or decreasing order, or periodic in some way (i.e. alternating male and female names), the sample will not be representative and will not behave like an SRS
 - Usual considerations apply when defining a target population and frame
-  - From what source are you obtaining your list? If sampling in person, where are you sampling?
+  - From what source are you obtaining your list? 
+  - If sampling in person, where are you sampling?
 
 ---
 

@@ -31,20 +31,25 @@ By the end of the module, participants will be able to:
 
 | Assignment       |  Due Date | 
 |------------------|-----------|
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/questionnaire_design_part_a.md) |   TBD      | 
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/questionnaire_design_part_b.md) |TBD |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/data_documentation_comparison_worksheet.md) |  TBD  | 
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/sampling_and_reproducibility.md) |  TBD       | 
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a1_sampling_and_reproducibility.md) |  TBD       | 
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a2_questionnaire_design_part_a.md) |   TBD      | 
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a3_questionnaire_design_part_b.md) |TBD |
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a4_data_documentation_comparison_worksheet.md) |  TBD  | 
+
 
 ## Contacts
 **Questions can be submitted to the _#cohort-3-help_ channel on Slack**
 
 * Technical Facilitator: 
-  * name and pronouns: `<Name>`, `<Pronouns>` 
-  * email: `<first_name.last_name@mail.ca>`
+  * name and pronouns: `Ciara`, `She/Her` 
+  * email: `ciara.zogheib@mail.utoronto.ca`
 * Learning Support Staff: 
-  * name and pronouns: `<Name>`, `<Pronouns>` 
-  * email: `<first_name.last_name@mail.ca>`
+  * name: `Jarlath` 
+  * email: `jarlathbr@gmail.com`
+  * name: `Kasra` 
+  * email: `vakiloroayaei.kasra@gmail.com`
+  * name: `Amanda` 
+  * email: `waiyuamanda.ng@mail.utoronto.ca`
   
 ## Delivery of the Learning Module
 This module will include live learning sessions and optional, asynchronous work periods. During live learning sessions, the Technical Facilitator will introduce and explain key concepts and demonstrate core skills. Learning is facilitated during this time. Before and after each live learning session, the instructional team will be available for questions related to the core concepts of the module. Optional work periods are to be used to seek help from peers, the Learning Support team, and to work through the homework and assignments in the learning module, with access to live help. Content is not facilitated, but rather this time should be driven by participants. We encourage participants to come to these work periods with questions and problems to work through. 
@@ -52,14 +57,15 @@ This module will include live learning sessions and optional, asynchronous work 
 Participants are encouraged to engage actively during the learning module. They key to developing the core skills in each learning module is through practice. The more participants engage in coding along with the instructional team, and applying the skills in each module, the more likely it is that these skills will solidify. 
  
 ## Schedule
-| Live Learning Session | Topic                                                                                        | Assignments      | Resources  |
-|--------|----------------------------------------------------------------------------------------------|------------------|------------|
-| 1      | Introduction, Probability                                                                    |                  | [Slides 1](./01_materials/slides/00_introduction_slides.pdf) <br> [Slides 2](./01_materials/slides/01_probability_slides.pdf) |
-| 2      | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing  |  | [Slides 1](./01_materials/slides/02_populations_censuses_surveys_and_observational_data_slides.pdf) <br> [Slides 2](./01_materials/slides/03_essentials_of_sampling_asking_and_observing_slides.pdf)|
-| 3      | Errors, simple probability samples, Stratified sampling, Differential privacy         | [Questionnaire Design (Part A)](./02_activities/assignments/questionnaire_design_part_a.md) <br> [Questionnaire Design (Part B)](./02_activities/assignments/questionnaire_design_part_b.md) | [Slides 1](./01_materials/slides/04_errors_slides.pdf) <br> [Slides 2](./01_materials/slides/05_simple_probability_samples_slides.pdf) <br> [Slides 3](./01_materials/slides/06_stratified_sampling_slides.pdf) <br> [Slides 4](./01_materials/slides/07_differential_privacy_slides.pdf) |
-| 4      | Cluster Sampling, Nonresponse, Ethics | [Data Documentation Comparison Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_materials/slides/08_cluster_sampling_slides.pdf) <br> [Slides 2](./01_materials/slides/09_nonresponse_slides.pdf) <br> [Slide 3](./01_materials/slides/10_ethics_slides.pdf) |
-| 5      |  Estimation and survey quality, and Reproducibility, Inequity| [Sampling and Reproducibility in Python](./02_activities/assignments/sampling_and_reproducibility.md) | [Slides 1](./01_materials/slides/11_estimation_and_survey_quality_slides.pdf) <br> [Slides 2](./01_materials/slides/12_reproducibility_slides.pdf) <br> [Slides 3](./01_materials/slides/13_inequity_slides.pdf)|  
-| 6      |   | | |
+| Live Learning Session | Topic                                                                                                | Assignments                                                                                                       | Resources                                                                                                                                                 |
+|------------------|--------------------|------------------|------------------|
+| 1                     | Introduction, Probability                                                                            |                                                                                                                   | [Slides 1](./01_materials/slides/00_introduction_slides.pdf) <br> [Slides 2](./01_materials/slides/01_probability_slides.pdf)                             |
+| 2                     | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing | [Sampling and Reproducibility in Python](./02_activities/assignments/a1_sampling_and_reproducibility.md)          | [Slides 1](./01_materials/slides/02_population_census_surveys_and_observational_data_slides)                                                              |
+| 3                     | Simple probability samples, Stratified sampling, Systematic Sampling                                 | [Questionnaire Design (Part A)](./02_activities/assignments/questionnaire_design_part_a.md)                       | [Slides 1](./01_materials/slides/03_simple_probability_samples_slides.pdf) <br> [Slides 2](./01_materials/slides/04_stratified_sampling_slides.pdf)       |
+| 4                     | Cluster Sampling, Errors                                                                             |                                                                                                                   | [Slides 1](./01_materials/slides/05_cluster_sampling_slides.pdf) <br> [Slides 2](./01_materials/slides/06_errors_slides.pdf)                              |
+| 5                     | Survey Quality, Questionnaire Design, Ethics                                                         | [Questionnaire Design (Part B)](./02_activities/assignments/questionnaire_design_part_b.md)                       | [Slides 1](./01_materials/slides/07_measures_of_quality_and_questionnaire_design_slides.pdf) <br> [Slides 2](./01_materials/slides/08_ethics_slides.pdf)  |
+| 6                     | Privacy                                                                                              | [Data Documentation Comparison Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_materials/slides/09_privacy_slides.pdf)                                                                                                   |
+
 
 ## Requirements
 * Participants are not expected to have any coding experience; the learning content has been designed for beginners.

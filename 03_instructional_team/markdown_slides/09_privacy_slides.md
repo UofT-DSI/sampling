@@ -5,7 +5,7 @@ _class: invert
 paginate: true
 ---
 
-# Sampling: Differential Privacy
+# Sampling: Privacy
 
 ```code
 $ echo "Data Science Institute"
@@ -19,37 +19,64 @@ $ echo "Data Science Institute"
 
 ---
 
-# Background
+# Privacy and Confidentiality
 
 ---
 
-# Informational Risk and Anonymization
+# Key Terminology
 
-- **Informational risk** refers to the potential for harm to occur from the disclosure and sharing of data
-- **Anonymization** refers to the process of removing **personally identifying information (PII)** from a data set in hopes of keeping the data anonymous upon release to a broader audience (other researchers, the general public, etc.)
-- ⚠️**Anonymization is often not entirely effective at keeping data anonymous**⚠️
-
----
-
-# Case Study: Massachusetts Group Insurance Company
-
-- The GIC is a government agency responsible for purchasing insurance and managing health records for Massachusetts state employees. They released an “anonymized” data set of health records that excluded names and addresses but included zip code, birthdate, sex, and medical information.
-- Latanya Sweeney obtained this data set and a copy of voting records for the city of Cambridge, MA, which included name, zip code, birthday, and sex. By linking records between the two data sets, Sweeney was able to find extract then governor William Weld’s medical records.
+- **Data privacy** = the ability to control when and where your personal data are shared
+- **Informational Risk** = potential for harm resulting from the disclosure and sharing of data
+- **Personally identifying information (PII)** = includes name, address, telephone number, age, gender, personal opinions or views 
 
 ---
 
-# Exercise: Could someone file a lawsuit again the government agency citing potential harms as a result of personal information uncovered in the data linkage?
+# Key Terminology
+
+- **Anonymization** = process of removing PII from a dataset 
+- **Confidentiality** = granted to respondents; only the researcher knows the identities of respondents 
+	- E.g. I interview Sam, I know Sam is Sam, but in my paper, I refer to Sam only as ‘Participant A’ or by a pseudonym
+- **Anonymity** = granted to respondents; identities of individual respondents not known to researcher
+	- E.g. I create a survey, Sam fills out the survey anonymously online, I never know that Sam is the one who filled out the survey
 
 ---
 
-# Case Study: The Netflix Prize
+# Confidentiality Considerations
 
-- In 2006, Netflix released a data set of 100 million movie ratings from almost 500,000 users as part of a contest to improve its movie recommendation algorithm. The data had PII removed and slight perturbations introduced in some ratings. Similar to the GIC example, researchers Arvind Narayanan and Vitaly Shmatikov combined the Netflix data with user data from IMDb to identify individuals who left particular movie ratings in the Netflix data.
-- This re-identification process resulted in a lawsuit filed against Netflix citing potential harms as a result of personal information uncovered in the data linkage. Movie ratings and reviews from the data sets had potential to expose users sexuality, political views, experience with mental illness and substance abuse, and more.
+- Data collection medium 
+	- In person – who might see the participants walking into the lab or interview location?
+	- Digital – Is third party software safe? 
+- Data storage
+	- Password protected computer? Double-locked office and filing cabinet? Portable hard drive?
+	- Cloud – Institutional OneDrive? 
+- Who has access to the data?
+	- Think about: shared offices, IT or other colleagues
+	- Have to balance need for backups with reduced risk
 
-<!--
-Additional information on lawsuit: https://www.wired.com/2009/12/netflix-privacy-lawsuit/
--->
+---
+
+# Confidentiality Considerations
+
+- Retention and disposal schedule 
+	- How long will you keep data for? Why? Balance storage resources vs data needs
+	- How will you dispose of data when retention period is done? (Shredding hard copies? Deleting digital files?)
+- Clarify limits on confidentiality
+	- What if someone discloses something illegal? 
+	- Statements like ‘confidentiality is not absolute, a disclosure of personal information may occur if required by law’
+- If no confidentiality - why?
+	- E.g. Respondents are key informants in their fields (world leaders, expert academics in niche areas)
+
+---
+
+# Explore 'Real World' Resources
+
+Academic 
+- U of T offers research support to ensure data security and confidentiality
+- https://research.utoronto.ca/data-security-standards-personally-identifiable-other-confidential-data-research 
+
+Public Sector
+- A privacy checklist!
+- https://www.ipc.on.ca/wp-content/uploads/2015/04/best-practices-for-protecting-individual-privacy-in-conducting-survey-research.pdf 
 
 ---
 
@@ -67,10 +94,10 @@ Additional information on lawsuit: https://www.wired.com/2009/12/netflix-privacy
 # Differential Privacy
 
 > ⚠️ The goal of **differential privacy** is to analyze and share information about a data set without revealing information about any given individual within the data set ⚠️ 
-- Differential privacy techniques add **random noise** to computations on the data set
+- Differential privacy techniques add random noise to computations on the data set
 - Randomness obscures any one individual’s contribution to the data set
-- Randomness means that all output is **approximate**
-- Generally used for **aggregate statistics** and **modelling** – counts, proportions, averages, linear regression, machine learning algorithms
+- Randomness means that all output is approximate
+- Generally used for aggregate statistics and modelling – counts, proportions, averages, linear regression, machine learning algorithms
 
 ---
 
@@ -92,10 +119,6 @@ Based on Nissim et al., Figure 2
   - Results of the study will stay approximately the same regardless of whether or not John participates
   - Output of the analysis will not disclose any information that is specific to John
 - Thus, John faces minimal additional informational risk by participating in the study
-
----
-
-# Privacy Loss Parameter
 
 ---
 
@@ -131,11 +154,7 @@ Ask students to consider how this would be different if \epsilon = 0.1.
 
 ---
 
-# Implementation
-
----
-
-# Overview
+# How do we implement differential privacy?
 
 Differential privacy adds uncertainty to data in the form of **random noise**
 > - Suppose you are looking to measure the fraction ***p*** of some trait in a population. You have a sample of size ***n*** , and within this sample there are *m* individuals with the trait.
@@ -173,11 +192,7 @@ Differential privacy adds uncertainty to data in the form of **random noise**
 
 ---
 
-# Practical Considerations
-
----
-
-# Practical Considerations
+# Practical Considerations of Differential Privacy
 
 - Accuracy
   - Large sample sizes/data sets are required for accurate estimates
@@ -189,11 +204,7 @@ Differential privacy adds uncertainty to data in the form of **random noise**
 
 ---
 
-# Ethical Considerations
-
----
-
-# Ethical Considerations
+# Ethical Considerations of Differential Privacy
 
 - Data sensitivity
   - Sensitivity is subjective
@@ -211,5 +222,10 @@ Based on Salganik (2018), Figure 6.6
 
 ---
 
-# Next
-Cluster Sampling
+# Differential Privacy: Resources
+
+Check out https://privacytools.seas.harvard.edu/courses-educational-materials 
+- Lots of lecture-length videos with technical insights
+- Deep-dives into differential privacy from a dedicated lab group! 
+
+---

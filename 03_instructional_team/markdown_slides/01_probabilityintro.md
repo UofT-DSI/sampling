@@ -6,14 +6,18 @@ paginate: true
 math: mathjax
 ---
 
-# Sampling: Probability
+# Sampling: Probability 101
 
 ```code
 $ echo "Data Science Institute"
 ```
 ---
 
-# Learning Goal
+# Learning Goals
+
+-Introduce essential probability concepts
+- Discuss statistical distributions (and why they matter!)
+- Use examples to build statistical intuition
 
 *How do we calculate and interpret probabilities? What is a statistical distribution?*
 
@@ -28,7 +32,11 @@ $ echo "Data Science Institute"
 
 ---
 
-# Introduction
+# Before we start...
+
+---
+
+# Intro to Probability
 
 ---
 
@@ -158,16 +166,6 @@ $ echo "Data Science Institute"
 
 ---
 
-# Example: Selecting a high school student
-
-- Pitman (1993), Exercises 1.4, Exercise 9
-- Three high schools have senior classes of size 100, 400, and 500, respectively. Here are two schemes for selecting a student from among the three senior classes:
-    1. Make a list of all 1000 seniors, and choose a student at random from this list.
-    2. Pick one school at random, then pick a student at random from the senior class in that school.
-- Are these two strategies equivalent?
-
----
-
 # Random Variables
 
 ---
@@ -218,10 +216,6 @@ $ echo "Data Science Institute"
 - ⚠️ A **probability distribution** is a statistical function that describes the probabilities of all possible events in an outcome space. ⚠️
 - Distributions can be **discrete** (if the outcome space is distinct events, like rolling a die) or **continuous** (if the outcome space is a range of values, like choosing any real number between 1 and 10).
 - Some features of interests for distributions may be their mean, variance, mode, skew, etc.
-
----
-
-# Binomial Distribution
 
 ---
 
@@ -285,10 +279,6 @@ $ echo "Data Science Institute"
 
 # Uniform Distribution
 
----
-
-# Uniform Distribution
-
 - The **uniform distribution** describes a situation in which every outcome on a certain set or interval is **equally likely** .
 - This can be represented mathematically as,
 
@@ -322,10 +312,6 @@ $ echo "Data Science Institute"
 
 # Poisson Distribution
 
----
-
-# Poisson Distribution
-
 - The **Poisson distribution** is an approximation of the distribution of the **number *N* of occurrences of events of some kind**, when the events all have small probabilities and are independent.
 
     > $$P(N=k)\approx\frac{e^{-\mu}\mu^k}{k!}\text{ for k = 1, 2, ...}$$
@@ -344,10 +330,6 @@ $ echo "Data Science Institute"
 ![bg right:50% w:500](./images/01_probability_slides18.png)
 
 <!-- Image retrieved from https://commons.wikimedia.org/wiki/File:Poisson_pmf.svg -->
-
----
-
-# Normal Distribution
 
 ---
 
@@ -399,8 +381,6 @@ $ echo "Data Science Institute"
 
 # Law of Large Numbers
 
-<!-- Note: Open R file “5.1-Probability-LLN Demo.R” and work through the demo -->
-
 ---
 
 # Law of Large Numbers
@@ -413,7 +393,7 @@ $ echo "Data Science Institute"
 # Law of Large Numbers
 
 - ⚠️ If the number of trials *n* is large, the proportion of successes in *n* independent trials will, with overwhelming probability, be very close to *p* , the probability of success on each trial ⚠️
-- Intuition for sampling
+- **Intuition for sampling:**
     - As the number of units sampled increases, the proportion of units that exhibits a certain trait will grow closer and closer to the true proportion of individuals in the population with that trait
 
 ---
@@ -590,7 +570,19 @@ The Law of Averages can be thought of as a more general version of the Law of La
 
 ---
 
+# Who cares?
+
+- Sample size and quantity affect how well our conclusions can represent our target population (LLN, CLT)
+- Distributions and their assumptions affect our models and the ways that we calculate various statistics
+
+
+<!-- Note: Open R file “5.1-Probability-CLT Demo.R” and work through the demo -->
+
+---
+
 # Next
 
-Populations, censuses, surveys, and observational data
+- Probability vs Non-probability sampling
+- Sampling Types and Sample Design
+- Observational Studies and Censuses 
 

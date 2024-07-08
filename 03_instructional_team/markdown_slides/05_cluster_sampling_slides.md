@@ -23,13 +23,75 @@ $ echo "Data Science Institute"
 
 ---
 
-# What is cluster sampling?
+# Calculating Sample Size
+
+---
+
+# Recall: Choosing sample size in strata
+
+- Proportional Allocation
+    - Sample the same proportion of units from each stratum
+    - Sample weights (𝜋 *hi* ) are the same for each sampled unit regardless of stratum
+- Optimal Allocation
+    - Variation among larger sampling units may be greater than variation among smaller sampling units, so a higher proportion of large units should be sampled
+    - Useful for businesses, cities, and institutions like schools or hospitals
+- Allocation for **Precision** with Strata
+    - Sample to reduce the variation in stratum-level estimates, not population-level estimates
+    - Useful when the goal is comparing estimates between strata
+
+---
+
+# What is precision?
+
+- **Precision** = How close our measurements are to each other 
+- **Accuracy** = How close our measurements are to the ‘true’ value
+
+(./images/05_accuracy_and_precision.jpg)
+
+---
+
+# Calculating Sample Size
+
+1. Determine the desired precision for the quantities that will be estimated from the sample.
+	- What are the consequences of the study results? How much error is tolerable?
+2. Find an equation relating the sample size n and your desired precision from step 1.
+	- Precision should be in terms of error or variation
+3. Estimate unknown quantities in the equation and solve for n.
+
+---
+
+# Calculating Sample Size: Takeaways
+
+- We can decide how precise we need our study to be, and by stating that precision in terms of error and confidence, can calculate the needed sample size
+- Doing that calculation will require making some assumptions (about the distribution of our population, about the standard deviation) and justifying them
+
+---
+
+# Sample size: Power
+
+- Other than focusing on precision (when we’re estimating), it is common to calculate sample size based on power (when we’re trying to test a hypothesis)
+- **Power**
+	- How small of a difference or treatment effect do I need to be able to detect?
+	- High power = High chance of my study correctly identifying a true effect (lower chance of false negatives)
+
+---
+
+# Sample size considerations
+
+- Often the initial sample size calculated will be much larger than what is realistic
+	- Is the study feasible given the available budget and desired precision?
+- Adjust estimates or precision expectations accordingly
+	- Larger sample = smaller sampling error, but a larger sample size may increase non-sampling errors
 
 ---
 
 # Cluster Sampling
 
-1. Divide the whole population into non-overlapping subpopulations based on shared characteristics. These subpopulations are called clusters .
+---
+
+# Cluster Sampling
+
+1. Divide the whole population into non-overlapping subpopulations based on shared characteristics. These subpopulations are called **clusters**.
 2. Randomly select a sample of clusters.
 3. Survey every individual unit within each sampled cluster.
 
@@ -41,7 +103,7 @@ $ echo "Data Science Institute"
   - Groupings in the first iteration of sampling – in this case, clusters
 - **Secondary sampling units (SSUs)**
   - Individuals units who are selected and/or surveyed directly
-  - Also known as the **observational units**
+  - Also known as the observational units
 - Observational units are only included in the sample if they belong to the sampled PSU (cluster)
 
 ---
@@ -61,10 +123,6 @@ $ echo "Data Science Institute"
 - Decreased precision
   - SSUs in each cluster tend to share similar characteristics
   - More difficult to generalize to population-level estimates
-
----
-
-# Exercise: What are some trade-offs between cluster sampling and stratified sampling?
 
 ---
 
@@ -122,7 +180,7 @@ $ echo "Data Science Institute"
 
   > $$ \hat{\bar{y}}=\frac{\hat{t}}{N M} $$
 
-- $\hat{\bar{y}}$ is an estimator for the sample mean $\bar{y}$ . Since the calculation involves the estimator for the population total, this is not a direct calculation of the sample mean.
+- $\hat{\bar{y}}$ is an estimator for the sample mean $\bar{y}$ . Since the calculation involves the estimator for the population total, *this is not a direct calculation of the sample mean*.
 
 ---
 
@@ -205,6 +263,8 @@ $ echo "Data Science Institute"
   > $$ SE(\hat{\bar{y}})=\sqrt{(1-\frac{n}{N})\frac{1}{n\bar{M}^2}\frac{\sum_{i=1}^{N}M_i^2(\bar{y}_i-\hat{\bar{y}})^2}{n-1}}$$
 
 - where $\bar{y}_i$ represents the sample mean within PSU *i* and $\bar{M}$ represents the mean number of SSUs in each PSU.
+
+- ⚠️ **Takeaway**: If our clusters are different sizes, the ways that we estimate sample mean, error, and variance change. It matters! ⚠️ 
 
 ---
 
@@ -289,10 +349,7 @@ $ echo "Data Science Institute"
   > $$ \hat{V}(\hat{\bar{y}})=\frac{1}{\bar{M}^2}(1-\frac{n}{N})\frac{s^2}{n}+\frac{1}{nN\bar{M}^2}\sum_{i=1}^{n}M_i^2(1-\frac{m_i}{M_i})\frac{s_i^2}{m_i} $$
 
 - where $s^2$ and $s_i^2$ are defined as previous, and $\bar{M}$ is the average PSU size.
-
----
-
-# Designing a Cluster Sample
+- ⚠️ **Takeaway**: Two-stage sampling changes our mean calculations and changes the chances for any individual to be included in our sample ⚠️ 
 
 ---
 
@@ -308,14 +365,13 @@ $ echo "Data Science Institute"
 
 # Choosing a Sub-Sample Size (mi)
 
-- Considerations
-  - Cost
-    - Is measuring more SSUs marginally expensive or inexpensive?
-  - Accessibility
+- Cost
+	- Is measuring more SSUs marginally expensive or inexpensive?
+- Accessibility
     - Do you have access to all SSUs in a given PSU? How difficult is it to measure more SSUs?
-  - Homogeneity
-    - Are all the SSUs in a given PSU relatively similar? How much more information is gained by measuring more SSUs?
-- In general, the same considerations as a general also SRS apply.
+- Homogeneity
+	- Are all the SSUs in a given PSU relatively similar? How much more information is gained by measuring more SSUs?
+- **In general, the same considerations as an SRS apply.**
 
 ---
 
@@ -330,18 +386,6 @@ This process is similar to selecting sample sizes for SRS.
 
 ---
 
-# Systematic Sampling (again)
-
----
-
-# Systematic Sampling
-
-- Recall that systematic sampling involves obtaining a list of population units, selecting a sample size *n* , a selection interval *k* , and a starting point *R* , and then sampling elements *R* , *R + k* , *R + 2k* and so on.
-- Within a population, the subpopulations { *R* , *R + k* , *R + 2k…* } form clusters for different values of *R* .
-- By selecting a random *R* between 1 and *n* , we are sampling one cluster.
-- Analysis of systematic samples is often similar to SRS. See **5.5: Simple probability samples** for details.
-
----
 # Next
-Non-response
+Respondent Driven Sampling
 
