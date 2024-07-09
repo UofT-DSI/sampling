@@ -61,7 +61,7 @@ $ echo "Data Science Institute"
 
 My team is doing a survey of Canadian public servants to learn their feelings about artificial intelligence (AI) use in government. My team’s goal is to present the results of this survey to our director general before she establishes our organization’s official AI strategy for the next 10 years. One of my colleagues wants to prioritize getting results on time (**timeliness**). Another wants to focus on making sure we represent the opinions of all different types of employees (**completeness**). I’m mostly concerned with making sure that our estimates are as close as possible to true values (**accuracy**). 
 
-**For each priority (timeliness, completeness, accuracy), 
+**For each priority (timeliness, completeness, accuracy)**
 - **How could this change the way we plan and implement our survey?**
 - **What could be some unintended consequences of prioritizing this measure of quality?**
 
@@ -277,7 +277,7 @@ Procedure:
 - We recorded song length and rating for a random sample of songs, but our dataset has some missing values. 
 - How can we address our missing values with mean imputatation? 
 
-(./images/07_mean_imputation_table_empty.png)
+![bg left:50% w:500](./images/07_mean_imputation_table_empty.png)
 
 ---
 
@@ -286,7 +286,7 @@ Procedure:
 - We do mean imputation by ‘filling the blanks’ with the mean (average) of each variable, based on existing observations
 - Mean imputation is the simplest solution to missing data, but generally not the best. **Why can mean imputation be problematic?**
 
-(./images/07_mean_imputation_table_filled.png)
+![bg left:50% w:500](./images/07_mean_imputation_table_filled.png)
 
 ---
 

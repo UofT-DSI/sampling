@@ -198,12 +198,5 @@ A teacher wanted to find the average number of hours each week spent on watching
 - Ability to identify and understand sources of error or inaccuracies in data as a result of sampling strategies.
 - Development of intuition around survey quality.
 
-# Learning Outcomes
-
-- Ability to implement simple probability samples.
-- Ability to understand more complicated sampling procedures and the tradeoffs involved.
-- Ability to identify and understand sources of error or inaccuracies in data as a result of sampling strategies.
-- Development of intuition around survey quality.
-
-**Be able to choose and justify a sampling approach based on your data science objectives **
+**Be able to choose and justify a sampling approach based on your data science objectives**
 

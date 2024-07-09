@@ -227,5 +227,3 @@ Based on Salganik (2018), Figure 6.6
 Check out https://privacytools.seas.harvard.edu/courses-educational-materials 
 - Lots of lecture-length videos with technical insights
 - Deep-dives into differential privacy from a dedicated lab group! 
-
----

@@ -93,7 +93,7 @@ $ echo "Data Science Institute"
 
 ---
 
-(./images/02_cluster_vs_strata.jpg)
+![](./images/02_cluster_vs_strata.jpg)
 
 ---
 
