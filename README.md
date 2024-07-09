@@ -77,34 +77,21 @@ come to these work periods with questions and problems to work through.
 module. They key to developing the core skills in each learning module
 is through practice. The more participants engage in coding along with
 the instructional team, and applying the skills in each module, the more
-likely it is that these skills will solidify.   \## Schedule \| Live
-Learning Session \| Topic \| Assignments \| Resources \|
-\|------------------\|--------------------\|------------------\|------------------\|
-\| 1 \| Introduction, Probability \| \| [Slides
-1](./01_materials/slides/00_introduction_slides.pdf) <br> [Slides
-2](./01_materials/slides/01_probability_slides.pdf) \| \| 2 \|
-Populations, censuses, surveys, and observational data; Essentials of
-sampling, asking and observing \| [Sampling and Reproducibility in
-Python](./02_activities/assignments/a1_sampling_and_reproducibility.md)
-\| [Slides
-1](./01_materials/slides/02_population_census_surveys_and_observational_data_slides)
-\| \| 3 \| Simple probability samples, Stratified sampling, Systematic
-Sampling \| [Questionnaire Design (Part
-A)](./02_activities/assignments/questionnaire_design_part_a.md) \|
-[Slides
-1](./01_materials/slides/03_simple_probability_samples_slides.pdf) <br>
-[Slides 2](./01_materials/slides/04_stratified_sampling_slides.pdf) \|
-\| 4 \| Cluster Sampling, Errors \| \| [Slides
-1](./01_materials/slides/05_cluster_sampling_slides.pdf) <br> [Slides
-2](./01_materials/slides/06_errors_slides.pdf) \| \| 5 \| Survey
-Quality, Questionnaire Design, Ethics \| [Questionnaire Design (Part
-B)](./02_activities/assignments/questionnaire_design_part_b.md) \|
-[Slides
-1](./01_materials/slides/07_measures_of_quality_and_questionnaire_design_slides.pdf)
-<br> [Slides 2](./01_materials/slides/08_ethics_slides.pdf) \| \| 6 \|
-Privacy \| [Data Documentation Comparison
-Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md)
-\| [Slides 1](./01_materials/slides/09_privacy_slides.pdf) \|
+likely it is that these skills will solidify.   
+
+## Schedule 
+
+## Schedule
+| Live Learning Session | Topic                                                                                                | Assignments                                                                                                       | Resources                                                                                                                                                 |
+|------------------|--------------------|------------------|------------------|
+| 1                     | Introduction, Probability                                                                            |                                                                                                                   | [Slides 1](./01_materials/slides/00_introduction_slides.pdf) <br> [Slides 2](./01_materials/slides/01_probability_slides.pdf)                             |
+| 2                     | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing | [Sampling and Reproducibility in Python](./02_activities/assignments/a1_sampling_and_reproducibility.md)          | [Slides 1](./01_materials/slides/02_population_census_surveys_and_observational_data_slides)                                                              |
+| 3                     | Simple probability samples, Stratified sampling, Systematic Sampling                                 | [Questionnaire Design (Part A)](./02_activities/assignments/questionnaire_design_part_a.md)                       | [Slides 1](./01_materials/slides/03_simple_probability_samples_slides.pdf) <br> [Slides 2](./01_materials/slides/04_stratified_sampling_slides.pdf)       |
+| 4                     | Cluster Sampling, Errors                                                                             |                                                                                                                   | [Slides 1](./01_materials/slides/05_cluster_sampling_slides.pdf) <br> [Slides 2](./01_materials/slides/06_errors_slides.pdf)                              |
+| 5                     | Survey Quality, Questionnaire Design, Ethics                                                         | [Questionnaire Design (Part B)](./02_activities/assignments/questionnaire_design_part_b.md)                       | [Slides 1](./01_materials/slides/07_measures_of_quality_and_questionnaire_design_slides.pdf) <br> [Slides 2](./01_materials/slides/08_ethics_slides.pdf)  |
+| 6                     | Privacy                                                                                              | [Data Documentation Comparison Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_materials/slides/09_privacy_slides.pdf)                                                                                                   |
+
+
 
 ## Requirements
 
