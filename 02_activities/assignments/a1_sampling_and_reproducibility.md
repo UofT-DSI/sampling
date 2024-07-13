@@ -40,7 +40,77 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 
 The final plot shows how often infections and traces are attributed to weddings versus brunches across 1000 simulations. The blue bars represent the proportion of infections from weddings, and the red bars represent the proportion of traces linked to weddings.
 
+# Load necessary libraries 
+packages <- c("pbapply", "ggplot2")
+install_if_missing <- function(package) {
+  if (!require(package, character.only = TRUE)) {
+    install.packages(package, repos = "http://cran.us.r-project.org")
+    library(package, character.only = TRUE)
+  }
+}
+lapply(packages, install_if_missing)
 
+# Simulation parameters
+ATTACK_RATE <- 0.10
+TRACE_SUCCESS <- 0.20
+SECONDARY_TRACE_THRESHOLD <- 2
+N_REPS <- 1000
+
+# Simulation function
+simulate_infections <- function() {
+  # Generate event data
+  ppl <- data.frame(
+    event = c(rep(paste0("wedding", 1:2), each = 100), rep(paste0("brunch", 1:80), each = 10)),
+    infected = FALSE,
+    traced = NA
+  )
+  # Infect people uniformly
+  ppl$infected[sample.int(nrow(ppl), nrow(ppl) * ATTACK_RATE)] <- TRUE
+  
+  # Primary contact tracing
+  ppl$traced[ppl$infected] <- runif(sum(ppl$infected)) < TRACE_SUCCESS
+  
+  # Secondary contact tracing
+  event_trace_counts <- table(ppl$event[ppl$traced])
+  events_traced <- names(event_trace_counts)[event_trace_counts >= SECONDARY_TRACE_THRESHOLD]
+  ppl$traced[ppl$infected & ppl$event %in% events_traced] <- TRUE
+  
+  # Summarize results
+  ppl$event_type <- substr(ppl$event, 1, 1)
+  
+  wedding_infections <- sum(ppl$infected & ppl$event_type == "w")
+  brunch_infections <- sum(ppl$infected & ppl$event_type == "b")
+  p_wedding_infections <- wedding_infections / (brunch_infections + wedding_infections)
+  
+  wedding_traces <- sum(ppl$infected & ppl$traced & ppl$event_type == "w")
+  brunch_traces <- sum(ppl$infected & ppl$traced & ppl$event_type == "b")
+  p_wedding_traces <- wedding_traces / (brunch_traces + wedding_traces)
+  
+  c(p_wedding_infections, p_wedding_traces)
+}
+
+# Run simulations
+sim_results <- pbapply::pbsapply(1:N_REPS, function(m) simulate_infections())
+
+# Create results dataframe
+props_df <- setNames(as.data.frame(t(sim_results)), c("Infections", "Traces"))
+
+# Plotting with ggplot2
+library(ggplot2)
+p <- ggplot(props_df) +
+  geom_histogram(aes(x = Infections), fill = "blue", alpha = 0.75, binwidth = 0.05) +
+  scale_x_continuous(breaks = seq(0, 1, by = 0.2)) +
+  labs(x = "Proportion of infections resulting from weddings") +
+  theme_minimal()
+
+# Plot for observed proportions
+p_observed <- p +
+  geom_histogram(aes(x = Traces), fill = "red", alpha = 0.75, binwidth = 0.05) +
+  annotate("text", x = 0.25, y = 17000, label = "True proportion", color = "blue", alpha = 0.75, hjust = 0) +
+  annotate("text", x = 0.4, y = 7500, label = "Observed proportion", color = "red", alpha = 0.75, hjust = 0) +
+  labs(title = "Contact tracing gives a biased view of the pandemic",
+       subtitle = "Distribution of true versus observed proportion of cases from weddings")
+  
 
 ## Criteria
 
