@@ -11,7 +11,7 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
 # Author: Kristina Talalaievska
-##Sampling Stages in the Model based on function, sample size and proecedure involved:
+## Sampling Stages in the Model based on function, sample size and proecedure involved:
 
  1. Infection Sampling
  • Function: simulate_event
@@ -26,17 +26,17 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
  • Sample Size: Depends on the number of events with at least two traced infections.
  • How It’s Done: If an event has two or more traced infections, all infected people at that event are marked as traced.
 
-##All 3 types of sampling reflected in the blog: 
+## All 3 types of sampling reflected in the blog: 
  1. Initial Infection (Infection Sampling): Randomly infect 10% of attendees to simulate the start of an outbreak.
  2. Primary Contact Tracing: Randomly trace 20% of the infected individuals to simulate initial tracing efforts.
  3. Secondary Contact Tracing: If two or more traces occur at an event, all infected individuals at that event are traced to simulate cluster tracing.
 
-##Sampling parameters in the blog:
- • ATTACK_RATE indicates people initially infected.
- • TRACE_SUCCESS indicates success rate of tracing infected individuals.
- • SECONDARY_TRACE_THRESHOLD indicates  minimum number of traces needed at an event to trigger further tracing.
+## Sampling parameters in the blog:
+ 1. ATTACK_RATE indicates people initially infected.
+ 2. TRACE_SUCCESS indicates success rate of tracing infected individuals.
+ 3. SECONDARY_TRACE_THRESHOLD indicates  minimum number of traces needed at an event to trigger further tracing.
 
-##Visual Representation
+## Visual Representation
 
 The final plot shows how often infections and traces are attributed to weddings versus brunches across 1000 simulations. The blue bars represent the proportion of infections from weddings, and the red bars represent the proportion of traces linked to weddings.
 
