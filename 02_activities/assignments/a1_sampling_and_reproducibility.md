@@ -43,8 +43,9 @@ The two codes you provided appear to be identical. Each code runs a simulation t
 1. Setting Random Seed: The line np.random.seed(10) ensures that the random number generator starts from the same point (seed=10) every time the code runs. This means the random sampling for infection and tracing will produce identical results each time.
  2. Explicit Data Type Conversion: By explicitly setting the traced column in the ppl DataFrame to a boolean (ppl['traced'].astype('boolean')), the code ensures that the data type is uniform and interpretable. It prevent unexpected errors or discrepancies. 
  3. Documentation and Function Clarity: The addition of a docstring for the simulate_event function clarifies its purpose, parameters, and expected outputs. It facilitates code maintenance and collaboration by providing clear instructions.
- 4. Plotting and Visualization Standards: Using sns.histplot from Seaborn for plotting ensures consistent and visually appealing histograms. Parameters such as color, alpha, binwidth are set consistently, enhancing the clarity and reproducibility of the visual output.
- 6. Plot Labels and Title: Clear labeling (plt.xlabel, plt.ylabel, plt.title) of the plot components (Proportion of cases, Frequency, Impact of Contact Tracing on Perceived Infection Sources) improves interpretability. Including a legend (plt.legend()) and adjusting layout (plt.tight_layout()) further enhances the plot’s readability and professional presentation.
+ 4. Plot Labels and Title: Clear labeling (plt.xlabel, plt.ylabel, plt.title) of the plot components (Proportion of cases, Frequency, Impact of Contact Tracing on Perceived Infection Sources) improves interpretability. Including a legend (plt.legend()) and adjusting layout (plt.tight_layout()) further enhances the plot’s readability and professional presentation.
+ 5. Plotting and Visualization Standards: Using sns.histplot from Seaborn for plotting ensures consistent and visually appealing histograms. Parameters such as color, alpha, binwidth are set consistently, enhancing the clarity and reproducibility of the visual output.
+
 
   
 
