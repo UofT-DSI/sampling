@@ -40,12 +40,12 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 The final plot shows how often infections and traces are attributed to weddings versus brunches across 1000 simulations. The blue bars represent the proportion of infections from weddings, and the red bars represent the proportion of traces linked to weddings.
 
 The two codes you provided appear to be identical. Each code runs a simulation to model infections and contact tracing, then creates and saves histograms of the infection and tracing proportions. They should produce the same output when run with the same parameters. To make the code reproducible, the follow steps are required:
-2. Imports: All necessary libraries (`pandas`, numpy, matplotlib.pyplot, `seaborn`) are imported at the beginning for clarity.
-3. Function Documentation: Added a docstring to simulate_event function for clear understanding of its purpose and parameters.
-4. Data Handling: Explicitly set the traced column in ppl DataFrame to boolean type for consistency and clarity.
-5. Simulation Reproducibility: Set the random seed (`np.random.seed(10)`) before running simulations to ensure reproducibility. It ensures that the random number generator starts from the same point (seed=10) every time the code runs. This means the random sampling for infection and tracing will produce identical results each time.
-6. Plotting: Used sns.histplot for plotting histograms with Seaborn, providing better visualization options and aesthetics.
-7. Plot Labels and Title: Added axis labels (`plt.xlabel`, `plt.ylabel`) and a title (`plt.title`) to enhance plot clarity.
+1. Imports: All necessary libraries (`pandas`, numpy, matplotlib.pyplot, `seaborn`) are imported at the beginning for clarity.
+2. Function Documentation: Added a docstring to simulate_event function for clear understanding of its purpose and parameters.
+3. Data Handling: Explicitly set the traced column in ppl DataFrame to boolean type for consistency and clarity.
+4. Simulation Reproducibility: Set the random seed (`np.random.seed(10)`) before running simulations to ensure reproducibility. It ensures that the random number generator starts from the same point (seed=10) every time the code runs. This means the random sampling for infection and tracing will produce identical results each time.
+5. Plotting: Used sns.histplot for plotting histograms with Seaborn, providing better visualization options and aesthetics.
+6. Plot Labels and Title: Added axis labels (`plt.xlabel`, `plt.ylabel`) and a title (`plt.title`) to enhance plot clarity.
 
 
 
