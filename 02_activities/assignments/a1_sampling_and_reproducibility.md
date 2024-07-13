@@ -39,7 +39,7 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 ## Visual Representation
 The final plot shows how often infections and traces are attributed to weddings versus brunches across 1000 simulations. The blue bars represent the proportion of infections from weddings, and the red bars represent the proportion of traces linked to weddings.
 
-The two codes you provided appear to be identical. Each code runs a simulation to model infections and contact tracing, then creates and saves histograms of the infection and tracing proportions. They should produce the same output when run with the same parameters. To make the code reproducible, we can set a random seed.
+The two codes you provided appear to be identical. Each code runs a simulation to model infections and contact tracing, then creates and saves histograms of the infection and tracing proportions. They should produce the same output when run with the same parameters. To make the code reproducible, we can: 1.  Set Seed: Added set.seed(42) to ensure reproducibility. 2. Reduced Repetitions: Changed the number of repetitions from 50,000 to 1,000 with the N_REPS variable 3. Adjusted Annotations: Adjusted the annotation y-values to scale with the number of repetitions.
 Additionally, we’ll reduce the number of repetitions in the simulation from 50,000 to 1,000 as requested. It ensures that every time we run the code, we get the same result. This is important part for reproducibility in simulations involving randomness.
 
   
