@@ -39,8 +39,12 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 ## Visual Representation
 The final plot shows how often infections and traces are attributed to weddings versus brunches across 1000 simulations. The blue bars represent the proportion of infections from weddings, and the red bars represent the proportion of traces linked to weddings.
 
-The two codes you provided appear to be identical. Each code runs a simulation to model infections and contact tracing, then creates and saves histograms of the infection and tracing proportions. They should produce the same output when run with the same parameters. To make the code reproducible, we can: 1.  Set Seed: Added set.seed(42) to ensure reproducibility. 2. Reduced Repetitions: Changed the number of repetitions from 50,000 to 1,000 with the N_REPS variable 3. Adjusted Annotations: Adjusted the annotation y-values to scale with the number of repetitions.
-Additionally, we’ll reduce the number of repetitions in the simulation from 50,000 to 1,000 as requested. It ensures that every time we run the code, we get the same result. This is important part for reproducibility in simulations involving randomness.
+The two codes you provided appear to be identical. Each code runs a simulation to model infections and contact tracing, then creates and saves histograms of the infection and tracing proportions. They should produce the same output when run with the same parameters. To make the code reproducible, the follow steps are required:
+1. Setting Random Seed: The line np.random.seed(10) ensures that the random number generator starts from the same point (seed=10) every time the code runs. This means the random sampling for infection and tracing will produce identical results each time.
+ 2. Explicit Data Type Conversion: By explicitly setting the traced column in the ppl DataFrame to a boolean (ppl['traced'].astype('boolean')), the code ensures that the data type is uniform and interpretable. It prevent unexpected errors or discrepancies. 
+ 3. Documentation and Function Clarity: The addition of a docstring for the simulate_event function clarifies its purpose, parameters, and expected outputs. It facilitates code maintenance and collaboration by providing clear instructions.
+ 4. Plotting and Visualization Standards: Using sns.histplot from Seaborn for plotting ensures consistent and visually appealing histograms. Parameters such as color, alpha, binwidth are set consistently, enhancing the clarity and reproducibility of the visual output.
+ 6. Plot Labels and Title: Clear labeling (plt.xlabel, plt.ylabel, plt.title) of the plot components (Proportion of cases, Frequency, Impact of Contact Tracing on Perceived Infection Sources) improves interpretability. Including a legend (plt.legend()) and adjusting layout (plt.tight_layout()) further enhances the plot’s readability and professional presentation.
 
   
 
