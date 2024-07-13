@@ -16,30 +16,31 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey would be to gather feedback from entry level/lower-level positions and create gather employee feedback. It would help in strategic decision making because we would be able to detemind the course of action needed to resolve the issues that are causing the high turn over rate. The purpose of the survey would not only idenitfy problems, but will also increase employee engagement and allow for higher transpaency. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Targe Population - All employees in entry level and lower level positions at the company.
+Sampling Frame - The list of employees within the target population. So all employees in the database.
+Sampling units - Each indiviual that is selected for the survey.
+Observation units - Same as sampling units, the individuals selected for the survey.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Are you happy with your current role? Y/N
+2. What are some factors that would increase your satisfaction with the company? (select all that apply) 1. More Pay 2. Better Benefits 3. Career development oppurunites 4. Work/life Balance
+3. What main factor is important to you in a job right now? (Select one) 1. More Pay 2. Better Benefits 3. Career development oppurunites 4. Work/life Balance
+4. What are some improvements you wish the company would make? (Open ended)
+5. Do you feel supported in the work place? Why or why not?
+6. If all factors stay the same, how likely will you change companies? 1 - 5, 1 is less likely, 5 is more likely.
+7. Anything else you would want to share to increase you satification within your role and company? 
+
 ```
 
 ## Rubric
