@@ -1,8 +1,13 @@
+Help me understand if the following code will generated reproducible results or not ? 
+if not then what changes will help ensure reproducibility. 
+
+
 # Import necessary libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 
 # Note: Suppressing FutureWarnings to maintain a clean output. This is specifically to ignore warnings about
 # deprecated features in the libraries we're using (e.g., 'use_inf_as_na' option in Pandas, used by Seaborn),
@@ -16,6 +21,10 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
+
+# In order to generate reproducible results, it is important to set the seed before defining the function 
+# Set the random seed for reproducibility
+np.random.seed(10)
 
 def simulate_event(m):
   """
@@ -67,8 +76,9 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Set the random seed for reproducibility
-np.random.seed(10)
+# Moved this seed to the section before function definition. 
+  # Set the random seed for reproducibility
+  # np.random.seed(10)
 
 # Run the simulation 1000 times
 results = [simulate_event(m) for m in range(1000)]
