@@ -16,26 +16,69 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
-```
 write your answer here...
-```
+To understand why a high turnover is happening recently, sepcifically within the entry- and lower-level positions, and what changes need to occur to improve employee satisfaction.
 
+```
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
 ```
+Target population for this study would be the all entry and lower level employees who have left this company within the past few months and those currently employed.
+
+The sampling frame will be a list of all entry and lower level employees who have lefe this company in the past few months and those are currently employed, provided by the HR department.
+
+The sampling units will be individual entry and lower level emplyees from the provided list.
+
+The observational units are the individual entry and lower employees at this company. Each employee's responses will provide insights into their experiences and reasons for staying with or leaving the company.
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+On a scale from 1 to 5, how satisfied were/are you with your job at the company?
+1. Very satisfied.
+2. Satisfied
+3. Neutral
+4. Dissatisfied.
+5. Very dissatisfied
 2. write your question here...
+On a sacle from 1 to 5, how satisfied were/are you with the management team?
+1. Very supportive
+2. Supportive
+3. Neutral
+4. Non supportive
+5. Very non supportive
+
 3. write your question here...
+how do you feel the work environment?
+1. flexible
+2. stress
+3. micro-management
+4. relex.
+5. Other 
+
 4. write your question here...
+On a sacle from 1 to 5, are you satisfied with the payment and benifit at the company?
+1. Very satisfied
+2. Satisfied
+3. Neutral
+4. Dissatisfied.
+5. Very dissatisfied
+
 5. write your question here...
+On a sacle from 1 to 5, what do you think about the career development at the company?
+1. Very satisfied
+2. Satisfied
+3. Neutral
+4. Dissatisfied.
+5. Very dissatisfied
+
 6. write your question here... (optional)
+Do you have any other comments/suggestions for your position or company?
+
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
