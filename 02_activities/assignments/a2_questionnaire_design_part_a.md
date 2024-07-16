@@ -35,6 +35,8 @@ The sampling units will be individual entry and lower level emplyees from the pr
 
 The observational units are the individual entry and lower employees at this company. Each employee's responses will provide insights into their experiences and reasons for staying with or leaving the company.
 
+The overall sampling strategy will be a stratified random sampling methond. The employees will be divided into two strata: The employees who have left the company and who are still stay. Random samples will then be taken from each stratum to ensure the reprentations for these 2 groups.
+
 Your 5-10 question survey:
 ```
 1. write your question here...
