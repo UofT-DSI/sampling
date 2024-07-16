@@ -29,6 +29,15 @@ Targe Population - All employees in entry level and lower level positions at the
 Sampling Frame - The list of employees within the target population. So all employees in the database.
 Sampling units - Each indiviual that is selected for the survey.
 Observation units - Same as sampling units, the individuals selected for the survey.
+
+Sampling strategy and Justification :
+The strategy is to get responses from random employees from different departments within the same samepling frame and target population. This will provide a response and representation from multiple deparments and allow for good collection of responses.
+
+Justification:
+
+Once we get the responses, we will be able to determine if this is an overall issue and how the sampling units from the sampling frame truly feel. Since we are using the sample units from the sample frame, we will get accurate results.
+
+
 ```
 
 Your 5-10 question survey:
