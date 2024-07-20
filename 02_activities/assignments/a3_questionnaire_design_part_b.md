@@ -4,19 +4,25 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    I expect my sample to be representative of my target population.  Because my target population is 30% of target population.  And the target population are the employees that are in entry and lower-positions in the departments that suffer a high turnover.  
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+    I think my survey questions are good.  They are relevant to the purpose of the study (questions about satisfaction of pay, work hours, work environment, training, manager, upper management and team).  
+    The survey will be distributed by email so it should be pretty quick to get responses back to satisfy timeliness requirement.  Also, all but one question are either multiple choice or true/false so it should be easy to interpret and analyze the results.
+
+    Things to add to the email of the survey:
+    - Give a deadline so we can get results back in a timely manner.  Must be completed within a week
+    - Clearly state that all responses will be annonymous to avoid any bias or privacy issues (especially questions on satisfaction for manager, upper management)
+    
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+   I think the only way to get the equivalent information by an observational study would be to talk to the same sample of employees, which will be very costly in terms of time.  So it is not possible to use observational study to achieve the same purpose.
     ```
 
 ## Why am I doing this assignment?
