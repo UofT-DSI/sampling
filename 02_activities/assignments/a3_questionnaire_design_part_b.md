@@ -13,15 +13,23 @@ At the same time using a stratified sampling strategy involves dividing the targ
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
-    ```
-    write your answer here...
-    ```
+   After the lecture I would like to do some changes in my questions 3, 4, 6, 7  and be more specific and avoid any kind of misreading and misunderstanding. I also remove open questions by providing select points which are applicable, it will make the process of analysis more time consuming. 
+
+ 1. On a scale of 1 to 5, how satisfied are you with your experience working at our company?
+ 2. How happy are you with your current role? (Scale of 1-5)
+ 3. What aspects of your job do you find most challenging or unsatisfactory? (Select the most applicable )
+ 4. What specific changes would you recommend to improve your job satisfaction? (Select all what  are applicable )
+ 5. On a scale of 1 to 5, how aware are you of opportunities for growth and development within the company?
+ 6. On a scale of 1 to 5, how satisfied are you with your work-life balance here?
+ 7. Have you had a discussion with your manager or supervisor about your growth opportunities within the past six months? (Yes/No)
+ 8. Do you feel recognized and appreciated for your contributions to the team? (Yes/No)
+ 9. Do you believe that your ideas and feedback are valued by your managers? (Yes/No)
+ 10. On a scale of 1 to 5, how likely are you to recommend our company as a place to work to a friend or colleague?
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
-    ```
-    write your answer here...
-    ```
+    No, the purpose of my survey could not be fully fulfilled through an observational study. Observational studies are useful for identifying patterns and correlations but may not effectively capture the subjective experiences and specific reasons behind employee dissatisfaction and turnover.  On the other hand, they  allow discover  suggestions for improvement. write your answer here...
+    
 
 ## Why am I doing this assignment?
 
