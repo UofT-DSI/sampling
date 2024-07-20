@@ -3,9 +3,13 @@
 ## Requirements
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
-    ```
-    write your answer here...
-    ```
+   
+Using a Simple Random Sampling (SRS) strategy ensures that each entry- and lower-level employee has an equal chance of being selected, which enhances the representativeness of your sample. This method minimizes selection bias and increases the likelihood that the sample accurately reflects the target population. However, there are still potential challenges: Response Bias, Non-Response Bias, Survey Fatigue.
+
+Representativeness of the Sample
+Yes, I expect it to be representative of target population as the SRS method and assuming a high response rate, the sample is expected to be representative of the target population. Meanwhile SRS mitigates many common biases by ensuring every individual has an equal probability of selection. The representativeness also depends on achieving a high response rate and ensuring the questions are clear and unbiased.
+
+At the same time using a stratified sampling strategy involves dividing the target population into homogeneous subgroups (strata) and then randomly sampling from each subgroup. Stratified sampling can improve the representativeness of the sample by ensuring that all subgroups are adequately represented. This method provides more comprehensive understanding of the issues across the entire population, as well as increases precision, reduces variability and provides better insights by analysis within each subgroup, identifying specific issues that may not be apparent in the overall sample. However here can be some challenges as complexity compare to SRS and time comsuming and statum identification 
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
