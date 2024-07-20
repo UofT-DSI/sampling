@@ -14,7 +14,7 @@ At the same time using a stratified sampling strategy involves dividing the targ
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
    After the lecture I would like to do some changes in my questions 3, 4, 6, 7  and be more specific and avoid any kind of misreading and misunderstanding. I also remove open questions by providing select points which are applicable, it will make the process of analysis more time consuming. 
-
+Here is revised version:
 - On a scale of 1 to 5, how satisfied are you with your experience working at our company?
 -  How happy are you with your current role? (Scale of 1-5)
 - What aspects of your job do you find most challenging or unsatisfactory? (Select the most applicable )
