@@ -117,8 +117,30 @@ Do you have any other comments/suggestions for your position or company?
     ```
     write your answer here...
     ```
-Yes, through an observational study, it has covered the workplace dynamics, behavioral patterns. 
-However, this is subjective experiences, it's difficult to capture the subjective feelings, perceptions, and personal experiences of employees; some of the information are confidentiality which cannot release in the survey.
+Suverys involve directly asking participants questions about their answers/options/feelings for the designated questions. This allows for collecting specific and targeted data for the research. We can design the questions that can collect the quantitative data (eg. satisfaction ratings) and qualitative data (eg. open-ended responses), offering a comprehensive view of employee opinions.
+
+From observational studies, we can watch and observe the behaiors and interactions of the participants. This can provide insights into workplace dynamics and employee behaviors. Observations can capture contextual factors such as the physical work environment, social interactions, and non-verbal cues that might influence employee satisfaction and turnover. Observational studies do not require participants to actively provide information, which can sometimes lead to more natural and unbiased data collection. 
+
+An Observational study could fulfill the survey's purpose.
+1. Workplace dynamics and interactions:
+Observing how employees interact with each other and with management can reveal insights into team cohesion, leadership styles, and communication effectiveness.
+2. Behavioral Patterns:
+Observing patterns such as frequency of overtime, obserteeism, and employee engagement in meeting can provide indirect indicators of job satisfaction and potential reasons for turnover.
+3. Exit Interviews and HR Records:
+Reviewing HR records, including exit interviews, could provide some quantitative and qualitative data on reasons for turnover and areas needing improvement.
+
+However there're some limitations:
+Lack of Subjective Feedback:it's hard to capture the empolyee's feeling and experience. 
+Some employees are not willing to express their real feelings and concerns. 
+Survey can ask the specific questions and come up with the useful suggestions, while observational can only provide general advise instead of specific details.
+
+Although Observational can provide valued information and collect the data by survery, it can't fullfill competely replace the detailed, specific feedback from survey. Therefore, survey is not fullfilled by the observational study.
+
+
+
+
+
+
 
 ## Why am I doing this assignment?
 
