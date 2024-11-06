@@ -40,10 +40,10 @@ survey quality.
 
 | Assignment                                                                                                                                                        | Due Date          |
 |--------------------------------------------|----------------------------|
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a1_sampling_and_reproducibility.md)             | Friday, July 12   |
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a2_questionnaire_design_part_a.md)                       | Saturday, July 13 |
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a3_questionnaire_design_part_b.md)                       | Friday, July 19   |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a4_data_documentation_comparison_worksheet.md) | Saturday, July 20 |
+| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a1_sampling_and_reproducibility.md)             | Friday, November 8   |
+| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a2_questionnaire_design_part_a.md)                       | Saturday, November 9 |
+| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a3_questionnaire_design_part_b.md)                       | Friday, November 15   |
+| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a4_data_documentation_comparison_worksheet.md) | Saturday, November 16 |
 
 ## Contacts
 
@@ -53,10 +53,10 @@ survey quality.
     -   name and pronouns: `Ciara`, `She/Her`
     -   email: `ciara.zogheib@mail.utoronto.ca`
 -   Learning Support Staff:
-    -   name: `Jarlath`
-    -   email: `jarlathbr@gmail.com`
+    -   name: `Farzana`
+    -   email: `fhashemi.ma@gmail.com`
     -   name: `Kasra`
-    -   email: `vakiloroayaei.kasra@gmail.com`
+    -   email: `k.vakiloroayaei@utoronto.ca`
     -   name: `Amanda`
     -   email: `waiyuamanda.ng@mail.utoronto.ca`
 
