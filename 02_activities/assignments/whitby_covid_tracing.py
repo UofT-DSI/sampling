@@ -4,6 +4,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+# Set a seed for reproducibility
+np.random.seed(42)
+
+
 # Note: Suppressing FutureWarnings to maintain a clean output. This is specifically to ignore warnings about
 # deprecated features in the libraries we're using (e.g., 'use_inf_as_na' option in Pandas, used by Seaborn),
 # which we currently have no direct control over. This action is taken to ensure that our output remains
@@ -67,8 +72,8 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Run the simulation 50000 times
-results = [simulate_event(m) for m in range(50000)]
+# Run the simulation 1000 times, first run after changing the the number of repetitions
+results = [simulate_event(m) for m in range(1000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
