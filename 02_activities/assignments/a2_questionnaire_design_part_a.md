@@ -16,31 +16,28 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+The goal of this survey is to understand why entry- and lower-level employees are leaving the company and identify specific areas where we can make improvements to boost job satisfaction and reduce turnover.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+Target Population: Current and recently departed entry- and lower-level employees in the company.
+Sampling Frame: A list of current entry- and lower-level employees, along with those who left within the last six months.
+Sampling Units: Individual employees in entry- and lower-level positions.
+Sampling Strategy: We’ll use a stratified random sample to make sure we’re hearing from employees across all departments facing high turnover.
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
+1. How satisfied were you with your role at the company before considering leaving? (Scale: 1–5)
+2. Which of the following factors influenced your decision to leave or think about leaving? (Choose all that apply: Pay, Career growth, Work-life balance, Relationship with management, Company culture, Job satisfaction, Other)
+3. How well did you feel supported by your manager in achieving your professional goals? (Options: Very supported, Somewhat supported, Neutral, Somewhat unsupported, Very unsupported)
+4. How effective was the company’s communication and transparency on important issues? (Options: Very effective, Somewhat effective, Neutral, Somewhat ineffective, Very ineffective)
+5. Did you feel there was a clear path for career advancement within the company? (Options: Yes, Somewhat, No)
+6. How often did you feel stressed or overloaded by your workload? (Options: Always, Often, Sometimes, Rarely, Never)
+7. What changes do you think the company could make to improve job satisfaction and reduce turnover?
+8. Would you recommend the company to others as a good place to work? (Options: Yes, No, Not sure)
+9. How satisfied were you with the company’s benefits and compensation? (Scale: 1–5)
+
 
 ## Rubric
 
