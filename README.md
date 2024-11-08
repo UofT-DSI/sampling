@@ -15,7 +15,6 @@
     -   [Videos](#videos)
     -   [How to get help](#how-to-get-help)
 -   [Folder Structure](#folder-structure)
--   [Acknowledgements](#acknowledgements)
 
 ## Description
 
