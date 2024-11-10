@@ -26,6 +26,7 @@ Target Population: Current and recently departed entry- and lower-level employee
 Sampling Frame: A list of current entry- and lower-level employees, along with those who left within the last six months.
 Sampling Units: Individual employees in entry- and lower-level positions.
 Sampling Strategy: We’ll use a stratified random sample to make sure we’re hearing from employees across all departments facing high turnover.
+Observational units : are the individual employees in entry- and lower-level positions who either currently work at the company or have recently left. 
 
 Your 5-10 question survey:
 1. How satisfied were you with your role at the company before considering leaving? (Scale: 1–5)
