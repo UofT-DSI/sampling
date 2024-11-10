@@ -16,27 +16,65 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key factors contributing to high turnover rates within the company's entry- and lower-level positions.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: the employees who have worked in entry - and lower-level positions within the company over the past years. Including those still working in the company and those left the company.
+Sampling frame: Need database from HR of those past or current employees who have worked in entry- and lower-level positions.
+Sampling units: the sample from the total employees , who are select to be sample as entry-level and lower-level positions employees.
+observational units: individual employee who will respond to the survey
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+What is your current employement status with the company?
+a.current employed with the company
+b.no longer employed with the company 
 2. write your question here...
+How long have you been working in your current role at the company?
+a. less than 6 months 
+b. 6 months to 1 year
+c. 1-2 years
+d. more than 2 years
 3. write your question here...
+How would you rate the level of support and communication you receive from your direct supervisor/manager?
+a.very poor
+b.poor
+c.average
+d.good
+c.excellent
 4. write your question here...
+Do you feel that there are enough opportunities for you career growth within the company?
+a.yes
+b.no
+c.I don't know.
 5. write your question here...
+How would you recommend the company to others?
+a.very positive
+b.mostly positive
+c.neutral
+d.mostly negative
+e.very negative
 6. write your question here... (optional)
+What suggestions or imporvement would you say to reduce the employee turenover ?
+#
 7. write your question here... (optional)
+What were the main factors that influenced your decision to leave the company (if applicable)? (Select all that apply)
+a.Lack of career advancement opportunities
+b.Low compensation
+c.Poor work-life balance
+d.Lack of recognition or appreciation
+e.Poor relationship with direct supervisor
+f.Job dissatisfaction or lack of interest in the role
+g.Limited professional development or training
+h.Other (please specify)
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
