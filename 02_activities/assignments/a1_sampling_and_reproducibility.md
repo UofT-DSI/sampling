@@ -13,8 +13,15 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 # Author: YOUR NAME
 
 ```
-Please write your explanation here...
+Sampling Stages
+Infection Sampling: 10% of attendees (200 wedding, 800 brunch) are randomly infected using ATTACK_RATE.
+Primary Contact Tracing: 20% of infected cases are randomly traced (TRACE_SUCCESS), representing a Binomial distribution.
+Secondary Tracing: If an event has ≥2 traced cases (SECONDARY_TRACE_THRESHOLD), all infected attendees at that event are traced, introducing bias toward larger gatherings like weddings.
+Comparison to Blog Post
+Running the code with 50,000 iterations should roughly match the blog's histograms, showing a higher trace proportion for weddings due to secondary tracing. Reducing iterations to 1,000 increases variability and makes results less consistent.
 
+Reproducibility
+To make results reproducible, add np.random.seed(42) at the start of the script. This ensures consistent output across runs by fixing the random sequence.
 ```
 
 
