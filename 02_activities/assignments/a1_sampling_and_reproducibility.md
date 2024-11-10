@@ -10,12 +10,15 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author： Yan Jiang
 
 ```
-Please write your explanation here...
-
-```
+Contact tracing efforts are not often random, might be underpresenting or overpresenting. 
+Sampling frame: this would be the list or population of individuals from which sample is drawn. In contact tracing, this could be a set of individuals who are either infected or exposed. 
+Modify the number of repetitions 
+#modify the repetitions to 1000
+make it reproducible by add a line of code to set the random seed
+np.random.seed(42)```
 
 
 ## Criteria

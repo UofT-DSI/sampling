@@ -70,7 +70,9 @@ def simulate_event(m):
 # Run the simulation 50000 times
 results = [simulate_event(m) for m in range(50000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
-
+# Run the simulation 1000 times 
+results = [simulate_event(m) for m in range(1000)]
+props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 # Plotting the results
 plt.figure(figsize=(10, 6))
 sns.histplot(props_df['Infections'], color="blue", alpha=0.75, binwidth=0.05, kde=False, label='Infections from Weddings')
