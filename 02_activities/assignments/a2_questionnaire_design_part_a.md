@@ -143,6 +143,8 @@ b. Yes, to some extent
 c. No, not really
 d. No, not at all
 
+-----
+
 ## Rubric
 
 -	All required components are present and complete **Complete / Incomplete**
