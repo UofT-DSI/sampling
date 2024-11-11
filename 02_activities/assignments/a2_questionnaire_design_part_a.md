@@ -21,16 +21,11 @@ The number of your chosen topic: `#`
 Answer: The number of my chosen topic is #1.
 
 Describe the purpose of your survey:
-```
 
-write your answer here...
-```
 Answer: 
 The purpose of this survey is to understand the underlying causes of high turnover rates within entry- and lower-level positions at the company. By gathering feedback from current and departing employees, the company aims to identify areas of dissatisfaction and make improvements to enhance employee retention and overall satisfaction.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
 ```
 Answer: 
 a. Target Population: All employees in entry- and lower-level positions across various departments.
