@@ -4,19 +4,35 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    I believe the quality of my sample is good but not perfect. While using recent polling data and voter registration lists helps target likely voters, it might exclude unregistered voters or those less engaged, potentially leading to underrepresentation of certain groups. Nonresponse bias could also be an issue if some demographics are less likely to participate.
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+    Original questions from part A:
+    1. What is the most important issue for you in this election? (e.g., healthcare, economy, climate change, education, etc.)
+    2. On a scale of 1-10, how satisfied are you with the performance of our party’s leader?
+    3. What actions or promises would make you more likely to vote for our party?
+    4. How confident are you that our party will address your key concerns if elected? (Very confident, Somewhat confident, Neutral, Not very confident, Not at all confident)
+    5. What qualities do you value most in a political leader? (e.g., honesty, decisiveness, experience, empathy, etc.)
+    6. Which platforms or policies would you like to see our party focus on more?
+    7. How likely are you to switch your vote to a different party based on new campaign developments? (Very likely, Somewhat likely, Not very likely, Not likely at all)
+    8. Do you feel that our party understands and addresses the issues that matter to people like you? (Yes, No, Somewhat)
+    9. What would make you more engaged with our campaign (e.g., more local events, direct communication, social media updates)?
+    10. Any additional feedback on how we can better represent your needs and concerns?
+
+
+    Revised Question 2: Changed to "On a scale of 1-10, how satisfied are you with the performance of our party’s leader, [Leader's Name]?" to specify the leader and avoid confusion.
+    Revised Question 7: Modified to "How likely are you to change your voting preference before the election?" to make it less leading.
+    Revised Question 8: Adjusted to "Do you feel that political parties understand and address the issues that matter to you?" to reduce bias toward our party.
+    These changes aim to make the survey more neutral and ethically sound.
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+    Yes, an observational study could partially fulfill the survey's purpose by analyzing existing data like social media trends, public opinion polls, and past election results. However, it wouldn't provide specific feedback on what voters want from our party and leader, which is best captured through direct surveying.
     ```
 
 ## Why am I doing this assignment?
