@@ -16,30 +16,36 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2.`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify key issues and values important to voters that will guide campaign adjustments for the party’s final month before the election. By understanding voter priorities, the party can tailor its messaging and strategy to align more closely with the electorate’s preferences, helping to maintain its lead.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Eligible Canadian voters who are likely to vote in the upcoming federal election.
+
+Sampling Frame: A list of likely voters, drawn from recent polling data and voter registration lists.
+
+Sampling Units: Individual voters, ideally representing diverse demographics (age, gender, region) across Canada.
+
+Observational units: In this scenario, the observational units are the individual survey responses from Canadian voters. Each response represents the opinions, preferences, and priorities of a single voter, which collectively provide insights into what the electorate values and wants from the party and its leader.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is the most important issue for you in this election? (e.g., healthcare, economy, climate change, education, etc.)
+2. On a scale of 1-10, how satisfied are you with the performance of our party’s leader?
+3. What actions or promises would make you more likely to vote for our party?
+4. How confident are you that our party will address your key concerns if elected? (Very confident, Somewhat confident, Neutral, Not very confident, Not at all confident)
+5. What qualities do you value most in a political leader? (e.g., honesty, decisiveness, experience, empathy, etc.)
+6. Which platforms or policies would you like to see our party focus on more?
+7. How likely are you to switch your vote to a different party based on new campaign developments? (Very likely, Somewhat likely, Not very likely, Not likely at all)
+8. Do you feel that our party understands and addresses the issues that matter to people like you? (Yes, No, Somewhat)
+9. What would make you more engaged with our campaign (e.g., more local events, direct communication, social media updates)?
+10. Any additional feedback on how we can better represent your needs and concerns?
 ```
 
 ## Rubric
