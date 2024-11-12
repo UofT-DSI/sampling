@@ -10,10 +10,65 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Brigitte Yan 
 
 ```
-Please write your explanation here...
+Examination of Sampling Procedures in whitby_covid_tracing.py
+
+
+After diving into Andrew Whitby's blog post on how contact tracing can bias our understanding of COVID-19 case sources, I took a closer look at the whitby_covid_tracing.py script to see how it models this phenomenon.
+
+Sampling Stages in the Model
+The simulation involves several stages where sampling occurs:
+
+Infection of Individuals
+
+Function Used: np.random.choice
+Sample Size: 10% of the total attendees (100 out of 1000 people).
+Sampling Frame: All individuals attending the events (200 at weddings, 800 at brunches).
+Process: Randomly selects 100 people to be infected, representing the spread of the virus among event-goers.
+Relation to the Blog Post: This mirrors the initial infection spread discussed in the blog, highlighting how infections can occur randomly across different events.
+Primary Contact Tracing
+
+Function Used: np.random.rand compared with TRACE_SUCCESS
+Sample Size: 20% of the infected individuals (approximately 20 people).
+Sampling Frame: The group of infected individuals.
+Process: Each infected person has a 20% chance of being traced through primary contact tracing, simulating real-world tracing effectiveness.
+Relation to the Blog Post: Shows that not all infections are equally likely to be traced, which can introduce bias.
+Secondary Contact Tracing
+
+Process: Counts traced infections per event and identifies events with at least two traced cases.
+Function Used: Event count comparison against SECONDARY_TRACE_THRESHOLD
+Sampling Frame: Events where traced individuals were present.
+Process: If an event has two or more traced cases, all infected attendees of that event are marked as traced.
+Relation to the Blog Post: Demonstrates how events with more traced cases are more likely to have additional infections identified, skewing the perceived source of infections.
+Calculating Proportions
+
+Process: Computes the proportion of infections and traced cases attributed to weddings versus brunches.
+Relation to the Blog Post: Directly relates to the analysis of how contact tracing can distort our understanding of where infections are coming from.
+Comparing the Script's Output to the Blog Post
+When I ran the script as it was (with 50,000 repetitions), the resulting graphs looked very similar to those in Whitby's blog. The histograms showed that weddings, despite having fewer actual infections, appeared to be the source of a higher proportion of traced cases. This aligns with the blog's point about contact tracing biasing our perception.
+
+Observations with 1000 Repetitions
+I then changed the number of repetitions in the simulation from 50,000 to 1,000 to see what would happen. Running the script multiple times, I noticed that the graphs varied with each run. The proportions of infections and traces attributed to weddings fluctuated, indicating that the results weren't reproducible with fewer repetitions due to the randomness in the simulation.
+
+Making the Code Reproducible
+To make the script produce the same results every time, I added a line to set the random seed:
+
+python
+Copy code
+# Set the random seed for reproducibility
+np.random.seed(10)
+Why This Change Matters:
+
+Random Seed Importance: By setting a seed with np.random.seed(10), we're ensuring that the random number generator produces the same sequence of numbers each time the script runs.
+Effect on Reproducibility: With the seed set, all the random choices and probabilities in the simulation become consistent across runs, so the outputted graphs are identical every time.
+Impact on the Script:
+
+This change doesn't affect the logic or the outcomes of the simulation in terms of representing contact tracing bias; it simply makes the results consistent.
+Now, when I run the script multiple times, I get the same graphs, which is helpful for analysis and presentation.
+Conclusion
+Through this exercise, I saw firsthand how sampling at different stages of a simulation can introduce biases similar to those in real-world data. By setting a random seed, I ensured that the results are reproducible, making it easier to study and communicate the effects demonstrated in the simulation.
 
 ```
 
