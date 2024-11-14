@@ -4,19 +4,22 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+Using a random selection of employees who’ve been with the company for at least three months should give a good mix of people who have had time to settle into their roles. Because it’s random, it’s likely representative of the broader group, though newer employees are left out intentionally to avoid any initial bias. There are a few considerations that are company dependent that could affect the quality of the sample including if the company is geographically diverse, or very siloed by team. 
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+After learning about survey quality, I’d make a few tweaks:
+Fulfillment Question (Q2): Add a “None of the above” option, so people who don’t find any part of their role fulfilling can say so.
+Compensation Reflection (Q4): Add an “Unsure” option to help those who aren’t sure if their pay matches their work.
+Open-ended Feedback (Q7): Remove the open-ended feedback question and ask them to list additional factors impacting satisfaction, so we get broader insights and can group like themes together. 
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+This survey couldn’t be fully replaced by an observational study. While things like attendance or turnover can hint at satisfaction, they don’t capture the full picture of how people feel about leadership, growth opportunities, or work environment. For that, we need direct responses from employees themselves.
     ```
 
 ## Why am I doing this assignment?
