@@ -16,26 +16,76 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#`1
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+To identify the reasons behind the high turnover rate in entry- and lower-level positions at the company and to gather insights on how employee satisfaction and retention can be improved.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+Target Population: Current and former employees in entry- and lower-level positions at the company.
+Sampling Frame: A list of all current employees in relevant positions, along with contact information for former employees who have left within the past 12 months.
+Sampling Units: Individual employees (both current and former).
+Sampling Strategy: Stratified random sampling to ensure representation from various departments and job roles. Former employees will be surveyed via email, while current employees will be invited to participate through an internal portal.
+
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+How long have you worked in your current role?
+
+A. Less than 6 months
+B. 6 months to 1 year
+C. 1-3 years
+D. 3+ years
 2. write your question here...
+What factors most influenced your decision to leave (or consider leaving) the company? (Select all that apply)
+
+A. Compensation and benefits
+B. Work-life balance
+c. Lack of career growth opportunities
+D. Workplace culture
+E. Relationship with manager or team
+F. Other (please specify)
+
 3. write your question here...
+On a scale of 1-5, how satisfied are/were you with the following aspects of your job?
+
+A. Compensation and benefits
+B. Work environment and resources
+C. Opportunities for professional growth
+D. Relationship with supervisor/manager
+E. Work-life balance
+
 4. write your question here...
+Do you feel that your contributions to the team and company are/were valued?
+
+A. Yes, very much
+B. Somewhat
+C. Not at all
+
 5. write your question here...
+How likely are you to recommend this company as a good place to work to others?
+
+A. Very likely
+B. Somewhat likely
+C. Neutral
+D. Somewhat unlikely
+E. Very unlikely
+
 6. write your question here... (optional)
+If you left the company, what type of role or company did you move to?
+
+A. Similar role at another tech company
+B. Role in a different industry
+C. Self-employment/freelance
+D. Other (please specify)
+
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
