@@ -2,22 +2,50 @@
 
 ## Requirements
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
-
-    ```
-    write your answer here...
-    ```
+The sample quality is reasonably robust, given the stratified random sampling strategy. This approach helps ensure representation across departments experiencing high turnover, 
+addressing potential undercoverage bias. However, representativeness could still be impacted by nonresponse bias, as individuals who leave due to dissatisfaction might avoid 
+participating. Similarly, recall bias could influence responses from former employees reflecting on their experience. While stratification helps ensure coverage, sampling frame 
+completeness (e.g., accurate and up-to-date contact information for departed employees) remains a critical factor.
+    
+    
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
+Updated Survey:
 
-    ```
-    write your answer here...
-    ```
+1. How satisfied were you with your role at the company before considering leaving? (Scale: 1–5)
+Unchanged as it remains clear and concise.
+
+2. Which of the following factors influenced your decision to leave or think about leaving? (Choose all that apply: Pay, Career growth, Work-life balance, Relationship with management, 
+Company culture, Job satisfaction, Other—please specify)
+Added "please specify" to "Other" for better measurement completeness.
+
+3. How well did you feel supported by your manager in achieving your professional goals? (Options: Very supported, Somewhat supported, Neutral, Somewhat unsupported, Very unsupported)
+Unchanged as it provides actionable insights.
+
+4. How effective was the company’s communication and transparency on important issues? (Options: Very effective, Somewhat effective, Neutral, Somewhat ineffective, Very ineffective)
+Unchanged as it directly addresses key organizational factors.
+
+5. Did you feel there was a clear path for career advancement within the company? (Options: Yes, Somewhat, No)
+Unchanged for simplicity and relevance.
+
+6. How often did you feel stressed or overloaded by your workload? (Options: Always, Often, Sometimes, Rarely, Never)
+Revised wording to ensure neutrality: "How often did you feel your workload was manageable?"
+
+7. What changes do you think the company could make to improve job satisfaction and reduce turnover?
+Added an instruction: "Be as specific as possible for actionable feedback."
+
+8. Would you recommend the company to others as a good place to work? (Options: Yes, No, Not sure)
+Revised options: Yes, No, Maybe—to reduce forced-choice bias.
+
+9.How satisfied were you with the company’s benefits and compensation? (Scale: 1–5)
+Unchanged.
+
+
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
-
-    ```
-    write your answer here...
-    ```
+No, the purpose of the survey could not have been effectively fulfilled through an observational study. Observational studies are limited in understanding employee intent, 
+motivations, and subjective experiences, key aspects for addressing turnover. Surveys are essential for capturing qualitative insights, such as reasons for dissatisfaction or 
+recommendations for improvement, which cannot be inferred purely through observational data.
 
 ## Why am I doing this assignment?
 
