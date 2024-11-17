@@ -16,30 +16,74 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The goal of this survey is to identify the main factors driving high turnover rates in the company's entry-level and lower-tier positions.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: This includes employees who have held entry-level or lower-level positions within the company over the past few years, both those who are currently employed and those who have left the company.
+
+Sampling frame: A database from HR is required, listing all current and former employees who have worked in entry-level or lower-level roles.
+
+Sampling units: These are the individuals selected from the total employee pool to participate in the survey, specifically those in entry-level and lower-level positions.
+
+Observational units: Each individual employee who responds to the survey will be considered an observational unit.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+How would you describe your current employment status with the company?
+a. I am currently employed with the company
+b. I am no longer employed with the company
+
+How long have you been in your current position at the company?
+a. Less than 6 months
+b. 6 months to 1 year
+c. 1-2 years
+d. More than 2 years
+
+How would you rate the level of support and communication you receive from your direct supervisor/manager?
+a. Very poor
+b. Poor
+c. Average
+d. Good
+e. Excellent
+
+Do you believe there are sufficient opportunities for career advancement within the company?
+a. Yes
+b. No
+c. Unsure
+
+How likely are you to recommend the company as a workplace to others?
+a. Very likely
+b. Likely
+c. Neutral
+d. Unlikely
+e. Very unlikely
+
+What suggestions or improvements would you offer to help reduce employee turnover?
+Open-ended response
+
+For those who have left the company, what were the primary factors that influenced your decision to leave? (Select all that apply)
+a. Lack of career growth opportunities
+b. Insufficient compensation
+c. Poor work-life balance
+d. Lack of recognition or appreciation
+e. Difficult relationship with supervisor
+f. Dissatisfaction with the role or job duties
+g. Lack of professional development or training opportunities
+h. Other (please specify)
+
+How would you rate your overall job satisfaction at the company?
+a. Very dissatisfied
+b. Dissatisfied
+c. Neutral
+d. Satisfied
+e. Very satisfied
 ```
 
 ## Rubric
