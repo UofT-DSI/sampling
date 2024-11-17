@@ -10,20 +10,39 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Camelia Najafizadeh
 
-```
-Sampling Stages
-Infection Sampling: 10% of attendees (200 wedding, 800 brunch) are randomly infected using ATTACK_RATE.
-Primary Contact Tracing: 20% of infected cases are randomly traced (TRACE_SUCCESS), representing a Binomial distribution.
-Secondary Tracing: If an event has ≥2 traced cases (SECONDARY_TRACE_THRESHOLD), all infected attendees at that event are traced, introducing bias toward larger gatherings like weddings.
-Comparison to Blog Post
+
+# Sampling Stages
+# Infection Sampling
+ 10% of attendees (200 wedding, 800 brunch) are randomly infected using ATTACK_RATE.
+# Primary Contact Tracing
+20% of infected cases are randomly traced (TRACE_SUCCESS), representing a Binomial distribution.
+# Secondary Tracing:
+If an event has ≥2 traced cases (SECONDARY_TRACE_THRESHOLD), all infected attendees at that event are traced, introducing bias toward larger gatherings like weddings.
+
+# Sampling Procedure Description
+Sampling Procedure:
+The code models the spread of an infection and the process of contact tracing within two distinct event groups: wedding attendees and brunch attendees. This approach reflects how the data may be skewed toward specific event types based on the ease of tracing attendees.
+
+# Referenced Functions:
+simulate_event: Executes the logic for infection spread and contact tracing.
+np.random.choice: Randomly selects individuals to be infected, using a uniform distribution.
+np.random.rand: Determines whether an infected individual is traced, based on a Bernoulli distribution with a 20% likelihood.
+Sample Size:
+The simulation includes 1,000 individuals per event, divided as follows: 200 attending weddings and 800 attending brunches.
+Sampling Frame:
+The sampling frame consists of all individuals participating in the events, categorized into two groups based on the type of event they attend.
+
+# Relation to blogpost
+The code aligns with Whitby’s observation that contact tracing tends to favor larger, more traceable events, such as weddings. The use of uniform and Bernoulli distributions captures the randomness inherent in infection spread and tracing. Additionally, the code introduces a bias toward events that are easier to trace, exemplified by weddings.
+
+
+# Comparison to Blog Post
 Running the code with 50,000 iterations should roughly match the blog's histograms, showing a higher trace proportion for weddings due to secondary tracing. Reducing iterations to 1,000 increases variability and makes results less consistent.
 
-Reproducibility
+# Reproducibility
 To make results reproducible, add np.random.seed(42) at the start of the script. This ensures consistent output across runs by fixing the random sequence.
-```
-
 
 ## Criteria
 
