@@ -14,11 +14,11 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 
 
 # Sampling Stages
-# Infection Sampling
+* Infection Sampling*
  10% of attendees (200 wedding, 800 brunch) are randomly infected using ATTACK_RATE.
-# Primary Contact Tracing
+* Primary Contact Tracing*
 20% of infected cases are randomly traced (TRACE_SUCCESS), representing a Binomial distribution.
-# Secondary Tracing:
+* Secondary Tracing*
 If an event has ≥2 traced cases (SECONDARY_TRACE_THRESHOLD), all infected attendees at that event are traced, introducing bias toward larger gatherings like weddings.
 
 # Sampling Procedure Description
