@@ -14,11 +14,11 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 
 
 # Sampling Stages
-* Infection Sampling*
+**Infection Sampling**
  10% of attendees (200 wedding, 800 brunch) are randomly infected using ATTACK_RATE.
-* Primary Contact Tracing*
-20% of infected cases are randomly traced (TRACE_SUCCESS), representing a Binomial distribution.
-* Secondary Tracing*
+**Primary Contact Tracing**
+20% of infected cases are randomly traced (TRACE_SUCCESS), representing a Binomial distribution.7
+**Secondary Tracing**
 If an event has ≥2 traced cases (SECONDARY_TRACE_THRESHOLD), all infected attendees at that event are traced, introducing bias toward larger gatherings like weddings.
 
 # Sampling Procedure Description
@@ -26,18 +26,13 @@ Sampling Procedure:
 The code models the spread of an infection and the process of contact tracing within two distinct event groups: wedding attendees and brunch attendees. This approach reflects how the data may be skewed toward specific event types based on the ease of tracing attendees.
 
 # Referenced Functions:
-simulate_event: Executes the logic for infection spread and contact tracing.
-
-np.random.choice: Randomly selects individuals to be infected, using a uniform distribution.
-
-np.random.rand: Determines whether an infected individual is traced, based on a Bernoulli distribution with a 20% likelihood.
-
-Sample Size:
+**simulate_event** Executes the logic for infection spread and contact tracing.
+**np.random.choice** Randomly selects individuals to be infected, using a uniform distribution.
+**np.random.rand** Determines whether an infected individual is traced, based on a Bernoulli distribution with a 20% likelihood.
+**Sample Size**
 The simulation includes 1,000 individuals per event, divided as follows: 200 attending weddings and 800 attending brunches.
-
-Sampling Frame:
+**Sampling Frame**
 The sampling frame consists of all individuals participating in the events, categorized into two groups based on the type of event they attend.
-
 # Relation to blogpost
 The code aligns with Whitby’s observation that contact tracing tends to favor larger, more traceable events, such as weddings. The use of uniform and Bernoulli distributions captures the randomness inherent in infection spread and tracing. Additionally, the code introduces a bias toward events that are easier to trace, exemplified by weddings.
 
