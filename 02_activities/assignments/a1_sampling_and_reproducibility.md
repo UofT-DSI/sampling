@@ -27,10 +27,14 @@ The code models the spread of an infection and the process of contact tracing wi
 
 # Referenced Functions:
 simulate_event: Executes the logic for infection spread and contact tracing.
+
 np.random.choice: Randomly selects individuals to be infected, using a uniform distribution.
+
 np.random.rand: Determines whether an infected individual is traced, based on a Bernoulli distribution with a 20% likelihood.
+
 Sample Size:
 The simulation includes 1,000 individuals per event, divided as follows: 200 attending weddings and 800 attending brunches.
+
 Sampling Frame:
 The sampling frame consists of all individuals participating in the events, categorized into two groups based on the type of event they attend.
 
