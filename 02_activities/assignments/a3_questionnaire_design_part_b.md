@@ -11,15 +11,16 @@ The representativeness of the sample depends on the sampling method, sample size
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
+
 Survey Design for Scenario: Relationship Between Music Taste and Age
 
 Target Population: Individuals aged 19 and older across diverse age groups and backgrounds who are familiar with popular music.
 Sampling Frame: Current students, alumni, and faculty at the University of Toronto, as well as members of online communities and social media groups related to music and sociology.
 Sampling Units: Individual respondents within the target population who consent to participate.
 Sampling Strategy: Stratified sampling by age group to ensure representation across different age brackets (age group : 19-24, 25-34, 35-44, etc.). Recruitment through university channels and music-related online communities.
-```
+
 Your 5-10 question survey:
-```
+
 1. Age group?
 2. Describe your current music preferences? (Select all that apply)
 3. In your teenage years, what genre of music did you primarily enjoy?
