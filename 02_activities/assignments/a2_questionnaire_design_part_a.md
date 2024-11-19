@@ -15,6 +15,7 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 3.	You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
 
 
+
 # Your Changes
 
 The number I have  chosen topic: `3`
