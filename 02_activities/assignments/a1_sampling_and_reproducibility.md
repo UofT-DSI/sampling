@@ -12,8 +12,9 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 
 # Author: YOUR NAME
 
+
 MD RAZAUL KARIM 
-Please write your explanation here...
+
 
 In this link , I have seen  the potential impact of sampling bias in contact tracing on data regarding
 sources of infection for COVID-19 in Toronto, Ontario, Canada. Although institutional outbreaks have consistently accounted for a large proportion of all COVID-19 .The blog post highlights how the sampling procedure for contact tracing introduces a systematic bias, resulting in an incomplete and non-representative sample of COVID-19 cases. Here’s a breakdown of the sampling procedure in the model code provided, and how it aligns with the explanation in the blog:
