@@ -29,7 +29,6 @@ patterns in music preferences across age groups and how personal tastes evolve o
 individual's lifetime. The results will inform a sociology research paper on the influence
 of age on musical preferences.
 
-
 Describe your target population, sampling frame, sampling units, and observational units:
 Target Population, Sampling Frame, Sampling Units, and Sampling Strategy
 
@@ -37,10 +36,10 @@ Target Population: Individuals aged 19 and older across diverse age groups and b
 Sampling Frame: Current students, alumni, and faculty at the University of Toronto, as well as members of online communities and social media groups related to music and sociology.
 Sampling Units: Individual respondents within the target population who consent to participate.
 Sampling Strategy: Stratified sampling by age group to ensure representation across different age brackets (age group : 19-24, 25-34, 35-44, etc.). Recruitment through university channels and music-related online communities.
-```
 
-Your 5-10 question survey:
-```
+Your 5-10 question survey: 
+Survey question are as bellow 
+
 1. write your question here...
 Age group?
 19-24
