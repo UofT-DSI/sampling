@@ -4,19 +4,39 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    The quality of the sample should be relatively high if we successfully implement a stratified random sampling approach. By ensuring representation from different departments and including both current and 
+    former employees, the sample will capture a diverse range of experiences and insights across various roles and departments. 
+    
+    However, there may still be a bias if former employees who left due to dissatisfaction are more motivated to respond, while satisfied employees may not participate as readily. 
+    This response bias could limit the representativeness of the sample.
+
+In general, though, by diversifying the sample to include various departments and levels of satisfaction, we expect it to be fairly representative of the target population of entry- and lower-level employees.
+
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+   Based on class content about potential errors, survey quality, and ethical considerations, I would make a few adjustments to improve data accuracy, reduce bias, and ensure ethical standards are upheld:
+
+Add a Confidentiality Assurance Statement: Informing respondents that their responses are confidential may encourage honest feedback.
+
+Include Demographic Questions: To ensure we are capturing a range of perspectives, adding questions about department, role, and tenure length will allow for better data segmentation and analysis.
+
+Reduce Leading Language: Questions regarding management and compensation could unintentionally bias responses if phrased negatively. Revising questions to be more neutral can reduce this risk.
+
+Add a Question on Future Intentions: For current employees, I would add a question about their intent to stay in the near future, which could provide insight into possible future turnover trends.
+
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+    No, the purpose of this survey could not have been fully met through an observational study. 
+    Observational studies would allow us to gather information on factors such as employee demographics, roles, and turnover rates, but they would not capture employees’ personal reasons for leaving, 
+    levels of job satisfaction, or perceptions of workplace conditions. 
+    Surveying provides insights into subjective factors directly related to employees' decision-making processes, which are critical to understanding and addressing turnover.
+
     ```
 
 ## Why am I doing this assignment?
