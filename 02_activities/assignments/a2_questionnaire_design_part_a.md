@@ -32,6 +32,7 @@ a. Target Population: All employees in entry- and lower-level positions across v
 b. Sampling Frame: The list of active employees in these positions, as well as employees who have recently left the company.
 c. Sampling Units: Individual employees (both current and former employees).
 d. Sampling Strategy: A stratified random sampling approach will be used. Employees will be grouped by department and position level, and random samples will be selected from each group to ensure a representative sample of the broader workforce.
+e. Observational units:  Individual employees themselves, as they provide insights into their experiences, satisfaction levels, and reasons for staying or leaving.
 
 Your 5-10 question survey:
 ```
