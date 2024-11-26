@@ -6,21 +6,19 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 
 |                                                       | Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33) | Canadian Election Study Online Survey, 2019 | Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack |
 |----------------|:--------------------|----------------|---------------------|
-| Sample type                                           |                                                                                            |                                             |                                                                                             |
-| Sample size                                           |                                                                                            |                                             |                                                                                             |
-| Target population                                     |                                                                                            |                                             |                                                                                             |
-| Sampling frame                                        |                                                                                            |                                             |                                                                                             |
-| Survey mode(s)                                        |                                                                                            |                                             |                                                                                             |
-| Timeline                                              |                                                                                            |                                             |                                                                                             |
-| Response rate                                         |                                                                                            |                                             |                                                                                             |
-| Weights                                               |                                                                                            |                                             |                                                                                             |
-| Data processing                                       |                                                                                            |                                             |                                                                                             |
-| Cleaning, imputation, etc.                            |                                                                                            |                                             |                                                                                             |
-| Sources of error                                      |                                                                                            |                                             |                                                                                             |
-| Limitations, known biases                             |                                                                                            |                                             |                                                                                             |
-| Citation                                              |                                                                                            |                                             |                                                                                             |
-| Links to any documentation or additional sources used |                                                                                            |                                             |                                                                                             |
-
+| Sample Type	Probability sampling (Stratified random sampling)	Convenience sampling with stratified elements	Non-probability sampling (Purposive sampling)
+Sample Size	~20,000 respondents	~5,000 respondents	Data collected from 16 individual bats
+Target Population	Canadian population aged 15+ (excluding certain groups like residents of the territories)	Eligible Canadian voters (18+ years)	Glossophaga soricina (nectar-feeding bats)
+Sampling Frame	Canadian Labour Force Survey (randomly selected households)	Online panel of participants who opted in to academic surveys	Selected bats from a specific geographic area in Panama
+Survey Mode(s)	Telephone (CATI), face-to-face (CAPI)	Web-based (Online survey)	Field observations and direct diet sampling
+Timeline	May to December 2018	During 2019 Canadian federal election period	2017-2018 (over several months)
+Response Rate	Approximately 60%	Response rates not explicitly stated	Not applicable (wildlife study, not survey-based)
+Weights	Applied to adjust for non-response and demographic balance	Applied to adjust for demographic imbalances	Not applicable
+Data Processing	Data cleaning and standard processing (incomplete responses, adjustments based on sampling design)	Data processing and weighting based on demographics	Data processed in the lab for diet analysis
+Cleaning, Imputation, etc.	Some missing data imputed, outliers removed	Some missing data imputed, but methods not specified	Data cleaned for accurate species identification and diet composition
+Sources of Error	Non-sampling errors (non-response, measurement error, coverage error)	Non-sampling errors (self-selection bias, non-response)	Sampling bias due to small geographic sample, observational consistency issues
+Limitations, Known Biases	Underrepresentation of certain demographic groups, non-response bias	Bias from convenience sample, potential underrepresentation of certain groups	Small sample size, limited to one species, findings not generalizable to all nectar-feeding bats
+Citation	Statistics Canada. (2018). Canadian General Social Survey on Giving, Volunteering and Participating, 2018 (Cycle 33)	Stephenson, L., Harell, A., Rubenson, D., & Loewen, P. (2019). Canadian Election Study Online Survey, 2019	Clare, E. L., et al. (2018). *Trophic niche flexibility in Glossophaga soricina: how nectar seeker
 ## Criteria
 
 |Criteria|Complete|Incomplete|
