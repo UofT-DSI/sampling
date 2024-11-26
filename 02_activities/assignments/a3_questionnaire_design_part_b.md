@@ -11,6 +11,7 @@
 
     ```
    Based on class content regarding error, survey quality, and ethics, I would make a few adjustments to the original survey. One important change would be to include a question addressing the anonymity and confidentiality of the responses to ensure participants feel comfortable providing honest answers. Additionally, I would add a Likert scale for some questions to improve the precision of responses, especially for questions about satisfaction, recognition, and the likelihood of recommending the company. This would help reduce the subjectivity and provide more measurable data. Lastly, I would include a question asking respondents to indicate their tenure at the company, as it would allow me to analyze differences between long-term and short-term employees in terms of satisfaction and turnover reasons. The changes will improve the clarity, accuracy, and ethical standards of the survey.
+   
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
