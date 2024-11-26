@@ -16,25 +16,27 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
-```
+
+The purpose of this survey is to gather feedback from current and former employees in entry- and lower-level positions to understand the reasons behind the high turnover rate. The survey aims to identify specific areas of dissatisfaction and areas for improvement to help the company reduce turnover and enhance employee satisfaction.
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
-```
+
+The target population for this survey consists of current and former employees who have held entry- and lower-level positions in various departments, including customer support, technical support, and administrative roles. The sampling frame will be drawn from the company’s HR database, which includes a list of employees who have recently left or are still employed in these positions. The sampling units will be individual employees, both current and former, and a stratified random sampling strategy will be employed to ensure diverse representation across departments.
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+1. How long have you worked in your current (or most recent) position at the company?
+2. What factors influenced your decision to leave (or consider leaving) your position at the company? 
+3. On a scale of 1 to 5, how satisfied were you with the support and development opportunities provided by the company?
+4. How would you rate the communication and support you received from your manager or supervisor?
+5. Do you feel that your workload was manageable, or did it contribute to your decision to leave?
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
