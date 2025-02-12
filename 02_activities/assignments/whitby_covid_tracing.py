@@ -67,8 +67,8 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Run the simulation 50000 times
-results = [simulate_event(m) for m in range(50000)]
+# Run the simulation 1000 times
+results = [simulate_event(m) for m in range(1000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results

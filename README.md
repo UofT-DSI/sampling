@@ -37,23 +37,19 @@ survey quality.
 
 ## Assignments
 
-| Assignment                                                                                                                                                        | Due Date          |
-|--------------------------------------------|----------------------------|
-| [Sampling and Reproducibility in Python](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a1_sampling_and_reproducibility.md)             | Friday, November 8   |
-| [Questionnaire Design (Part A)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a2_questionnaire_design_part_a.md)                       | Saturday, November 9 |
-| [Questionnaire Design (Part B)](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a3_questionnaire_design_part_b.md)                       | Friday, November 15   |
-| [Data Documentation Comparison Worksheet](https://github.com/UofT-DSI/sampling/blob/main/02_activities/assignments/a4_data_documentation_comparison_worksheet.md) | Saturday, November 16 |
+Assignment 1 - Due Date: February 16 2025
+Assignment 2 - Due Date: February 23 2025                                                                              
 
 ## Contacts
 
-**Questions can be submitted to the *#cohort-3-help* channel on Slack**
+**Questions can be submitted to the *#cohort-5-help-ds* channel on Slack**
 
 -   Technical Facilitator:
     -   name and pronouns: `Ciara`, `She/Her`
     -   email: `ciara.zogheib@mail.utoronto.ca`
 -   Learning Support Staff:
-    -   name: `Farzana`
-    -   email: `fhashemi.ma@gmail.com`
+    -   name: `Vishakh`
+    -   email: `vishakh.patel@mail.utoronto.ca`
     -   name: `Kasra`
     -   email: `k.vakiloroayaei@utoronto.ca`
     -   name: `Amanda`
@@ -81,15 +77,15 @@ likely it is that these skills will solidify.  
 ## Schedule 
 
 ## Schedule
-| Live Learning Session | Topic                                                                                                | Assignments                                                                                                       | Resources                                                                                                                                                 |
-|------------------|--------------------|------------------|------------------|
-| 1                     | Introduction, Probability                                                                            |                                                                                                                   | [Slides 1](./01_materials/slides/00_introduction_slides.pdf) <br> [Slides 2](./01_materials/slides/01_probability_slides.pdf)                             |
-| 2                     | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing | [Sampling and Reproducibility in Python](./02_activities/assignments/a1_sampling_and_reproducibility.md)          | [Slides 1](./01_materials/slides/02_population_census_surveys_and_observational_data_slides)                                                              |
-| 3                     | Simple probability samples, Stratified sampling, Systematic Sampling                                 | [Questionnaire Design (Part A)](./02_activities/assignments/questionnaire_design_part_a.md)                       | [Slides 1](./01_materials/slides/03_simple_probability_samples_slides.pdf) <br> [Slides 2](./01_materials/slides/04_stratified_sampling_slides.pdf)       |
-| 4                     | Cluster Sampling, Errors                                                                             |                                                                                                                   | [Slides 1](./01_materials/slides/05_cluster_sampling_slides.pdf) <br> [Slides 2](./01_materials/slides/06_errors_slides.pdf)                              |
-| 5                     | Survey Quality, Questionnaire Design, Ethics                                                         | [Questionnaire Design (Part B)](./02_activities/assignments/questionnaire_design_part_b.md)                       | [Slides 1](./01_materials/slides/07_measures_of_quality_and_questionnaire_design_slides.pdf) <br> [Slides 2](./01_materials/slides/08_ethics_slides.pdf)  |
-| 6                     | Privacy                                                                                              | [Data Documentation Comparison Worksheet](./02_activities/assignments/data_documentation_comparison_worksheet.md) | [Slides 1](./01_materials/slides/09_privacy_slides.pdf)                                                                                                   |
 
+| Live Learning Session | Topic                                                                                                | Assignments                                                                                    | Resources                                                                                                                                      |   |
+|-----------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| 1                     | Introduction, Probability                                                                            |                                                                                                | [Slides 0](./01_materials/slides/00_introduction_slides.pdf) [Slides 1](./01_materials/slides/01_probability_intro_slides.pdf)                 |   |
+| 2                     | Populations, censuses, surveys, and observational data; Essentials of sampling, asking and observing | [Sampling and Reproducibility](./02_activities/assignments/a1_sampling_and_reproducibility.md) | [Slides 2](./01_materials/slides/02_populations_and_samples_slides.pdf)                                                                        |   |
+| 3                     | Simple probability samples, Stratified sampling, Systematic Sampling                                 |                                                                                                | [Slides 3](./01_materials/slides/03_simple_probability_samples_slides.pdf) [Slides 4](./01_materials/slides/04_stratified_sampling_slides.pdf) |   |
+| 4                     | Cluster Sampling, Errors                                                                             | [Survey Design and Evaluation](./02_activities/assignments/a2_survey_design_and_evaluation.md) | [Slides 5](./01_materials/slides/05_cluster_sampling_slides.pdf) [Slides 6](./01_materials/slides/06_errors_slides.pdf)                        |   |
+| 5                     | Survey Quality, Questionnaire Design, Ethics                                                         |                                                                                                | [Slides 7](./01_materials/slides/07_measures_of_quality_and_questionnaire_design.pdf) [Slides 8](./01_materials/slides/08_ethics_slides.pdf)   |   |
+| 6                     | Privacy                                                                                              |                                                                                                | [Slides 9](./01_materials/slides/09_privacy_slides.pdf)                                                                                        |   |
 
 
 ## Requirements
