@@ -10,12 +10,54 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Tatiana Midori Uemura Kawaguti
 
 ```
-Please write your explanation here...
+I. Examine the code in `whitby_covid_tracing.py`. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
 
-```
+        The model executes multiple stages of sampling: Primary Sampling and Secondary Sampling.The sampling procedure is as follows:
+
+        1. Sampling Frame Creation:
+        First, a sampling frame is created, represented by a dataframe with 1000 rows, which include all people who attended either a wedding or a brunch. As mentioned in the blog post, the two weddings account for 100 attendees each (200 people), and the remaining 800 individuals represent the 10 attendees at each of the 80 brunches.
+
+
+        2. Primary Contact Tracing (Random Sampling):
+        In this stage, 10% of the total population is randomly selected as 'Infected' (ppl['traced'] == True), with each individual having an equal probability of being infected. This process simulates a 10% infection rate, as described in the blog post.
+
+        The code demonstrating this random selection is:
+        infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
+
+        Since ATTACK_RATE = 0.10, it set a 10% sample size, meaning 100 individuals are randomly selected to be infected.
+
+
+        3. Secondary Contact Tracing (Random Sampling):
+        In the secondary tracing step, the model identifies infected individuals based on contact tracing. Since only 20% of the cases are traced to their source, 20% of the initially infected individuals are randomly selected for tracing (TRACE_RATE = 0.2).
+
+        The corresponding code is:
+        traced_indices = np.random.choice(infected_indices, size=int(len(infected_indices) * TRACE_RATE), replace=False)
+
+
+        4. Proportion Identification:
+        Using the previous steps, it is now possible to identify the proportion of individuals who were infected according to the event they attended (wedding or brunch). 
+
+II. Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
+
+
+        Upon comparing the graphs, the blue graph (True proportion) labeled "Infections from weddings" shows similar characteristics in both the model and the blog post, centering around 20% with some variation. However, the red graph ("Traced Wedding") differs from the graph in the blog post. Both the model’s and blog post’s graphs show shapes centered around 20%, with some variation. The differences can be attributed to the random nature of the sampling process, which introduces variability.
+
+
+III. Modify the number of repetitions in the simulation to 100 (from the original 1000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+
+        After modifying the simulation to 100 repetitions (down from the original 1000), and running the script multiple times, the graphs exhibit noticeable changes. This is expected, as a smaller sample size (100 instead of 1000) introduces more variability and makes the results more sensitive to the inherent randomness in the sampling process. The variability in the output suggests that with fewer repetitions, the sampling process becomes more pronounced and less stable.
+
+IV. Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
+
+        To ensure reproducibility and guarantee the same result each time the script is run, we need to add a random seed at the beginning of the script.
+        
+        Added the following line to the script: np.random.seed(42)
+
+        By setting the random seed, we ensure that the same set of random numbers will be generated each time the script is executed, making the results reproducible, getting the same output every time it is run.
+
 
 
 ## Criteria
