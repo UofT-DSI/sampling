@@ -10,13 +10,37 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: NEDIM IGAL ERS BENVENISTE
 
 ```
-Please write your explanation here...
+Sampling Stages:
 
+1) Infecting Individuals: 
+Method: Simple random sampling without replacement
+Function includes np.random
+Sample Frame: 1000
+Sample Size:  100
+Each person has an equal probability of being infected
+
+2) Primary Contact Tracing:
+Method: Simple random sampling 
+Function includes np.random
+Sample Frame: Infected individuals
+Sample Size: 20 percent of the frame
+
+3) Secondary Contract Tracing:
+Method: Cluster sampling, events treated as clusters
+Function groups the sample into two events
+Sample Frame: All event attendees
+Sample Size: Depends on the results of the primary tracing step
+Conditional probability
 ```
 
+The graphs produced by the code are not similar to the ones from the blog post. In the blog post, the proportion of cases that result from weddings are overestimated (double the true proportion), whereas the distribution of the graphs produced by the code are closer, both peaking around 0.20 within a similar range.The red distribution does not spread as widely and does not shift as far right as in the original blog post. 
+
+Rerunning the script 5 times after changing the no of reps to 100, I see a huge variation in the graphs - distribution and peak-wise. The results are not reproducible at all. 
+
+Added a seed to the code (np.random.seed(42)) which solved the issue of lack of reproducibility. Ran the script 5 times again and the results are consistent. As suggested in the question, they don't match the results in the blog post. 
 
 ## Criteria
 
