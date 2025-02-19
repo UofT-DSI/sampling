@@ -55,7 +55,7 @@ Please write your explanation here...
 
     function Used: Pandas filtering + event-based logic
     
-    Sampling Procedure Relatve to the blogpost: Secondary tracing could introduce event-based bias. If an event has multiple traced individuals (e.g., a wedding), the secondary tracing rule triggers, and all infected people at that event are traced. However, if an event has fewer traced individuals, secondary tracing may miss them, leaving a potential event-type bias. This clustering effect can over-represent cases from larger events, like weddings, and under-represent cases from smaller events, creating a skew in the sample. Both DSI's and Whitby contain these event-based biases.
+    Sampling Procedure Relatve to the blogpost:  If an event has multiple traced individuals, the secondary tracing rule triggers, and all infected people at that event are traced.
 
 
 
