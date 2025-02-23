@@ -40,30 +40,45 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
-Describe the purpose of your survey:
+Describe the purpose of your survey: 
 ```
-write your answer here...
-```
+The purpose of this survey is to understand the factors contributing to high turnover rates among entry- and lower-level employees at a large tech company. The findings will help the company identify areas for improvement to enhance employee satisfaction and retention.
 
+```
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Entry- and lower-level employees at the tech company.
+
+Sampling frame: Currently employed entry- and lower-level employees listed in the employee records on the company’s HR database.
+
+Sampling units: Individual employees.
+
+Observational units: Individual survey responses.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. On a scale of 1-10, how satisfied are you with your current role at the company?
+
+2. What are the primary reasons you might consider leaving your position? (Select all that apply)
+Compensation
+Career growth opportunities
+Work-life balance
+Management/leadership
+Workplace culture
+Other (please specify)
+
+3. How well do you feel your contributions are recognized and valued by the company? (5 point Likert scale from extremely well reognized to not at all recognized). If they select a negative response, pipe to an open-ended survey question asking how their contributions could be better recognized.
+
+4. Are you satisfied with the professional development and training opportunities available? (5 point scale from extremely satisfied to not at all satisfied). If they select a negative response, pipe to an open-ended survey question asking what professional development and training opportunities they would like to see.
+
+5. How would you describe your relationship with your direct manager? (5 point scale from excellent to poor). 
+
+6. What changes would most improve your job satisfaction?
+
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +86,39 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type: Stratified random sampling.
+
+Sample size: 20,000 respondents.
+
+Target population: The target population for the survey included all persons 15 years of age and older in Canada, excluding:
+1. Residents of the Yukon, Northwest Territories, and Nunavut;
+2. Full-time residents of institutions.
+
+Sampling frame: 1. Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources
+(Telephone companies, Census of population, etc.);
+2. The Address Register (AR): List of all dwellings within the ten provinces
+
+Survey mode(s): Telephone interviews and online surveys.
+
+Timeline: Interviews were conducted from September 4th to December 28th, 2018.
+
+Response rate: 80.745% (16,149 respondents)
+
+Weights: Weights were applied to adjust for non-response and to represent all persons in the target population, including those not covered by the
+survey frame. 
+
+Data processing: Data were captured, coded into categories, cleaned, edited, imputed, combined and derived variables were created. 
+
+cleaning & imputation: Records with missing or incorrect information were, in a small number of cases, corrected deterministically or imputed
+from other information on the questionnaire.
+
+Sources of error: Sampling error, non-sampling errors, and non-response bias.
+
+Limitations: Certain demographic groups and area being underrepresented due to non-response. 
+
+Link to documentation: 
+https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip I downloaded the zipped folder and accessed the file called "2018_GSS33GVP_PUMFGuide.pdf"
+
 ```
 
 ## Rubric
