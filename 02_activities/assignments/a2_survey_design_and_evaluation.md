@@ -12,6 +12,7 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
 3.	Write a 5-10 question survey to address your chosen scenario below.
 
+
 ##### Scenarios
 1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
 2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
@@ -44,26 +45,24 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to understand the relationship between music taste and age. The survey will be used to write an academic paper that will be published in a peer-reviewed journal.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all Canadians aged 18-65. The sampling frame is the population of Canada. The sampling units are individuals. The overall sampling strategy is to survey a random sample of 1000 Canadians aged 18-65.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age?
+2. What is your favourite music genre?
+3. How often do you listen to music?
+4. What is your favourite artist?
+5. What is your favourite album?
+6. What is your favourite song?
+7. What is your favourite music video?
+8. What is your favourite music festival?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +70,20 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: stratified random sampling -- The GSS divides the target population into distinct subgroups (strata) based on geographic areas, specifically at the province and census metropolitan area (CMA) level. This ensures that different segments of the population are adequately represented in the sample.
+2. Sample size: Field sample of approximately 50,000 units
+3. Target population: all persons 15 years of age and older living in the ten provinces of Canada
+4. Sampling frame: all landline and cellular telephone numbers
+5. Survey mode(s): electronic questionnaires and computer-assisted telephone interviewing
+6. Timeline: data collection was performed between September 4, 2018 and December 28, 2018 and is conducted every five years
+7. Response rate: the overall response rate was 41.9%
+8. Weights: The survey includes a weighting factor (WGHT_PER) for analysis at the person level. This factor adjusts for the probability of selection and non-response, ensuring that the estimates are representative of the target population.
+9. Data processing: Error detection for consistency and validity and imputation to fill in missing data
+10. Cleaning, imputation, etc: imputation using donor records selected through a scoring function
+11. Sources of error: sampling error -- variability in estimates due to the sample, coverage errors (households without telephones) and non-response errors
+12. Limitations, known biases, etc: exclusion of households without telephones, non-response bias, potential inaccuracies in self-reported data e.g. regarding income
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
