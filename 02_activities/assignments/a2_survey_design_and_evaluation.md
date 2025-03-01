@@ -40,27 +40,64 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Eligible Canadian voters across the country.
+Sampling Frame: A comprehensive list of registered voters, supplemented by a national online panel representative of Canadian voters.
+Sampling Units: Individual voters.
+Sampling Strategy: We will use a stratified random sampling approach, ensuring representation across provinces, age groups, gender, and other relevant demographics. This strategy guarantees that each subgroup of the Canadian voting population is proportionally represented.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
+1. Demographics
+What is your age?
+( ) Under 25
+( ) 25-34
+( ) 35-44
+( ) 45-54
+( ) 55-64
+( ) 65 or older
+
+2. Location
+In which province or territory do you currently reside?
+(Dropdown list with Canadian provinces/territories)
+
+3. Voting History
+Did you vote in the previous federal election?
+( ) Yes
+( ) No
+
+4. Approval Ratings
+On a scale from 1 (very dissatisfied) to 5 (very satisfied), how would you rate the performance of our party so far in this campaign?
+
+5. Leadership Evaluation
+On a scale from 1 (very dissatisfied) to 5 (very satisfied), how would you rate our party leader’s performance and public presence?
+
+6. Policy Priorities
+Which of the following policy areas should our party focus on to address your concerns? (Select up to three)
+( ) Economy and jobs
+( ) Healthcare
+( ) Education
+( ) Climate change and environment  
+( ) National security
+( ) Social justice
+( ) Other (please specify): ___________
+
+7. Likelihood of Voting
+How likely are you to vote in the upcoming federal election?
+( ) Very likely
+( ) Somewhat likely
+( ) Unsure
+( ) Somewhat unlikely
+( ) Very unlikely
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
