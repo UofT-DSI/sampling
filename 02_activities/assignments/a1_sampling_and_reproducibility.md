@@ -10,10 +10,17 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Kuda W
 
 ```
-Please write your explanation here...
+(Sampling is occurring in the mode listed below)
+1-Infection Sampling: fixed number of individuals to be infected. This is an example of a simple random sample (SRS).Each individual has an equal chance of being selected, making it a self-weighting sample.
+2- Primary Contact Tracing Sampling: Determining which individuals are infected. It is still a form of simple probability sampling in which every infected individual has a known and independent chance of being “sampled”.
+In short, both stages use probability sampling, meaning each individual has a known chance of being chosen. This ensures the sample fairly represents the overall population.
+"Modify the number of repetitions in the simulation to 100 (from the original 1000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results."
+When running only 100 simulations, the results vary more from run to run because each outcome depends heavily on the random draws. With 1000 simulations, the larger sample size smooths out this randomness, making the overall distribution of results more stable and consistent. 
+the plot from Andrew whitby shows a comparison between the **true** proportion (blue) and the **observed** proportion (red). It helps highlight how contact tracing makes it look like more infections come from weddings than they actually do. 
+In chart by Andrew, you see the true fraction of infections from weddings (blue) and the fraction found by tracing (red) on the same axis. By comparing them directly, it’s clear that contact tracing inflates the fraction attributed to weddings, making it appear higher than it really is.
 
 ```
 
