@@ -40,30 +40,71 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey will be to find out what matters most to voters as we head into the final stretch before the federal election. We will want to understand which issues are top of mind, how people feel about our party and leader, and what might sway undecided voters. The insights we gather from the survey would help shape our campaign strategy and messaging to make sure we connect with as many supporters as possible.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: eligible Canadian voters (i.e., 18+ year olds) who are likely to vote in the upcoming federal election. Ideally this would cover supporters from all parties, undecided voters, and swing voters from various demographics (i.e., age, gender, education, income, etc.). Care would need to be taken to ensure the people responding to this survey match both the general make-up of Canada and the make-up of people who tend to go out and vote.
+
+Sampling Frame: we could do social media ads targeting engaged citizens, online panels of likely voters, and party membership/contact lists. A challenge of this type of outreach is that online surveys may miss or underrepresent responses from older or lower-income voters, or those less active digitally.
+
+Sampling units: each sampling unit is an individual voter selected from the sampling frame.
+
+Sampling strategy: I think the best method may be to use stratified random sampling to ensure different groups are fairly represented. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Which of the following issues is most important to you in this federal election? (Select up to three)
+- Cost of living & affordability
+- Healthcare & access to doctors
+- Housing affordability
+- Climate change & environmental policies
+- Economic growth & job creation
+- Taxes & government spending
+- Public safety & crime prevention
+- Immigration & border policies
+- Indigenous rights & reconciliation
+- Other (please specify)
+2. How satisfied are you with how the federal government has handled your top issue? (Scale: 1 = Very Dissatisfied, 5 = Very Satisfied)
+3. Which of the following actions would make you more likely to vote for [the Other Party]? (Select up to two)
+- Stronger commitments on affordability & cost of living
+- A clearer plan for job creation & the economy
+- A stronger stance on environmental issues
+- More investment in healthcare & social programs
+- A change in leadership or party direction
+- Nothing—I will not vote for this party
+- Other (please specify)
+4. Do you have a favorable or unfavorable opinion of [my party's leader]? (Scale: 1 = Very favourable, 5 = very unfavourable)
+5. If the federal election were held today, which party would you most likely vote for?
+- Liberal Party of Canada
+- Conservative Party of Canada
+- New Democratic Party (NDP)
+- Bloc Québécois (Quebec residents only)
+- Green Party of Canada
+- Other / Independent
+- Undecided
+- Prefer not to say
+6. How certain are you about your vote choice? (Scale: 1 = Not at all certain, 5 = Completely certain)
+7. Did you vote in the last federal election (2021)?
+- Yes
+- No
+- Prefer not to say
+8. Are you planning to vote in the 2025 federal election? (Scale: 1 = Definitely, 5 = 5 = Definitely not)
+9. What is the most important factor influencing your vote in this election? (Open-ended response)
+10. Which leadership qualities matter most to you when choosing a Prime Minister? (Select up to two)
+- Strong economic management
+- Trustworthiness & honesty
+- Experience in government
+- Vision for the future of Canada
+- Stands up for the middle class & working Canadians
+- Represents Canadian values on the world stage
+- Other (please specify)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +112,23 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)
+1. Sample type - stratified sampling with probability sampling. Stratification was done at the provincial and CMA levels (27 strata), with information collected from one randomly selected household member aged 15+ to represent the whole 
+2. Sample size - the 2018 microdata file contains 16,149 observations.
+3. Target population - Individuals aged 15+ years living in private households across Canada's 10 provinces. People from the territories and full-time residents of insitutions were excluded.
+4. Sampling frame - a combined frame integrating landline and cellphone numbers from the Census.
+5. Survey mode(s) - In the 2018 survey, respondents were given the option to complete the survey online for the first time, in addition to the standard telephone interviews. 
+6. Timeline - Sept 4 - Dec 8, 2018.
+7. Response rate - 41.9%
+8. Weights - a basic weighting factor was added for estimation, bootstrap weights were created for design-based variance estimation, and then additional weights were added to ensure that estimates were representative of the Canadian population.
+9. Data processing - standard processing procedures, including editing and imputation to handle missing or inconsistent responses.
+10. Cleaning, imputation, etc - see above + imputation was carried out in 9 steps.
+11. Sources of error - coverage and non-response errors.
+12. Limitations, known biases, etc - the introduction of an online survey response option in 2018 marked a significant methodological change, along with some definition and wording changes. This means that 2018 data is no longer truly comparable to previous iterations.
+13. Link to documentation and any additional sources used - StatsCan provided additional documentation through the following sources:
+- 2018 General Social Survey (Cycle 33): Giving, Volunteering and Participating Public Use Microdata File Documentation and User Guide: https://www150.statcan.gc.ca/n1/en/catalogue/45250011  
+- General Social Survey Cycle 33 Dataset and Documentation: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+
 ```
 
 ## Rubric
