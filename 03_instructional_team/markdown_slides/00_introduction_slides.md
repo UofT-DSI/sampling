@@ -181,12 +181,11 @@ A teacher wanted to find the average number of hours each week spent on watching
 - Errors in Sampling
 - Survey Quality and Design
 - Sampling Ethics and Privacy
-- Industry Case Study: Guest Speaker!
 
 ---
 
 # Assignments
-- 4 Assignments
+- 2 Assignments
 - In the Github repo!
 
 ---
