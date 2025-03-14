@@ -15,7 +15,7 @@ $ echo "Data Science Institute"
 
 # Learning Goals
 
--Introduce essential probability concepts
+- Introduce essential probability concepts
 - Discuss statistical distributions (and why they matter!)
 - Use examples to build statistical intuition
 
@@ -172,7 +172,7 @@ $ echo "Data Science Institute"
 
 # Random Variables
 
-- **Random variables** are a way to describe a set possible outcomes with a distribution of probabilities over the set of outcomes.
+- **Random variables** are a way to describe a set of possible outcomes with a distribution of probabilities over the set of outcomes.
 - Usually denoted with capital letters: *X, Y, Z* , etc.
 - Random variables are similar to events
     - Events are a specific outcome or set of outcomes, while random variables describe possible outcomes and their various probabilities
@@ -202,7 +202,7 @@ $ echo "Data Science Institute"
 
 # Indicator Variables
 
-- **Indicator variables** , denoted $I_A$, are specific type of random variable that take the value 0 or 1 to indicate a the occurrence of a given event *A* .
+- **Indicator variables** , denoted $I_A$, are a specific type of random variable that take the value 0 or 1 to indicate the occurrence of a given event *A* .
 - Some examples of indicator variables may be votes in a two-party election (with event *A* being a vote for a particular candidate), votes for or against a bill, satisfied versus not satisfied reviews for a product, etc.
 
 ---
@@ -215,7 +215,7 @@ $ echo "Data Science Institute"
 
 - ⚠️ A **probability distribution** is a statistical function that describes the probabilities of all possible events in an outcome space. ⚠️
 - Distributions can be **discrete** (if the outcome space is distinct events, like rolling a die) or **continuous** (if the outcome space is a range of values, like choosing any real number between 1 and 10).
-- Some features of interests for distributions may be their mean, variance, mode, skew, etc.
+- Some features of interest for distributions may be their mean, variance, mode, skew, etc.
 
 ---
 
@@ -379,25 +379,6 @@ $ echo "Data Science Institute"
 
 ---
 
-# Law of Large Numbers
-
----
-
-# Law of Large Numbers
-
-![](./images/01_probability_slides25.png)
-<!-- Pitman (1993), Figure 2 -->
-
----
-
-# Law of Large Numbers
-
-- ⚠️ If the number of trials *n* is large, the proportion of successes in *n* independent trials will, with overwhelming probability, be very close to *p* , the probability of success on each trial ⚠️
-- **Intuition for sampling:**
-    - As the number of units sampled increases, the proportion of units that exhibits a certain trait will grow closer and closer to the true proportion of individuals in the population with that trait
-
----
-
 # Expected Value
 
 ---
@@ -417,7 +398,7 @@ $ echo "Data Science Institute"
 
 # Example: Sampling a student
 
-- Suppose you are randomly sampling a student from a school. There are 200 students each of ages 16, Let random variable *X* represent the age of the student sampled.
+- Suppose you are randomly sampling a student from a school. There are 200 students each of ages 16, 17, and 18. Let random variable *X* represent the age of the student sampled.
 - The expected age of the student selected is,
 
     > $$E(X)=\sum_{\text{Every x}}xP(X=x)=16(\frac{200}{600})+17(\frac{200}{600})+18(\frac{200}{600})=17$$
@@ -502,59 +483,26 @@ $ echo "Data Science Institute"
 
 ---
 
-# Central Limit Theorem
+# Law of Large Numbers
 
 ---
 
-# Law of Averages
-
-- Let *$X_1 ,..., X_n$* be a sequence of independent random variables with the same distribution as random variable *X* . Let $\mu$ = E( *X* ) denote the expected value for all $X_i$ . Let the following random variable represent the average of $X_1, ..., X_n$
-
-    > $$\bar{X}_n=\frac{X_1+X_2+...+X_n}{n}$$
-
-- Then for every 𝝐 > 0, no matter how small,
-
-    > $$P(|\bar{X}_n-\mu|\lt\epsilon)\rightarrow\text{ 1 as n }\rightarrow\infty$$
-
----
-
-# Law of Averages
-
-
-- “The probability that the difference between the calculated mean and the true mean is very small approaches 1 as n approaches infinity”
-
-    > $$P(|\bar{X}_n-\mu|\lt\epsilon)\rightarrow\text{ 1 as n }\rightarrow\infty$$
-
-- ⚠️ As the number of random variables increases, the average of the random variables will be arbitrary close to the expected value of any one random variable ⚠️ 
-
----
-
-# Example: Tossing a coin
-
-- Suppose we are tossing a fair coin. We assign a value of 0 for heads and 1 for tails. Let indicator variable *I* represent the result of a given going toss. Then,
-
-    > $$E(I_A)=0\cdot0.5+1\cdot0.5=0.5$$
-
-- Observe the following sequences of coin tosses:
-
-|  n  | Results                        |                                                 |
-| :-: | :----------------------------- | :---------------------------------------------: |
-|  1  | {h}                            |            $\bar{X}_1=\frac{0}{1}=0$            |
-|  3  | {h, h, t}                      |      $\bar{X}_3=\frac{0+0+1}{3}=0.333...$       |
-|  5  | {h, h, t, h, t}                |       $\bar{X}_5=\frac{0+0+1+0+1}{5}=0.4$       |
-| 10  | {h, h, t, h, t, t, t, h, t, h} | $\bar{X}_10=\frac{0+0+1+0+1+1+1+0+1+0}{10}=0.5$ |
-
----
-
-# Example: Tossing a coin
+# Law of Large Numbers
 
 ![](./images/01_probability_slides25.png)
+<!-- Pitman (1993), Figure 2 -->
 
-<!--
-Pitman (1993), Figure 2
+---
 
-The Law of Averages can be thought of as a more general version of the Law of Large Numbers. LOA deals with random variables in general. LLN concerns proportions.
--->
+# Law of Large Numbers
+
+- ⚠️ If the number of trials *n* is large, the proportion of successes in *n* independent trials will, with overwhelming probability, be very close to *p* , the probability of success on each trial ⚠️
+- **Intuition for sampling:**
+    - As the number of units sampled increases, the proportion of units that exhibits a certain trait will grow closer and closer to the true proportion of individuals in the population with that trait
+
+---
+
+# Central Limit Theorem
 
 ---
 
