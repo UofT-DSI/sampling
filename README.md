@@ -22,23 +22,23 @@ This module introduces the essentials of sampling, probability, and
 survey methodology. This includes simple probability samples, stratified
 sampling, cluster sampling, dealing with non-response, estimating, and
 survey quality. Participants will consider the theoretical foundations
-of different sampling approaches, as well as practical applications of
+of different sampling approaches, as well as practical applications, using Python, of
 this knowledge towards contexts such as market research, political
-polling, and the Canadian census. Participants will engage in analysis
-using the Python programming language.
+polling, and the Canadian census.
 
 ## Learning Outcomes
 
-By the end of the module, participants will be able to: \* Implement
-simple probability samples. \* Evaluate complicated sampling procedures
-and the tradeoffs involved. \* Identify and understand sources of error
-or inaccuracies in data as a result of sampling strategies. \* Assess
-survey quality.
+By the end of the module, participants will be able to: 
+
+* Implement simple probability samples. 
+* Evaluate complicated sampling procedures and the tradeoffs involved. 
+* Identify and understand sources of error or inaccuracies in data as a result of sampling strategies. 
+* Assess survey quality.
 
 ## Assignments
 
-Assignment 1 - Due Date: April 9 2025
-Assignment 2 - Due Date: April 18 2025                                                                              
+* Assignment 1 - Due Date: April 9 2025
+* Assignment 2 - Due Date: April 18 2025                                                                              
 
 ## Contacts
 
