@@ -49,7 +49,7 @@ By the end of the module, participants will be able to:
     -   email: `lindsay.katz@mail.utoronto.ca`
     -   slack: [`profile link`](https://uoft-dsi-certificates.slack.com/team/U08AQE24J5A)
 -   Learning Support Staff:
-    -   name: `Yan`
+    -   name: `Fan`
     -   email: `fw2400@cumc.columbia.edu`
     -   name: `Kasra`
     -   email: `k.vakiloroayaei@utoronto.ca`
