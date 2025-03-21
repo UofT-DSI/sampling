@@ -70,7 +70,7 @@ Basically:
 
 (the sum of all observations in the sample, divided by sample size *n*.
 
-- The sample variance, *$s_2$* , can be calculated,
+- The sample variance, $s^2$ , can be calculated,
 
   > $$ s^2=\frac{1}{n-1}\sum_{i=1}^{n}(y_i-\bar{y})^2 $$ 
   
@@ -135,8 +135,8 @@ Basically:
 
 # SRS Sampling Weights
 
-- All units have the same inclusion probability (by definition) – $\pi_i=\frac{n}{N}$
-- All sampling weights are the same – $w_i=\frac{1}{\pi_i}$
+- All units have the same inclusion probability (by definition): $\pi_i=\frac{n}{N}$
+- All sampling weights are the same: $w_i=\frac{1}{\pi_i}$
 - Each unit in the sample represents the same number of population units
   - This is called a self-weighting sample
 
