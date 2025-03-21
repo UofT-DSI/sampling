@@ -46,7 +46,7 @@ $ echo "Data Science Institute"
 - **Precision** = How close our measurements are to each other 
 - **Accuracy** = How close our measurements are to the ‘true’ value
 
-(./images/05_accuracy_and_precision.jpg)
+![](./images/05_accuracy_and_precision.png)
 
 ---
 
@@ -288,7 +288,7 @@ $ echo "Data Science Institute"
 
 # Two-Stage Cluster Sampling: Selection Probability
 
-- Since sampling is occurring at two different stages now, the selection probability of $y_{ij}$ (the $j^th$ SSU in PSU *i* ) is a combination of the probability of PSU *i* being selected, and the probability of SSU *j* being selected within PSU *i*. Assuming an SRS is taken at both stages, we have:
+- Since sampling is occurring at two different stages now, the selection probability of $y_{ij}$ (the $j^{th}$ SSU in PSU *i* ) is a combination of the probability of PSU *i* being selected, and the probability of SSU *j* being selected within PSU *i*. Assuming an SRS is taken at both stages, we have:
 
   > $$ \begin{multline}
   \pi_{ij} = P(j^{th}\text{ SSU in }i^{th}\text{ PSU selected}) \\
@@ -363,7 +363,7 @@ $ echo "Data Science Institute"
 
 ---
 
-# Choosing a Sub-Sample Size (mi)
+# Choosing a Sub-Sample Size $(m_i)$
 
 - Cost
 	- Is measuring more SSUs marginally expensive or inexpensive?
@@ -375,7 +375,7 @@ $ echo "Data Science Institute"
 
 ---
 
-# Choosing a Sample Size (n)
+# Choosing a Sample Size $(n)$
 
 This process is similar to selecting sample sizes for SRS.
 1. Determine precision needed.
