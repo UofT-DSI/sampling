@@ -47,10 +47,10 @@ $ echo "Data Science Institute"
 # Survey Populations
 
 - Examples of survey populations:
-- The population of all adult Canadians (age 18+).
-- The population of all adult Canadians who are regular smokers.
-- The population of all full-time college students in Ontario.
-- The population of all children aged 6–12 (inclusive) who attend public schools in the Greater Toronto Area.
+    - The population of all adult Canadians (age 18+).
+    - The population of all adult Canadians who are regular smokers.
+    - The population of all full-time college students in Ontario.
+    - The population of all children aged 6–12 (inclusive) who attend public schools in the Greater Toronto Area.
 
 ---
 
