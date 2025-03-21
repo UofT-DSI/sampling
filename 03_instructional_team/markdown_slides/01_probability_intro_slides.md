@@ -222,7 +222,7 @@ $ echo "Data Science Institute"
 # Binomial Distribution
 
 - The **binomial distribution** concerns sequences of events with two possible outcomes: **success** and **failure**.
-- Success occurs with probability ***p*** , and failure occurs with probability ***q = 1 - p*** *. * Trials defined this way are called **Bernoulli trials** .
+- Success occurs with probability ***p*** , and failure occurs with probability ***q = 1 - p***. Trials defined this way are called **Bernoulli trials** .
 - ⚠️ The binomial distribution helps determine the probability of getting ***k* successes in *n* independent trials (with replacement)** ⚠️
 
 ---
@@ -508,9 +508,9 @@ $ echo "Data Science Institute"
 
 # Central Limit Theorem
 
-- ⚠️ Let $S_n$ = $X_1$ + $X_2$ + … + $X_n$ be the sum of n independent random variables each with the same distribution. For large n, the distribution of $S_n$ is approximately normal , with mean E( $S_n$ ) = *n$\mu$* and variance Var( $S_n$ ) = $\sigma$ 2  *n* , where *$\mu$* = E( $X_i$ ) and $\sigma$ 2   = Var( $X_i$ ).⚠️ 
+- ⚠️ Let $S_n$ = $X_1$ + $X_2$ + … + $X_n$ be the sum of $n$ independent random variables each with the same distribution. For large $n$, the distribution of $S_n$ is approximately normal, with mean E( $S_n$ ) = $n\mu$ and variance Var( $S_n$ ) = $\sigma{^2}{_n}$, where $\mu$ = E( $X_i$ ) and $\sigma^2$   = Var( $X_i$ ).⚠️ 
 - This also holds true for,
-    > $$\bar{X}_n=\frac{S_n}{n}\text{, with }E(\bar{X}_n)=\mu\text{ and }Var(\bar{X}_n)=\frac{\sigma^2}{n}$
+    > $$\bar{X}_n=\frac{S_n}{n}\text{, with }E(\bar{X}_n)=\mu\text{ and }Var(\bar{X}_n)=\frac{\sigma^2}{n}$$
 
     > $$\bar{X}_n \sim \mathcal{N}(\mu, \frac{\sigma^2}{n})$$
 
