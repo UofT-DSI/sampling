@@ -31,7 +31,7 @@ $ echo "Data Science Institute"
 
 - Proportional Allocation
     - Sample the same proportion of units from each stratum
-    - Sample weights (𝜋 *hi* ) are the same for each sampled unit regardless of stratum
+    - Sample weights $(\pi_{hi})$ are the same for each sampled unit regardless of stratum
 - Optimal Allocation
     - Variation among larger sampling units may be greater than variation among smaller sampling units, so a higher proportion of large units should be sampled
     - Useful for businesses, cities, and institutions like schools or hospitals
