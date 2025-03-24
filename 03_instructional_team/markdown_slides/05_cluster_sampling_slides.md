@@ -162,7 +162,7 @@ $ echo "Data Science Institute"
 
 # Clusters of **Equal** Sizes: PSU Total
 
-- Let $x_{ij}$ represent the measurements from SSU (observational unit) *j* within PSU (cluster) *i* . The total measurement within PSU *i* is,
+- Let $y_{ij}$ represent the measurements from SSU (observational unit) *j* within PSU (cluster) *i* . The total measurement within PSU *i* is,
   
   > $$ t_i=\sum_{j=1}^{M}y_{ij} $$
 
@@ -202,7 +202,7 @@ $ echo "Data Science Institute"
 
   > $$ w_{ij} = \frac{N}{n} $$
 
-- These weights can be used to estimate the sample total and mean directly from SSU measurements $x_{ij}$ :
+- These weights can be used to estimate the sample total and mean directly from SSU measurements $y_{ij}$ :
 
   > $$ \hat{t} = \sum_{i=1}^{N} \sum_{j=1}^{M} w_{ij}y_{ij}$$
 
@@ -295,7 +295,7 @@ $ echo "Data Science Institute"
   = P(i^{th}\text{ PSU selected}) \cdot P(j^{th}\text{ SSU }\text{selected}\text{ | }i^{th}\text{ PSU }\text{selected}) \\
   \end{multline}
   $$
-  > $$ \frac{n}{N}\frac{m_i}{M_i} = $$
+  > $$ = \frac{n}{N}\frac{m_i}{M_i} $$
 
 ---
 
@@ -387,5 +387,5 @@ This process is similar to selecting sample sizes for SRS.
 ---
 
 # Next
-Respondent Driven Sampling
+Errors
 
