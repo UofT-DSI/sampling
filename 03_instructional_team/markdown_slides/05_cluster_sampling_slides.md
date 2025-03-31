@@ -31,7 +31,7 @@ $ echo "Data Science Institute"
 
 - Proportional Allocation
     - Sample the same proportion of units from each stratum
-    - Sample weights (𝜋 *hi* ) are the same for each sampled unit regardless of stratum
+    - Sample weights $(\pi_{hi})$ are the same for each sampled unit regardless of stratum
 - Optimal Allocation
     - Variation among larger sampling units may be greater than variation among smaller sampling units, so a higher proportion of large units should be sampled
     - Useful for businesses, cities, and institutions like schools or hospitals
@@ -46,7 +46,7 @@ $ echo "Data Science Institute"
 - **Precision** = How close our measurements are to each other 
 - **Accuracy** = How close our measurements are to the ‘true’ value
 
-(./images/05_accuracy_and_precision.jpg)
+![](./images/05_accuracy_and_precision.png)
 
 ---
 
@@ -162,7 +162,7 @@ $ echo "Data Science Institute"
 
 # Clusters of **Equal** Sizes: PSU Total
 
-- Let $x_{ij}$ represent the measurements from SSU (observational unit) *j* within PSU (cluster) *i* . The total measurement within PSU *i* is,
+- Let $y_{ij}$ represent the measurements from SSU (observational unit) *j* within PSU (cluster) *i* . The total measurement within PSU *i* is,
   
   > $$ t_i=\sum_{j=1}^{M}y_{ij} $$
 
@@ -202,7 +202,7 @@ $ echo "Data Science Institute"
 
   > $$ w_{ij} = \frac{N}{n} $$
 
-- These weights can be used to estimate the sample total and mean directly from SSU measurements $x_{ij}$ :
+- These weights can be used to estimate the sample total and mean directly from SSU measurements $y_{ij}$ :
 
   > $$ \hat{t} = \sum_{i=1}^{N} \sum_{j=1}^{M} w_{ij}y_{ij}$$
 
@@ -288,14 +288,14 @@ $ echo "Data Science Institute"
 
 # Two-Stage Cluster Sampling: Selection Probability
 
-- Since sampling is occurring at two different stages now, the selection probability of $y_{ij}$ (the $j^th$ SSU in PSU *i* ) is a combination of the probability of PSU *i* being selected, and the probability of SSU *j* being selected within PSU *i*. Assuming an SRS is taken at both stages, we have:
+- Since sampling is occurring at two different stages now, the selection probability of $y_{ij}$ (the $j^{th}$ SSU in PSU *i* ) is a combination of the probability of PSU *i* being selected, and the probability of SSU *j* being selected within PSU *i*. Assuming an SRS is taken at both stages, we have:
 
   > $$ \begin{multline}
   \pi_{ij} = P(j^{th}\text{ SSU in }i^{th}\text{ PSU selected}) \\
   = P(i^{th}\text{ PSU selected}) \cdot P(j^{th}\text{ SSU }\text{selected}\text{ | }i^{th}\text{ PSU }\text{selected}) \\
   \end{multline}
   $$
-  > $$ \frac{n}{N}\frac{m_i}{M_i} = $$
+  > $$ = \frac{n}{N}\frac{m_i}{M_i} $$
 
 ---
 
@@ -363,7 +363,7 @@ $ echo "Data Science Institute"
 
 ---
 
-# Choosing a Sub-Sample Size (mi)
+# Choosing a Sub-Sample Size $(m_i)$
 
 - Cost
 	- Is measuring more SSUs marginally expensive or inexpensive?
@@ -375,7 +375,7 @@ $ echo "Data Science Institute"
 
 ---
 
-# Choosing a Sample Size (n)
+# Choosing a Sample Size $(n)$
 
 This process is similar to selecting sample sizes for SRS.
 1. Determine precision needed.
@@ -387,5 +387,5 @@ This process is similar to selecting sample sizes for SRS.
 ---
 
 # Next
-Respondent Driven Sampling
+Errors
 

@@ -42,7 +42,7 @@ By the end of the module, participants will be able to:
 
 ## Contacts
 
-**Questions can be submitted to the *#cohort-5-help-ds* channel on Slack**
+**Questions can be submitted to the *#dc-help* channel on Slack**
 
 -   Technical Facilitator:
     -   name and pronouns: `Lindsay`, `She/Her`
