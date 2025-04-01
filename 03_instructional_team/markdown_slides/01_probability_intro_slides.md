@@ -122,7 +122,7 @@ $ echo "Data Science Institute"
 
 # Example: Drawing cards
 
-- Suppose you have a regular deck of cards. Let *B* represent the event “drawing a heart”. Let *$B_1$* and *$B_2$* be a partition of *B* , with *$B_1$* = “drawing non-numeric heart card (J, Q, K, A)” and *$B_2$* = “drawing an ace or numeric heart card (2,…,10)”
+- Suppose you have a regular deck of cards. Let *B* represent the event “drawing a heart”. Let *$B_1$* and *$B_2$* be a partition of *B* , with *$B_1$* = “drawing non-numeric heart card (J, Q, K, A)” and *$B_2$* = “drawing a numeric heart card (2,…,10)”
 
 - *$B_1$* and *$B_2$* is a valid partition, since all heart cards are either numeric or non numeric, and a card cannot be both a numeric card and a non-numeric card (mutual exclusivity)
 
@@ -253,11 +253,11 @@ $ echo "Data Science Institute"
 - Suppose you draw *n* = 5 cards from a standard deck, and your desired outcome is drawing a club. Then *p* = 13/52 = ¼ and *q* = 1 - *p* = 1 - ¼ = ¾.
 - For *k* = 1 success, the possible combinations of cards drawn are:
 
-    > {➡️♣⬅️♣♣♣♣},
-    > {♣➡️♣⬅️♣♣♣},
-    > {♣♣➡️♣⬅️♣♣},
-    > {♣♣♣➡️♣⬅️♣},
-    > {♣♣♣♣➡️♣⬅️}
+    > {➡️♣⬅️,2,3,4,5},
+    > {1,➡️♣⬅️,3,4,5},
+    > {1,2,➡️♣⬅️,4,5},
+    > {1,2,3,➡️♣⬅️,5},
+    > {1,2,3,4,➡️♣⬅️}
 
 - Mathematically this can be represented as,
     > $$\binom{5}{1}=\frac{5!}{1!(5-1)!}=\frac{5\cdot4\cdot3\cdot2\cdot1}{1(4\cdot3\cdot2\cdot1)}=5$$
