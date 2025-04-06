@@ -10,11 +10,16 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Tianning Yu
 
 ```
-Please write your explanation here...
+In the code, simulate_event function was used to create a DataFrame representing 1000 individuals attending weddings and brunches, infects a subset of them based on the ATTACK_RATE, performs primary and secondary contact tracing, and calculates the proportions of infections and traced cases that are attributed to weddings. The sampling frame is these 1000 individuals.The total sample size is 1000. Stratified random sampling occurs at the stage at which randomly select 200 people to attend the weddings and 800 people to attend the brunch. Then simply random sampling occurs at the stage where infection happens randomly for each stratum (wedding and brunch) at an attack rate of 0.1, where uniform discrete distribution is involved. Then simply random sampling and stratified sampling occur at the stage where primary contact tracing occurs randomly at a rate 0.2 within the infected people, where uniform discrete distribution is involved. Lastly, snowball sampling occurs if 2 or more people were traced at an event, trigger secondary tracing for that event (where everyone at that event get traced).
 
+The code reproduces that probability of infection at the wedding as shown in the oroginal code.However, the code does not reproduce the probability of the observed infection (traced infection) at the wedding.
+
+If modify the number of iteration to 100 and run the code multiple times, the results are not reproducible as the histograms are different at different runs.
+
+To ensure reproducibility, random seed is used to ensure that every run of the script produces the same sequence of random numbers. As a result, the infection and tracing steps are consistent across runs, and the final histogram outputs remain identical.
 ```
 
 
