@@ -17,6 +17,9 @@ ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
 
+# Set seed value for reproducibility
+np.random.seed(123)
+
 def simulate_event(m):
   """
   Simulates the infection and tracing process for a series of events.
