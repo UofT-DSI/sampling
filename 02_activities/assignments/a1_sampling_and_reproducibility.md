@@ -17,6 +17,23 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 1. Infecting a random subset of people - this is simple random sampling without replacement because the infected individuals are being chosen randomly and the 'replace' option is set to FALSE; based on the settings of this simulation, the sample size (infected individuals) is 10% of the population and each individual can only be "infected" once. The sampling frame is all individuals at the events (wedding and brunch). This procedure is similar to the one described in the blog post where an individual has a 10% chance of getting infected regardless of the event that they are at. 
 2. Primary contact tracing - this is also random sampling without replacement. Although the number of infected people being traced is capped at 20% (TRACE_SUCCESS =0.2), this is not sampling strategy but rather a way to simulate real-life difficulties of tracing infected individuals. The sample size in this case is 20% of the infected individuals. The sampling frame is all infected individuals. This procedure is also similar to the one mentioned in the blog post in which only 20% of infected individuals can be traced.
 
+This is the output when m = 1000:
+![download1](https://github.com/user-attachments/assets/6ae3984c-0554-4af5-a54f-e0375e450bd0)
+
+This is the output when m = 100:
+1st run:
+![download2](https://github.com/user-attachments/assets/812e5eb0-2f9b-4816-b609-367d669d53c0)
+
+2nd run:
+![download3](https://github.com/user-attachments/assets/24905c03-4e94-43ad-9906-8aad1e696a04)
+
+3rd run:
+![download4](https://github.com/user-attachments/assets/2f6a7270-aa56-47aa-b06a-07fb54254086)
+
+4th run:
+![download5](https://github.com/user-attachments/assets/9eebf756-4529-46cf-8fa0-1ca81bc8ead1)
+
+
 ```
 
 
