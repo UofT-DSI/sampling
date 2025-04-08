@@ -10,10 +10,12 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: HUONG NGUYEN
 
 ```
-Please write your explanation here...
+- Stages where sampling occurs:
+1. Infecting a random subset of people - this is simple random sampling without replacement because the infected individuals are being chosen randomly and the 'replace' option is set to FALSE; based on the settings of this simulation, the sample size (infected individuals) is 10% of the population and each individual can only be "infected" once. The sampling frame is all individuals at the events (wedding and brunch). This procedure is similar to the one described in the blog post where an individual has a 10% chance of getting infected regardless of the event that they are at. 
+2. Primary contact tracing - this is also random sampling without replacement. Although the number of infected people being traced is capped at 20% (TRACE_SUCCESS =0.2), this is not sampling strategy but rather a way to simulate real-life difficulties of tracing infected individuals. The sample size in this case is 20% of the infected individuals. The sampling frame is all infected individuals. This procedure is also similar to the one mentioned in the blog post in which only 20% of infected individuals can be traced.
 
 ```
 
