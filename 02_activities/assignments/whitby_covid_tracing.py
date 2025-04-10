@@ -17,6 +17,10 @@ ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
 
+# set a random seed
+np.random.seed(20)
+
+
 def simulate_event(m):
   """
   Simulates the infection and tracing process for a series of events.
@@ -33,7 +37,7 @@ def simulate_event(m):
     that are attributed to weddings.
   """
   # Create DataFrame for people at events with initial infection and traced status
-  events = ['wedding'] * 200 + ['brunch'] * 800
+  events = ['wedding'] * 20 + ['brunch'] * 80
   ppl = pd.DataFrame({
       'event': events,
       'infected': False,
@@ -46,6 +50,7 @@ def simulate_event(m):
   # Infect a random subset of people
   infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
   ppl.loc[infected_indices, 'infected'] = True
+
 
   # Primary contact tracing: randomly decide which infected people get traced
   ppl.loc[ppl['infected'], 'traced'] = np.random.rand(sum(ppl['infected'])) < TRACE_SUCCESS
