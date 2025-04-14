@@ -102,7 +102,7 @@ Thompson, ‘Sampling: Third Edition’ (2012)
 
 # What is a population?
 
-- Real or hypothetical set of units with characteristics of attributes that can be modeled by random variables
+- Real or hypothetical set of units with characteristics or attributes that can be modeled by random variables
 - Can be infinite or finite
 - Inclusion and exclusion criteria must be clearly defined
 

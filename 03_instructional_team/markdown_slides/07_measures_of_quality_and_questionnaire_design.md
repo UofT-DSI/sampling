@@ -152,10 +152,10 @@ My team is doing a survey of Canadian public servants to learn their feelings ab
 
 - Respondents may not respond accurately to questions about sensitive topics
   - Illegal behaviours
-	- Information that poses risk to respondents if disclosed (health conditions, cheating on a partner)
-	- Private information (income, home address)
-	- Emotionally upsetting topics 
-	- Socially or politically charged topics 
+  - Information that poses risk to respondents if disclosed (health conditions, cheating on a partner)
+  - Private information (income, home address)
+  - Emotionally upsetting topics 
+  - Socially or politically charged topics 
 
 ---
 
@@ -215,7 +215,7 @@ To help me evaluate my performance as facilitator of this sampling class, I’ve
 - Assumptions:
 	- Data is MAR
 	- Response probability is the same for all elements in each class
-	- Nonrespondents in a given weighting class share similar responses to respondents in the same writing class
+	- Nonrespondents in a given weighting class share similar responses to respondents in the same weighting class
 - Weighting classes should be constructed such that units in each class are as similar as possible with respect to the main variable(s) of interest (similar to stratification)
 
 ---
