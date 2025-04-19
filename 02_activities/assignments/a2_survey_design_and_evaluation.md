@@ -40,28 +40,30 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `# 2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose is to understand what the voting population expects from the party and its leader so that they maintain their lead in the remaining month before the election and the election. The party is leading in the polls hence the goal is to find out how to maintain this lead. The goal is to figure out what the voting population is most concerned with and what they think the party and its leaders need to improve on or maintain. 
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is people in the country of voting age. Sampling frame is people in the country of voting age that can be reached by our method of polling which is say by phone call. The sampling units are the individuals in our sample, which would be people in our country who are of voting age and can be reached by phone and actually respond to our survery. Observational units are the same as sampling units in this example. The sampling strategy is to randomly and uniformly select individuals from a list of the sampling units. This way the sample is representative of the voting population and is less biased, and therefore it helps us to make an informed decision about our campaign's policy in the remaining month to reach our goal. 
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
+1. What is your greatest concern about the state of the country?
+2. How do you evaluate the performance of the party with regards to your concern?
+3. How do you evaluate the performance of the party leader with regards to your concern?
+4. If there is one change that you would like to see in the party or the leader, what would that be?
+5. What is a point of weakness in your opinion about the policies that the leader has put forward?
+6. Are there any policies of the opposing party that you prefer over the leader's policies?
+7. On a scale of 1-10, 10 being absolutely sure, how likely are you to vote in the upcoming election?
+8. Which party are you considering to vote for in the upcoming election?
 9. write your question here... (optional)
 10. write your question here... (optional)
 ```
@@ -71,7 +73,39 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: cross-sectional design: stratified design employing probability sampling.
+2. Sample size: 16,149
+3. Target population: non-institutionalized persons aged 15 and older, living in the ten provinces.
+4. Sampling frame: households with telephone numbers, more precisely using two components: 1. Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada AND 2. The Address Register (AR): List of all dwellings within the ten provinces.
+5. Survey mode(s): both telephone and Internet modes of data
+collection.
+6. Timeline: Interviews were conducted from September 4th to December 28th, 2018.
+7. Response rate: The overall response rate was 41.9%.
+8. Weights: They are computed for each respondent in WGHT_PER, which accounts for what portion of the population that person is representing. The sum of all WGHT_PER among the 16,149 sample units is roughly equal to the population of the 10 provinces at the time of the survey. 
+9. Data processing: Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs. It used a structured environment to monitor the processing of data ensuring best practices and harmonized business processes were followed.
+10. Cleaning, imputation, etc: 
+Except in a few cases, all imputations were made using donor records selected through a score function. Certain characteristics on each record with item or partial non response (also called a recipient record) were compared with the characteristics on all donor records. When a characteristic was the same on the donor record and the recipient record, the donor's score increased. The donor record with the highest score was deemed the "nearest" donor and was chosen to fill in the missing information of the non respondent. If more than one donor record had the highest score, one record was randomly selected. The pool of donor records was made up in such a way that the imputed value assigned to the recipient, in conjunction with other non imputed items from the recipient, would still pass the edits. Where donor imputation could not be used, mean imputation among a pool of donors was used.
+
+Records with missing or incorrect information were, in a small number of cases, corrected deterministically or imputed
+from other information on the questionnaire. The flow editing carried out by head office followed a ‘top down’ strategy, in
+that whether or not a given question was considered ‘on path’ was based on the response codes to the previous
+questions. If the response codes to the previous questions indicated that the current question was ‘on path,’ the
+responses, if any, to the current question were retained; if, however, a response was missing to the current question, it
+was coded as ‘Not Stated,’ i.e., 9 (99 or 999, etc.). If the response codes to the previous questions indicated that the
+current question was ‘off path’ because the respondent was clearly identified as belonging to a sub-population for which
+the current question was inappropriate or not of interest, the current question was coded as ‘Valid Skip’, i.e., 6 (96 or 996,
+etc.).
+
+
+11. Sources of error: sampling error, non-sampling errors such as nterviewers may misunderstand instructions, respondents may make errors in answering questions, the answers may be incorrectly
+entered into the EQ system, and errors may be introduced in the processing and tabulation of the data, the effect of non-response on survey results.
+12. Limitations, known biases, etc: To the extent that the excluded population differs from the rest of the target population, the results may be biased. Non-response bias. Response errors and processing errors.
+
+13. Link to documentation and any additional sources used:
+
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+
+https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 ```
 
 ## Rubric
