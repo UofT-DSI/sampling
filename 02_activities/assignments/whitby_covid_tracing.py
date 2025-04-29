@@ -10,6 +10,8 @@ import seaborn as sns
 # focused on relevant information, acknowledging that we rely on external library updates to fully resolve
 # these deprecations. Always consider reviewing and removing this suppression after significant library updates.
 import warnings
+np.random.seed(123)
+
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Constants representing the parameters of the model
