@@ -37,22 +37,23 @@ By the end of the module, participants will be able to:
 
 ## Assignments
 
-* Assignment 1 - Due Date: April 9 2025
-* Assignment 2 - Due Date: April 18 2025                                                                              
+* Assignment 1 - Due Date: June 22 2025
+* Assignment 2 - Due Date: June 29 2025                                                   
 
 ## Contacts
 
 **Questions can be submitted to the *#dc-help* channel on Slack**
 
 -   Technical Facilitator:
-    -   name and pronouns: `Lindsay`, `She/Her`
-    -   email: `lindsay.katz@mail.utoronto.ca`
-    -   slack: [`profile link`](https://uoft-dsi-certificates.slack.com/team/U08AQE24J5A)
+    -   name and pronouns: `Ciara`, `She/Her`
+    -   email: `ciara.zogheib@mail.utoronto.ca`
 -   Learning Support Staff:
-    -   name: `Fan`
-    -   email: `fw2400@cumc.columbia.edu`
-    -   name: `Kasra`
-    -   email: `k.vakiloroayaei@utoronto.ca`
+    -   name: `Xindi`
+    -   email: `xindi.zhang@mail.utoronto.ca`
+    -   name: `Vishakh`
+    -   email: `vishakh.patel@mail.utoronto.ca`
+	-   name: `Aditya`
+    -   email: `adityaskulkarni23@gmail.com`
 
 ## Delivery of the Learning Module
 
