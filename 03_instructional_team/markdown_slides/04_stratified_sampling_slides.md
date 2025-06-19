@@ -61,7 +61,7 @@ $ echo "Data Science Institute"
 # Sample Mean
 
 - The sample mean for stratum *h* can be calculated,
-  > $$ \bar{y}_h=\frac{1}{n_h}\sum_{i=1}^{n_h}x_{hj} $$
+  > $$ \bar{y}_h=\frac{1}{n_h}\sum_{i=1}^{n_h}x_{hi} $$
 - To estimate the population mean, the sample mean for the whole sample (from all strata combined) can be calculated,
   > $$ \bar{y}=\sum_{h=1}^{H}\frac{N_h}{N}\bar{y}_h $$
 - This is a weighted mean of all sample strata means.
@@ -133,6 +133,11 @@ $ echo "Data Science Institute"
 - Data availability
     - Is there existing survey data to help you define appropriate strata? If not, are you able to collect preliminary data for this purpose?
     - More supplementary data often means more strata
+
+---
+
+# How do you divide your population into strata?
+
 - Difficulty and cost
     - More strata may mean a higher cost or effort involved
     - Is this additional cost worthwhile for the precision you wish to achieve or the type of analysis you wish to conduct?
@@ -147,6 +152,11 @@ $ echo "Data Science Institute"
 - Optimal Allocation
     - Variation among larger sampling units may be greater than variation among smaller sampling units, so a higher proportion of large units should be sampled
     - Useful for businesses, cities, and institutions like schools or hospitals
+
+---
+
+# How many units should you sample from each stratum?
+
 - Allocation for Precision with Strata
     - Sample to reduce the variation in stratum-level estimates, not population-level estimates
     - Useful when the goal is comparing estimates between strata
