@@ -1,4 +1,5 @@
 .DS_Store
 .vscode/
 student_data.csv
-
+uv.lock
+sampling-env
