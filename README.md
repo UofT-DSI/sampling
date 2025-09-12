@@ -103,7 +103,7 @@ likely it is that these skills will solidify.  
     extensions:
     -   [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 -   We expect Participants to have completed the steps in the
-    [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+    [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 -   We encourage participants to default to having their camera on at
     all times, and turning the camera off only as needed. This will
     greatly enhance the learning experience for all participants and
@@ -178,6 +178,7 @@ Feel free to use the following as resources:
 ├── 04_cohort_three
 ├── .gitignore
 ├── LICENSE
+├── SETUP.md
 └── README.md
 ```
 
@@ -193,5 +194,6 @@ Feel free to use the following as resources:
 -   **.gitignore**: Files to exclude from this folder, specified by the
     Technical Facilitator
 -   **LICENSE**: The license for this repository.
+-   **SETUP.md**: Contains the instructions for creating and activating the environment, and installing any packages needed for this specific module.
 -   **README.md**: This file.
 -   **steps_to_ask_for_help.png**: Guide on how to ask for help.
