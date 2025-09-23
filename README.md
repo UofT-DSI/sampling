@@ -175,25 +175,21 @@ Feel free to use the following as resources:
 ├── 01_materials
 ├── 02_activities
 ├── 03_instructional_team
-├── 04_cohort_three
+├── 04_this_cohort
 ├── .gitignore
 ├── LICENSE
 ├── SETUP.md
+├── pyproject.toml
 └── README.md
 ```
 
--   **.github**: Contains issue templates and pull request templates for
-    the repository.
--   **materials**: Module slides and interactive notebooks (.ipynb
-    files) used during learning sessions.
--   **activities**: Contains graded assignments, exercises, and homework
-    to practice concepts covered in the learning module.
--   **instructional_team**: Resources for the instructional team.
--   **cohort_three**: Additional materials and resources for cohort
-    three.
--   **.gitignore**: Files to exclude from this folder, specified by the
-    Technical Facilitator
--   **LICENSE**: The license for this repository.
--   **SETUP.md**: Contains the instructions for creating and activating the environment, and installing any packages needed for this specific module.
--   **README.md**: This file.
--   **steps_to_ask_for_help.png**: Guide on how to ask for help.
+* **.github**: Contains issue templates and pull request templates for the repository.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **this_cohort**: Additional materials and resources for this cohort.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **SETUP.md**: Contains the steps required to set up this repo for the module.
+* **pyproject.toml**: Tells Python which packages this repo needs to run.
+* **README.md**: This file.
