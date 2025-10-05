@@ -87,7 +87,7 @@ $ echo "Data Science Institute"
 # Population Structures
 
 - Two primary ways of structuring a population: **stratification** and **clustering**
-- Both refer to separating a population into groups ( *strata* or *clusters, * depending on the structure) such that every individual within the population belongs to one and only one group
+- Both refer to separating a population into groups ( *strata* or *clusters*, depending on the structure) such that every individual within the population belongs to one and only one group
 - Under stratified sampling, sample data are collected from every stratum
 - Under cluster sampling, only some clusters are sampled for data collection
 
@@ -191,7 +191,7 @@ $ echo "Data Science Institute"
 
 - **Convenience sampling**: sampling restricted to certain parts of the population that are readily accessible or people who volunteer
 - **Quota sampling**: interviewers are selected and required to sample a certain number of people with certain types of characteristics
-- **Judgement or purposive sampling**: sample is selected based on the judgement of the sampler about what is most-representative of the population
+- **Judgement or purposive sampling**: sample is selected based on the judgement of the sampler about what is most representative of the population
 - **Snowball sampling**: Participants recruit other participants and so on until it 'snowballs' 
 
 ---
