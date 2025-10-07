@@ -13,7 +13,7 @@ $ echo "Data Science Institute"
 ```
 ---
 
-# Learning Goal
+# Learning Goals
 
 - Explain the structure of this course
 - Go through an overview of what to expect in the rest of this course (high-level)
