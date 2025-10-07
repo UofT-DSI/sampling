@@ -37,8 +37,8 @@ By the end of the module, participants will be able to:
 
 ## Assignments
 
-* Assignment 1 - Due Date: June 22 2025
-* Assignment 2 - Due Date: June 29 2025                                                   
+* Assignment 1 - Due Date: October 12 2025
+* Assignment 2 - Due Date: October 19 2025                                               
 
 ## Contacts
 
@@ -50,10 +50,10 @@ By the end of the module, participants will be able to:
 -   Learning Support Staff:
     -   name: `Xindi`
     -   email: `xindi.zhang@mail.utoronto.ca`
-    -   name: `Vishakh`
-    -   email: `vishakh.patel@mail.utoronto.ca`
-	-   name: `Aditya`
-    -   email: `adityaskulkarni23@gmail.com`
+    -   name: `Alex Yu`
+    -   email: `alexk.yu@mail.utoronto.ca`
+	-   name: `Gayathri Girish Kumar`
+    -   email: `gayathri.girishkumar@mail.utoronto.ca`
 
 ## Delivery of the Learning Module
 
@@ -112,6 +112,9 @@ likely it is that these skills will solidify.  
 ## Resources
 
 Feel free to use the following as resources:
+
+### Concept Map
+![sampling_conceptmap.png](https://github.com/UofT-DSI/sampling/blob/main/sampling_conceptmap.png)
 
 ### Documents
 
