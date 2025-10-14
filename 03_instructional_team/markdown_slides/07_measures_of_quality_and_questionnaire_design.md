@@ -8,7 +8,7 @@ paginate: true
 # Sampling: Survey Quality and Questionnaire Design
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

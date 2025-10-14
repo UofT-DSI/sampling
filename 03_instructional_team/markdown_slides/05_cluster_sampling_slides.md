@@ -8,7 +8,7 @@ paginate: true
 # Sampling: Cluster sampling
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

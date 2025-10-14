@@ -9,7 +9,7 @@ math: mathjax
 # Sampling: Stratified sampling
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

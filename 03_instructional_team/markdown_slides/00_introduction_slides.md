@@ -9,7 +9,7 @@ math: mathjax
 # Sampling: Course Introduction
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

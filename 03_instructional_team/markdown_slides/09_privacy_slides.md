@@ -8,7 +8,7 @@ paginate: true
 # Sampling: Privacy
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

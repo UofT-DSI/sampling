@@ -8,7 +8,7 @@ paginate: true
 # Sampling: Populations and Samples
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 

@@ -9,7 +9,7 @@ math: mathjax
 # Sampling: Probability 101
 
 ```code
-$ echo "Data Science Institute"
+$ echo "Data Sciences Institute"
 ```
 ---
 
