@@ -103,7 +103,7 @@ likely it is that these skills will solidify.  
     extensions:
     -   [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 -   We expect Participants to have completed the steps in the
-    [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+    [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 -   We encourage participants to default to having their camera on at
     all times, and turning the camera off only as needed. This will
     greatly enhance the learning experience for all participants and
@@ -119,15 +119,15 @@ Feel free to use the following as resources:
 ### Documents
 
 -   [Probability Cheatsheet
-    1](./04_cohort_three/resources/probability_cheatsheet_1.pdf)
+    1](./04_this_cohort/resources/probability_cheatsheet_1.pdf)
 -   [Probability Cheatsheet
-    2](./04_cohort_three/resources/probability_cheatsheet_2.pdf)
+    2](./04_this_cohort/resources/probability_cheatsheet_2.pdf)
 -   [Probability Cheatsheet
-    3](./04_cohort_three/resources/probability_cheatsheet_3.png)
--   [LLN Demo](./04_cohort_three/resources/5.1_probability_lln_demo.py)
--   [Amazon Exercises](./04_cohort_three/resources/amazon_exercises.pdf)
+    3](./04_this_cohort/resources/probability_cheatsheet_3.png)
+-   [LLN Demo](./04_this_cohort/resources/5.1_probability_lln_demo.py)
+-   [Amazon Exercises](./04_this_cohort/resources/amazon_exercises.pdf)
 -   [Multiple Imputation
-    Exercises](./04_cohort_three/resources/sampling_multiple_imputation_exerises.py)
+    Exercises](./04_this_cohort/resources/sampling_multiple_imputation_exerises.py)
 
 ### Videos
 
@@ -178,23 +178,21 @@ Feel free to use the following as resources:
 ├── 01_materials
 ├── 02_activities
 ├── 03_instructional_team
-├── 04_cohort_three
+├── 04_this_cohort
 ├── .gitignore
 ├── LICENSE
+├── SETUP.md
+├── pyproject.toml
 └── README.md
 ```
 
--   **.github**: Contains issue templates and pull request templates for
-    the repository.
--   **materials**: Module slides and interactive notebooks (.ipynb
-    files) used during learning sessions.
--   **activities**: Contains graded assignments, exercises, and homework
-    to practice concepts covered in the learning module.
--   **instructional_team**: Resources for the instructional team.
--   **cohort_three**: Additional materials and resources for cohort
-    three.
--   **.gitignore**: Files to exclude from this folder, specified by the
-    Technical Facilitator
--   **LICENSE**: The license for this repository.
--   **README.md**: This file.
--   **steps_to_ask_for_help.png**: Guide on how to ask for help.
+* **.github**: Contains issue templates and pull request templates for the repository.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **this_cohort**: Additional materials and resources for this cohort.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **SETUP.md**: Contains the steps required to set up this repo for the module.
+* **pyproject.toml**: Tells Python which packages this repo needs to run.
+* **README.md**: This file.
