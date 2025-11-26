@@ -116,15 +116,15 @@ Feel free to use the following as resources:
 ### Documents
 
 -   [Probability Cheatsheet
-    1](./04_cohort_three/resources/probability_cheatsheet_1.pdf)
+    1](./04_this_cohort/resources/probability_cheatsheet_1.pdf)
 -   [Probability Cheatsheet
-    2](./04_cohort_three/resources/probability_cheatsheet_2.pdf)
+    2](./04_this_cohort/resources/probability_cheatsheet_2.pdf)
 -   [Probability Cheatsheet
-    3](./04_cohort_three/resources/probability_cheatsheet_3.png)
--   [LLN Demo](./04_cohort_three/resources/5.1_probability_lln_demo.py)
--   [Amazon Exercises](./04_cohort_three/resources/amazon_exercises.pdf)
+    3](./04_this_cohort/resources/probability_cheatsheet_3.png)
+-   [LLN Demo](./04_this_cohort/resources/5.1_probability_lln_demo.py)
+-   [Amazon Exercises](./04_this_cohort/resources/amazon_exercises.pdf)
 -   [Multiple Imputation
-    Exercises](./04_cohort_three/resources/sampling_multiple_imputation_exerises.py)
+    Exercises](./04_this_cohort/resources/sampling_multiple_imputation_exerises.py)
 
 ### Videos
 
