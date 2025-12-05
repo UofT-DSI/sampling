@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -24,7 +23,7 @@ $ echo "Data Sciences Institute"
 
 # Key Texts
 
-![bg right:50% w:400](./images/02_populations_censuses_surveys_and_observational_data_slides.jpg)
+![bg right:50% w:300](./images/02_populations_censuses_surveys_and_observational_data_slides.jpg)
 
 - Wu and Thompson, 2020, *Sampling Theory and Practice* , Springer, Chapter 1
 <!-- Image source: *[Springer](https://link.springer.com/book/10.1007/978-3-030-44246-0)* -->
@@ -74,7 +73,7 @@ $ echo "Data Sciences Institute"
 # Recall: Three Versions of Survey Populations
 
 - Adapted from Lohr (2019), Figure 1.1
-![](./images/02_a_good_sample.png)
+![w:900](./images/02_a_good_sample.png)
 
 <!-- A good sample -->
 

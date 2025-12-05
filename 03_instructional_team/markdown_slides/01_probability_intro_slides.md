@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 math: mathjax
 ---
@@ -92,7 +91,7 @@ $ echo "Data Sciences Institute"
 | A and B are mutually exclusive |  A and B are disjoint   |   A ∩ B = ∅   |              |
 |          If A, then B          |   A is a subset of B    |     A ⊆ B     |              | -->
 
-![](./images/01_pitman_1993_table_1.png)
+![w:1000](./images/01_pitman_1993_table_1.png)
 
 ---
 
@@ -104,7 +103,7 @@ $ echo "Data Sciences Institute"
 
 2. *$B_1, B_2, ..., B_n$* are **mutually exclusive** – if an outcome is in event *$B_i$* , it is not in any other event
 
-![](./images/01_partitions.png)
+![w:900](./images/01_partitions.png)
 
 ---
 
@@ -497,7 +496,7 @@ table {
 
 # Law of Large Numbers
 
-![](./images/01_probability_slides25.png)
+![w:1000](./images/01_probability_slides25.png)
 <!-- Pitman (1993), Figure 2 -->
 
 ---

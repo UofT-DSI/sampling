@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -102,7 +101,7 @@ Public Sector
 ---
 
 Based on Nissim et al., Figure 2
-![](./images/14_differential_privacy.png)
+![w:900](./images/14_differential_privacy.png)
 
 ---
 
@@ -145,6 +144,8 @@ From Nissim et al., pp. 12
 - If John believes his probability of being denied insurance coverage is at most 5% (due to various outside factors) if his information is not included in the medical research database, then adding his information to the database can increase this probability to, at most,
 
   > $$5\% \cdot(1 + \epsilon) = 5\% \cdot 1.01 = 5.05\%.$$
+
+---
 
 - Hence, the privacy loss parameter ($\epsilon$ = 0.01, in this example) ensures that the probability that John is denied insurance coverage is almost the same, whether or not information about him appears in this medical research database.
 

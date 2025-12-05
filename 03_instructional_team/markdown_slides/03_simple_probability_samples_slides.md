@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -42,6 +41,11 @@ $ echo "Data Sciences Institute"
   2. Sampled unit is return to the population
   3. Select second unit for measurement, with probability 1/ *N*
   4. Repeat until desired sample size is obtained
+
+---
+
+# Sampling With versus Without Replacement
+
 - Simple random sampling **without replacement**:
   1. Select one unit for measurement, with probability 1/ *N*
   2. Select second unit for measurement, with probability 1/( *N* -1)
