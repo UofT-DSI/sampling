@@ -69,12 +69,10 @@ module, with access to live help. Content is not facilitated, but rather
 this time should be driven by participants. We encourage participants to
 come to these work periods with questions and problems to work through.
   Participants are encouraged to engage actively during the learning
-module. They key to developing the core skills in each learning module
+module. The key to developing the core skills in each learning module
 is through practice. The more participants engage in coding along with
 the instructional team, and applying the skills in each module, the more
 likely it is that these skills will solidify.   
-
-## Schedule 
 
 ## Schedule
 
@@ -127,7 +125,7 @@ Feel free to use the following as resources:
 -   [LLN Demo](./04_this_cohort/resources/5.1_probability_lln_demo.py)
 -   [Amazon Exercises](./04_this_cohort/resources/amazon_exercises.pdf)
 -   [Multiple Imputation
-    Exercises](./04_this_cohort/resources/sampling_multiple_imputation_exerises.py)
+    Exercises](./04_this_cohort/resources/sampling_multiple_imputation_exercises.py)
 
 ### Videos
 
