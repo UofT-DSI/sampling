@@ -187,7 +187,7 @@ $ echo "Data Sciences Institute"
 
 - The sample variance of the PSU totals is,
 
-  > $$ s_t^2=\frac{1}{n-1}\sum_{i=1}^{N}(t_i-\frac{\hat{t}}{N})^2 $$
+  > $$ s_t^2=\frac{1}{n-1}\sum_{i=1}^{n}(t_i-\frac{\hat{t}}{n})^2 $$
 
 - $s_t^2$ can then be used to compute the standard error of the estimated sample mean:
 

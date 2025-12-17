@@ -38,7 +38,7 @@ $ echo "Data Sciences Institute"
 - Consider a population of size *N*
 - Simple random sampling **with replacement**:
   1. Select one unit for measurement, with probability 1/ *N*
-  2. Sampled unit is return to the population
+  2. Sampled unit is returned to the population
   3. Select second unit for measurement, with probability 1/ *N*
   4. Repeat until desired sample size is obtained
 
