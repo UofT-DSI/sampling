@@ -162,7 +162,6 @@ Basically:
 
 # Systematic Sampling Considerations
 
-- Systematic sampling is a type of cluster sampling, not SRS, *but...*
 - If the original population is truly randomized, systematic samples behave similarly to SRS and the same analysis methods can be used
 - If the original population is in increasing or decreasing order, or periodic in some way (i.e. alternating male and female names), the sample will not be representative and will not behave like an SRS
 - Usual considerations apply when defining a target population and frame
