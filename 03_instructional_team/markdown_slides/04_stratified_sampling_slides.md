@@ -79,7 +79,7 @@ $ echo "Data Sciences Institute"
 
 - The variance of the sample mean can be computed,
 
-  > $$ \hat{V}(\bar{y}) = \sum_{h=1}^{H}\frac{s_h^2}{n_h}(1-\frac{n_h}{N_h})(\frac{N^h}{N})^2 $$
+  > $$ \hat{V}(\bar{y}) = \sum_{h=1}^{H}\frac{s_h^2}{n_h}(1-\frac{n_h}{N_h})(\frac{N_h}{N})^2 $$
 
 (how much our mean will vary across samples)
 
@@ -114,7 +114,7 @@ $ echo "Data Sciences Institute"
 
 - The population mean can be estimated directly using a weighted mean of recorded observations:
 
-  >  $$ \bar{y} = \frac{\sum_{h=1}^{H} \sum_{i=1}^{h} w_{hi}y_{hi}}{\sum_{h=1}^{H} \sum_{i=1}^{h} w_{hi}} $$
+  >  $$ \bar{y} = \frac{\sum_{h=1}^{H} \sum_{i=1}^{n_h} w_{hi}y_{hi}}{\sum_{h=1}^{H} \sum_{i=1}^{n_h} w_{hi}} $$
 
 - In stratified sampling, we need to sum over the weights and units in each stratum, and then sum over all strata.
 

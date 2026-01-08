@@ -38,7 +38,7 @@ $ echo "Data Sciences Institute"
 - Consider a population of size *N*
 - Simple random sampling **with replacement**:
   1. Select one unit for measurement, with probability 1/ *N*
-  2. Sampled unit is return to the population
+  2. Sampled unit is returned to the population
   3. Select second unit for measurement, with probability 1/ *N*
   4. Repeat until desired sample size is obtained
 
@@ -162,7 +162,6 @@ Basically:
 
 # Systematic Sampling Considerations
 
-- Systematic sampling is a type of cluster sampling, not SRS, *but...*
 - If the original population is truly randomized, systematic samples behave similarly to SRS and the same analysis methods can be used
 - If the original population is in increasing or decreasing order, or periodic in some way (i.e. alternating male and female names), the sample will not be representative and will not behave like an SRS
 - Usual considerations apply when defining a target population and frame
