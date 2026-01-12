@@ -21,6 +21,65 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
+1. Sample type - Probability sample design with a stratified sampling approach (27 strata total). Additionally the sample strategy was as following: "Each record in the survey frame was assigned to a stratum within its province. A simple random sample without
+replacement of records was next selected in each stratum"
+2. Sample size - 16,149 individuals aged 15 years and older from different Canadian provinces (excludes territories)
+3. Target population - aged 15 years and older living in private households from the above mentioned regions
+4. Sampling frame - Frame was generated from lists of telephone numbers in use and the The Address Register within 10 provinces
+5. Survey mode(s) - Electronic questionnaire or telephone interview
+6. Timeline -  September to December, 2018
+7. Response rate - 41.9% overall
+8. Weights - 
+Probability of each record within a stratum has an equal probability of selection = (Number of records sampled in the stratum / Total number of records in the stratum from the survey frame)
+Person weight calculation:
+(Initial Household Weight x Factor 1 x Number of eligible household members)
+9. Data processing
+Responses to survey questions were entered directly into computers by respondents who self-completed the electronic questionnaire or telephone. Responses were then filled into appropriate categories using custon code by survey team.
+10. Cleaning, imputation, etc
+Out-of-scope respondents were removed. "Records with missing or incorrect information were, in a small number of cases, corrected deterministically or imputed
+from other information on the questionnaire." using a top-down approach. New values for questions such as "Valid skip" and "not stated" were created. 
+11. Sources of error
+Non sampling error - non-response on survey results
+Coverage error - some groups may be under-represented
+Mode variation - online response option may influence how people answer compared to telephone interviews
+12. Limitations, known biases, etc
+Exclusion of territories.
+Some non-response bias may still be retained after weighting 
+13. Link to documentation and any additional sources used
+Data website: https://www150.statcan.gc.ca/n1/pub/45-25-0001/index-eng.htm
+Zip file source: https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
+All information was found in the "guide" pdf from the above link.
+
+
+# Your Changes
+
+## Part A - Survey Design: 
+
+The number of your chosen topic: `#2`
+
+Describe the purpose of your survey:
+
+The purpose of this survey is to determine current perception of the political party I work for. The response from the survey population will be used to reinforce and highlight proposed policies / priorities of my party during the last month of campaining. 
+
+Describe your target population, sampling frame, sampling units, and observational units:
+
+My target population needs to Canadian nationals, aged 18 and over.
+Sampling frame - List of registered voters from a up-to-date national database
+Sampling unit - each indivdual voter
+Sampling strategy - Stratified random sampling. Strata will be based on major demographic categories (age, riding, gender, employment etc)
+
+Your 5-10 question survey:
+
+1. How likley are you to vote this up-coming election? (answers will be range of likliness)
+2. Which of the following issues are most important to you?
+3. How satisfied are you with you current parties performance?
+4. How likely are you to continue to vote for your current party? 
+5. What qualities do you prioritize for your party leader? (multiple selection)
+
+## Part B - Survey Evaluation:
+
+Identify and describe survey features:
+
 1. Sample type
 2. Sample size
 3. Target population
@@ -34,45 +93,6 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 11. Sources of error
 12. Limitations, known biases, etc
 13. Link to documentation and any additional sources used
-
-
-# Your Changes
-
-## Part A - Survey Design: 
-
-The number of your chosen topic: `#`
-
-Describe the purpose of your survey:
-```
-write your answer here...
-```
-
-Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
-
-Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
-
-## Part B - Survey Evaluation:
-
-Identify and describe survey features:
-
-```
-write your answer here
-```
 
 ## Rubric
 
