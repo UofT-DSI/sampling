@@ -21,6 +21,49 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
+Identify and describe survey features:
+
+1. Sample type
+2. Sample size
+3. Target population
+4. Sampling frame
+5. Survey mode(s) 
+6. Timeline
+7. Response rate
+8. Weights
+9. Data processing
+10. Cleaning, imputation, etc
+11. Sources of error
+12. Limitations, known biases, etc
+13. Link to documentation and any additional sources used
+
+# Your Changes
+
+## Part A - Survey Design: 
+
+The number of your chosen topic: `#2`
+
+Describe the purpose of your survey:
+
+The purpose of this survey is to determine current perception of the political party I work for. The response from the survey population will be used to reinforce and highlight proposed policies / priorities of my party during the last month of campaining. 
+
+Describe your target population, sampling frame, sampling units, and observational units:
+
+My target population needs to Canadian nationals, aged 18 and over.
+Sampling frame - List of registered voters from a up-to-date national database
+Sampling unit - each indivdual voter
+Sampling strategy - Stratified random sampling. Strata will be based on major demographic categories (age, riding, gender, employment etc)
+
+Your 5-10 question survey:
+
+1. How likley are you to vote this up-coming election? (answers will be range of likliness)
+2. Which of the following issues are most important to you?
+3. How satisfied are you with you current parties performance?
+4. How likely are you to continue to vote for your current party? 
+5. What qualities do you prioritize for your party leader? (multiple selection)
+
+## Part B - Survey Evaluation:
+
 1. Sample type - Probability sample design with a stratified sampling approach (27 strata total). Additionally the sample strategy was as following: "Each record in the survey frame was assigned to a stratum within its province. A simple random sample without
 replacement of records was next selected in each stratum"
 2. Sample size - 16,149 individuals aged 15 years and older from different Canadian provinces (excludes territories)
@@ -50,49 +93,6 @@ Data website: https://www150.statcan.gc.ca/n1/pub/45-25-0001/index-eng.htm
 Zip file source: https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 All information was found in the "guide" pdf from the above link.
 
-
-# Your Changes
-
-## Part A - Survey Design: 
-
-The number of your chosen topic: `#2`
-
-Describe the purpose of your survey:
-
-The purpose of this survey is to determine current perception of the political party I work for. The response from the survey population will be used to reinforce and highlight proposed policies / priorities of my party during the last month of campaining. 
-
-Describe your target population, sampling frame, sampling units, and observational units:
-
-My target population needs to Canadian nationals, aged 18 and over.
-Sampling frame - List of registered voters from a up-to-date national database
-Sampling unit - each indivdual voter
-Sampling strategy - Stratified random sampling. Strata will be based on major demographic categories (age, riding, gender, employment etc)
-
-Your 5-10 question survey:
-
-1. How likley are you to vote this up-coming election? (answers will be range of likliness)
-2. Which of the following issues are most important to you?
-3. How satisfied are you with you current parties performance?
-4. How likely are you to continue to vote for your current party? 
-5. What qualities do you prioritize for your party leader? (multiple selection)
-
-## Part B - Survey Evaluation:
-
-Identify and describe survey features:
-
-1. Sample type
-2. Sample size
-3. Target population
-4. Sampling frame
-5. Survey mode(s) 
-6. Timeline
-7. Response rate
-8. Weights
-9. Data processing
-10. Cleaning, imputation, etc
-11. Sources of error
-12. Limitations, known biases, etc
-13. Link to documentation and any additional sources used
 
 ## Rubric
 
