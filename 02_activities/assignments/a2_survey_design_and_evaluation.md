@@ -62,7 +62,7 @@ Your 5-10 question survey:
 7. Do you tend to listen to music in the morning, afternoon, or evenings? 
 8. What is your musical training level? (Musical Training Answers Options: Never taken lessons, taken lessons, completed diploma, University music graduate)
 9. write your question here... (optional)
-10. write your question here... (optional)
+10. write your question here...
 ```
 
 ## Part B - Survey Evaluation:
