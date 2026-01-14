@@ -40,30 +40,30 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey aims to investigate the reasons for the high turnover rate across various departments and to identify strategies for improving employee satisfaction. Although turnover is most prevalent among entry- and low-level positions, the survey will also include employees at higher position levels. This broader scope will not only capture the needs and concerns of entry- and low-level employees but also enable meaningful comparisons across position levels. Such comparisons may help identify factors that contribute to lower turnover rates in higher-level positions but are absent or less prevalent in lower-level roles.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+My target population is all employees inthis company; given my purpose and that the number of employees should not be exetremly large, my sampling frame is the list of contact information of all employees to ensure the meaningful comparison between different position levels; my sampling units and observational units will both be all the emplyees in the company because I plan to use a simple stratified sampling, treating each position level as strata. This strategy will enable representattive samples from each position levels thus ensure meaningful comparisons while maintaining financial and statistical efficiency.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. My current job meets my expectations when I picked it. (1 Not agree at all ~ 5 Very much agree)
+2. My salary is fair given my responsibilities. (1 Not agree at all ~ 5 Very much agree)
+3. My workload is reasonable to ensure an acceptable work-life balance. (1 Not agree at all ~ 5 Very much agree)
+4. I can see opportunities to adavance my career in this company. (1 Not agree at all ~ 5 Very much agree)
+5. If I'm offered a similar position at company B, I would take it. (1 Not agree at all ~ 5 Very much agree)
+6. Overall, I'm satisfied with my current position. (1 Not agree at all ~ 5 Very much agree)
+7. My supervisors offers me reasonablly sufficient support for my job. (1 Not agree at all ~ 5 Very much agree)
+8. Employees at higher position levels frequently have better access to opportunities to further advance their career. (1 Not agree at all ~ 5 Very much agree)
+9. Which department are you currently in? (a. Department A. b. Department B. c. Department C. etc.)
+10. What is your current position? (fill in the blank.)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +71,20 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+sample type: probabaly-based stratified sampling, where pronvinces and CMA regions were used as strata to ensure this survey is representative of population from different geographic locations.
+Sample size: 16149, excluding rejected respondents
+Target population: It includes all persons aged 15 years and older who lives in private households in Canada. It, however, excludes institutionalized populations (e.g., hospital).
+Sampling frame: telephone numbers and related household addresses in Canada provinces.
+Survey mode: Mainly Computer-Assisted Telephone Interviewing (CATI) and Computer-Assisted Personal Interviewing (CAPI). A few self-administrated surveys.
+Timeline: Between January and December of 2018.
+Response rate: 41.9%
+Weights: Initial personal weighting to exclude multiple submissions from a same person and considering the number of people aged 15 years old and more within one household. This is then followed by several adjustments, including 1. Rejective sampling, 2. external totals, 3. stratum, 4. income, 5. province-age-gender rate, and 6. raking ratio.
+Data cleaning and processing: 1. Data collection and editing. 2. Coding of open-ended questions. 3. Weighting. 4. Anonymization and Confidentiality. 5. Creation of Combined and Derived Variables. 6. Quality Assurance.
+Sources of error: The known sources of error include sampling method (stratification rather than full census) and other non-sampling error due to the data collection procedure. Non-sampling error could include non-response error, misunderstanding error, sampling mode error, etc.
+Limitations, known biases: Given the high non-respond rate, population in certain demographic regions might be underrepresented. Also, this survey did not include institutionalized population, thus the results cannot be generalize these people. Besides, considering the survey mode including interviewings, its results are likely influenced by social desirability bias.
+Link to documentation and any additional sources used:
+https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
+
 ```
 
 ## Rubric
