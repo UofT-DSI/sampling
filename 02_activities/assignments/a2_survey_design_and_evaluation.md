@@ -25,14 +25,14 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 2. Sample size
 3. Target population
 4. Sampling frame
-5. Survey mode(s) 
+5. Survey mode(s)
 6. Timeline
 7. Response rate
 8. Weights
 9. Data processing
 10. Cleaning, imputation, etc
 11. Sources of error
-12. Limitations, known biases, etc
+12. Limitations, known biases, etc"
 13. Link to documentation and any additional sources used
 
 
@@ -40,27 +40,31 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey aims to identify which issues, messages, and leader attributes matter most to eligible voters one month before election day, so the party can maintain and strengthen its lead. It measures vote intention, what voters want the party and leader to prioritize, and what could cause supporters to switch or stay home.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Eligible voters in Canada (Canadian citizens aged 18+ living in the provinces/territories who are eligible to vote in the federal election).
+Sampling frame: A voters list or party-accessible voter contact database (where available/authorized).
+Sampling units: an individual on the voters list selected to be contacted.
+Observational unit: the individual voter who completes the survey (the unit from which data are collected).
+Overall sampling strategy: We would use a stratified sampling to ensure representation across Canada. Stratify by province (e.g., Quebec, Ontario, BC, etc) and optionally urban/suburban/rural. Oversample swing regions (competitive districts) to better understand persuasion targets. Use weights after collection to match known population benchmarks (age, gender, region) so national estimates aren’t distorted by oversampling.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
+1. Are you eligible to vote in the next Canadian federal election? (Yes / No / Prefer not to say)
+2. If the election were held today, which party would you be most likely to vote for? [Party A (your party)] / Party B / Party C / Other / Undecided / Prefer not to say
+3. How certain are you about your vote choice? 0–10 scale (0 = not at all certain, 10 = completely certain)
+4. What is the MOST important issue influencing your vote right now? Select one: Cost of living / Healthcare / Housing / Jobs-economy / Climate-energy / Immigration / Crime-safety / Taxes / Indigenous reconciliation / Foreign policy / Other: __
+5. Which TWO issues would you most like a party to prioritize in the next month? Select two: Cost of living / Healthcare / Housing / Jobs-economy / Climate-energy / Immigration / Crime-safety / Taxes / Indigenous reconciliation / Foreign policy / Other: __
+6. What, if anything, would make you less likely to vote for our party? Choose all that apply: Leader concerns / Policy concerns / Ethics/scandals / Not addressing my top issue / etc
+7. What is your likelihood of voting on election day? scale (Definitely will vote / Probably will vote / Might vote / Probably will not / Definitely will not)
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
@@ -71,7 +75,21 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Cross-sectional sample survey with stratified probability sampling.
+2. Sample size: A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+3. Target population: The target population for the GSS Giving, volunteering and participating includes all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame: This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established).
+5. Survey mode(s): Electronic questionnaire (online) and CATI (computer-assisted telephone interviewing); respondents could complete in English or French. No proxy reporting is allowed. 
+6. Timeline: 2018-09-04 to 2018-12-28
+7. Response rate: 41.9%
+8. Weights: WGHT_PER: This is the basic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics.
+In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation.
+9. Data processing: Processing used a generalized Statistics Canada processing environment (SSPE) with automated and manual edits (macro/micro), including consistency and flow edits; CATI had built-in checks and head office editing followed.
+10. Cleaning, imputation, etc: Imputation was carried out in nine steps. The first step consisted of imputing personal income and family income. The next three steps involved imputing the formal volunteering variables in the master file. Steps five and six were imputing the informal volunteering variables in the master file. Finally, the last three steps involved imputing variables in the donation file and the solicitation methods in the master file.
+11. Sources of error: Sampling error (variance estimated using bootstrap weights); non-sampling error; coverage error (households without telephones or not covered by frame); non-response bias
+12. Limitations, known biases, etc: Coverage exclusions: territories (Yukon, NWT, Nunavut) and full-time institutional residents are excluded.
+Potential coverage bias: reliance on a telephone/linked frame can underrepresent those without service or not captured by the frame.
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
