@@ -179,7 +179,7 @@ question.
 
 
 13. Link to documentation and any additional sources used:
-https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip 
+https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 
 ```
 
