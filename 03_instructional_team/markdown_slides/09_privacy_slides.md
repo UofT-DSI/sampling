@@ -14,7 +14,7 @@ $ echo "Data Sciences Institute"
 # Key Texts
 
 - Salganik, M. (2019). Understanding and managing informational risk. In *Bit by bit: Social research in the Digital age* (pp. 307–314). Chapter, Princeton University Press. 
-- Wood, A., Altman, M., Bembenek, A., Bun, M., Gaboardi, M., Honaker, J., Nissim, K., OBrien, D.R., Steinke, T., & Vadhan, S. (2018). *[Differential privacy: A primer for a non-technical audience](https://salil.seas.harvard.edu/publications/differential-privacy-primer-non-technical-audience)* . *Vanderbilt Journal of Entertainment & Technology Law, * 21(1) 209-275.
+- Wood, A., Altman, M., Bembenek, A., Bun, M., Gaboardi, M., Honaker, J., Nissim, K., O'Brien, D.R., Steinke, T., & Vadhan, S. (2018). *[Differential privacy: A primer for a non-technical audience](https://salil.seas.harvard.edu/publications/differential-privacy-primer-non-technical-audience)* . *Vanderbilt Journal of Entertainment & Technology Law, * 21(1) 209-275.
 
 ---
 
