@@ -40,30 +40,31 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key factors contributing to high turnover at a large tech company. The survey aims to learn the job satisfaction, management practices, compensation, and workload of employees in order to create retention strategies.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+- **Target population:** Current and recently departed employees of the company.
+- **Sampling frame:** The company’s HR records.
+- **Sampling units:** Individual employees listed in the HR records.
+- **Observational units:** Survey responses given by individual employees.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1.	How satisfied were you with your role at the company overall? (Very satisfied → Very dissatisfied)
+2.	How manageable was your workload in your position? (Very manageable → Not manageable at all)
+3.	How satisfied were you with your compensation and benefits relative to your responsibilities?
+4.	To what extent did you feel supported by your direct manager?
+5.	How clear were opportunities for career growth or promotion?
+6.	Did you feel your work was valued and recognized by the company?
+7.	What was the primary reason you considered leaving or decided to leave your role? (Multiple choice + other)
+8.	What one change would most improve employee retention at your level? (Open-ended)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +72,7 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+
 ```
 
 ## Rubric
@@ -93,9 +94,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-2`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
