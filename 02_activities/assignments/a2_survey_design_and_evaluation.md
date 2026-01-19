@@ -40,26 +40,46 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
 ```
+survey aims to examine how age influences music taste, particularly perceptions of popular music. It aims to compare differences across age groups as well as changes in individual preferences over time, providing insights into the sociological relationship between age and music consumption.
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
 ```
+target population: Individuals residing in the GTA across diverse age groups
+
+sampling frame: University of Toronto students, alumni networks, community organizations, and social media platforms.
+
+sampling units: Individual respondents
+
+observational units: Each respondent whose music preferences and perceptions are measured.
 
 Your 5-10 question survey:
 ```
 1. write your question here...
-2. write your question here...
-3. write your question here...
+what is your age
+
 4. write your question here...
+Which genres of music do you currently enjoy most? (Select up to 3) Pop, Rock, Hip-hop, Rap, Classical, Jazz, Country, electronic, dance, Other (please specify)
+
+2. write your question here...
+thinking back 5–10 years, how would you describe your music taste compared to now? Very similar, Somewhat similar, Very different
+
+3. write your question here...
+Do you feel that popular music today is more appealing, less appealing, or equally appealing compared to when you were younger? 
+
 5. write your question here...
+How often do you discover new artists or songs? Very often, Occasionally, Rarely, Never
+
 6. write your question here... (optional)
+Do you believe your music preferences will continue to change as you age? Strongly agree, Agree, Neutral, Disagree, Strongly disagree
+
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
@@ -73,6 +93,41 @@ Identify and describe survey features:
 ```
 write your answer here
 ```
+1. Sample type: Cross-sectional probability sample survey. Stratified two-phase design based on the Census of Population.
+
+2. Sample size :total sample size for the SGVP is 80,000 individuals (60,000 regular sample, 20,000 oversample).
+
+3. Target population:The target population for the 2023 SGVP is all persons 15 years of age and older in Canada, excluding residents of the Yukon, Northwest Territories, and Nunavut, full-time residents of institutions, and residents of First Nations reserves.
+
+4. Sampling frame: Based on the 2016 Census of Population long-form questionnaire households.1st phase sampling unit households, 2nd phase individuals.
+
+5. Survey mode(s): Data are collected directly from survey respondents either through an electronic questionnaire (EQ) or through CATI (computer assisted telephone interviewing). Respondents were interviewed in the official language of their choice. Proxy interviews were not permitted.  
+
+6. Timeline: 2023-09-15 to 2024-03-30
+
+7. Response rate: The overall response rate was 40.9% (42.2% for the regular sample and 37.1% for the oversample).
+
+8. Weights: Adjusted for rejective sampling, to represent all persons in the target population, including those not covered by the survey frame, non-response. were also adjusted so that the weighted income distribution of 2023 SGVP matched the 2022 Canadian Income Survey (CIS) distribution by province. Bootstrap weights created for the purpose of design-based variance estimation.
+
+9. Data processing: Used the Social Survey Processing Environment (SSPE) for standardized edits and validation. Edits were performed automatically and manually at various stages of processing at macro and micro levels. 
+
+10. Cleaning, imputation, etc: Donor imputation was the primary method.Mean imputation used when donor imputation was not possible.
+Imputation was carried out in 4 blocks:
+1) imputation of personal income and family income;
+2) imputation of variables related to donations;
+3) imputation of the formal volunteering variables; and
+4) imputation of the informal volunteering variables.
+
+11. Sources of error: Sampling errors are inherent in probability samples. these errors were estimated using bootstrap weights.possible non-sampling errors include coverage errors (excluded populations), non-response, response errors, and processing errors.
+
+12. Limitations, known biases, etc
+The survey excludes people living in the northern territories, on reserves, and in institutions. While weighting adjustments help reduce non-response bias, some bias may still remain. In addition, coverage errors can occur due to incomplete or inaccurate contact information.
+
+13. Link to documentation and any additional sources used
+
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430 
+
+
 
 ## Rubric
 
