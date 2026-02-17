@@ -21,19 +21,34 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
-1. Sample type
-2. Sample size
-3. Target population
-4. Sampling frame
-5. Survey mode(s) 
-6. Timeline
-7. Response rate
-8. Weights
-9. Data processing
-10. Cleaning, imputation, etc
-11. Sources of error
-12. Limitations, known biases, etc
+1. Sample type : The General Social Survey uses a probability sample selected across the ten provinces.
+2. Sample size : The 2018 GSS GVP contains 16,149 observations.
+3. Target population : Individuals aged 15 and over living in private households in Canada’s ten provinces, excluding residents of territories and institutions.
+4. Sampling frame : A sampling frame that includes Canadian residents in private households in the 10 provinces, derived from Statistics Canada's household sampling system. (Frame implied from target population description.)
+5. Survey mode(s) : The survey incorporated online reporting as part of updated questionnaire delivery in 2018.
+(Statistics Canada GSS surveys commonly combine online and interviewer‑administered modes.)
+6. Timeline : The 2018 GSS GVP was conducted from September to December 2018.
+7. Response rate : The publicly accessible documentation snippets in the search results do not explicitly mention the numeric response rate. (The user guide available in the PUMF typically contains this exact figure.)
+8. Weights : The PUMF includes survey weights and estimation procedures designed to ensure population‑representative estimates, described in the microdata user guide.
+9. Data processing : Statistics Canada’s GSS materials describe processing steps including coding, validation, microdata anonymization, and estimation preparation as part of the PUMF package documentation.
+10. Cleaning, imputation, etc : The documentation notes updates, revisions to questions, anonymization, and quality-control processes prior to release; however, specific imputation details are only accessible in the full user guide referenced.
+11. Sources of error : Potential sources include:
+Sampling error due to probabilistic household sampling.
+Non‑sampling errors from questionnaire revisions and online transition
+12. Limitations, known biases, etc : Limitations include:
+
+Exclusion of the territories.
+Exclusion of institutionalized populations.
+Possible measurement variation due to revised and updated question wording in 2018
 13. Link to documentation and any additional sources used
+Statistics Canada PUMF Documentation (Cycle 33):
+https://www150.statcan.gc.ca/n1/en/catalogue/45250011 [www150.statcan.gc.ca]
+Borealis Data Repository (microdata):
+https://doi.org/10.5683/SP3/U1AYY0 [borealisdata.ca]
+Abacus Data Network (user guide & questionnaire):
+https://hdl.handle.net/11272.1/AB2/GBFDYG [abacus.lib...ary.ubc.ca]
+Daily release notice:
+https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm [www150.statcan.gc.ca]
 
 
 # Your Changes
@@ -41,38 +56,75 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 ## Part A - Survey Design: 
 
 The number of your chosen topic: `#`
-
+3
 Describe the purpose of your survey:
-```
+``` -> number 3 is one i choose , The purpose of this survey is to understand how age influences music taste, with a particular focus on how individuals perceive popular music at different stages in their life. The results will help identify whether music taste evolves with age and what factors contribute to these changes.
+
 write your answer here...
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
+-> Target Population:
+All individuals aged 15 and older currently residing in Canada.
+
+Sampling Frame:
+A list of currently enrolled University of Toronto students along with a purchased panel list of Canadian adults from a reputable survey research firm.
+
+Sampling Units:
+Individual persons selected from the sampling frame.
+
+Observational Units:
+The same individuals who complete the survey and provide their perceptions of music tast
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
+survey questions :
+1. How old are you? (Open response or age brackets)
+2. How often do you listen to popular music? (Daily, Weekly, Monthly, Rarely, Never)
+3. Which genres of music do you currently enjoy the most? (Select all that apply)
+4. Thinking back 5–10 years, how would you describe your music taste at that time compared to now? (Very similar / Somewhat similar / Very different)
+5. Do you believe your age has influenced the type of music you enjoy? (Yes / No / Unsure)
+6. How important is staying updated with new music releases to you? (1–5 Likert scale)
+7. Do you find that your perception of “popular music” changes as you grow older? (Yes / No / Unsure)
+8. How strongly do you associate music with specific life stages or memories? (1–5 Likert scale)
+9. Which factors most influence your music preferences today? (Friends, Family, Social Media, Streaming Algorithms, Nostalgia, Other)
+10. Would you be willing to participate in a follow‑up interview? (Yes / No)
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
-```
-write your answer here
-```
+1. Sample type : The General Social Survey uses a probability sample selected across the ten provinces.
+2. Sample size : The 2018 GSS GVP contains 16,149 observations.
+3. Target population : Individuals aged 15 and over living in private households in Canada’s ten provinces, excluding residents of territories and institutions.
+4. Sampling frame : A sampling frame that includes Canadian residents in private households in the 10 provinces, derived from Statistics Canada's household sampling system. (Frame implied from target population description.)
+5. Survey mode(s) : The survey incorporated online reporting as part of updated questionnaire delivery in 2018.
+(Statistics Canada GSS surveys commonly combine online and interviewer‑administered modes.)
+6. Timeline : The 2018 GSS GVP was conducted from September to December 2018.
+7. Response rate : The publicly accessible documentation snippets in the search results do not explicitly mention the numeric response rate. (The user guide available in the PUMF typically contains this exact figure.)
+8. Weights : The PUMF includes survey weights and estimation procedures designed to ensure population‑representative estimates, described in the microdata user guide.
+9. Data processing : Statistics Canada’s GSS materials describe processing steps including coding, validation, microdata anonymization, and estimation preparation as part of the PUMF package documentation.
+10. Cleaning, imputation, etc : The documentation notes updates, revisions to questions, anonymization, and quality-control processes prior to release; however, specific imputation details are only accessible in the full user guide referenced.
+11. Sources of error : Potential sources include:
+Sampling error due to probabilistic household sampling.
+Non‑sampling errors from questionnaire revisions and online transition
+12. Limitations, known biases, etc : Limitations include:
+
+Exclusion of the territories.
+Exclusion of institutionalized populations.
+Possible measurement variation due to revised and updated question wording in 2018
+13. Link to documentation and any additional sources used
+Statistics Canada PUMF Documentation (Cycle 33):
+https://www150.statcan.gc.ca/n1/en/catalogue/45250011 [www150.statcan.gc.ca]
+Borealis Data Repository (microdata):
+https://doi.org/10.5683/SP3/U1AYY0 [borealisdata.ca]
+Abacus Data Network (user guide & questionnaire):
+https://hdl.handle.net/11272.1/AB2/GBFDYG [abacus.lib...ary.ubc.ca]
+Daily release notice:
+https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm [www150.statcan.gc.ca]
+
 
 ## Rubric
 
