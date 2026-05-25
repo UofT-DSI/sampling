@@ -40,39 +40,154 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+The purpose of this survey is to investigate the underlying reasons for high turnover among entry- and lower-level employees across all departments of the company. 
+The survey aims to identify key pain points in the employee experience and gather 
+actionable insights that can inform organizational changes to improve job satisfaction and retention.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+Target population: All current entry- and lower-level employees across all 
+departments, as well as former employees who left the company within the past 
+12 months.
+
+Sampling frame: (1) For current employees — the HR database listing all active 
+entry- and lower-level employees by department. (2) For departed employees — 
+exit interview records and available contact information for staff who left within 
+the past 12 months.
+
+Sampling units: Individual employees (current or recently departed).
+
+Observational units: Individual employees.
+
+Sampling strategy: Stratified random sampling, with departments as strata. 
+This ensures that every department is proportionally represented, which is 
+important because the turnover problem spans multiple departments and root 
+causes may differ by team. For departed employees, a census approach (contacting 
+all available former employees) is used, since this group is small and their 
+perspective is especially critical for understanding turnover.
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
-```
+1. How long have you worked (or did you work) at this company?
+   [ ] Less than 6 months  [ ] 6–12 months  [ ] 1–2 years  [ ] More than 2 years
+
+2. On a scale of 1 to 5, how satisfied are you (or were you) with your overall 
+   work experience at this company?
+   (1 = Very dissatisfied, 5 = Very satisfied)
+
+3. What is (or was) the primary reason you are considering leaving (or did leave) 
+   the company? (Select all that apply)
+   [ ] Compensation  [ ] Limited career growth  [ ] Poor management  
+   [ ] Work-life balance  [ ] Company culture  [ ] Better opportunity elsewhere  
+   [ ] Other: ______
+
+4. How would you rate your relationship with your direct manager?
+   (1 = Very poor, 5 = Excellent)
+
+5. Do you feel (or did you feel) that your compensation and benefits are 
+   fair for your role and responsibilities?
+   [ ] Yes  [ ] No  [ ] Unsure
+
+6. Do you feel (or did you feel) there are clear opportunities for career 
+   advancement within the company?
+   [ ] Yes  [ ] Somewhat  [ ] No
+
+7. How would you rate your work-life balance at this company?
+   (1 = Very poor, 5 = Excellent)
+
+8. How would you describe the overall workplace culture? (Open-ended)
+
+9. What single change would most improve employee satisfaction and retention 
+   at this company? (Open-ended)
+
+10. Would you recommend this company to a friend as a place to work?
+    [ ] Yes  [ ] No  [ ] Maybe
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
+1. Sample type:
+   Stratified random (probability) sample, stratified by province and 
+   Census Metropolitan Area (CMA). A cross-sectional design was used.
 
-```
-write your answer here
-```
+2. Sample size:
+   Approximately 20,000 respondents completed the survey 
+   (with a larger number initially selected/contacted).
+
+3. Target population:
+   All non-institutionalized persons aged 15 years and older living in 
+   private households in Canada's 10 provinces. Excludes residents of 
+   Yukon, Northwest Territories, and Nunavut, and full-time residents 
+   of institutions (e.g., prisons, care homes).
+
+4. Sampling frame:
+   Statistics Canada's common telephone frame, which combines landline 
+   and cellular telephone numbers, integrated with the dwelling/Address 
+   Register frame. This replaced older random digit dialing (RDD) methods 
+   and improved coverage.
+
+5. Survey mode(s):
+   Two modes were offered:
+   - CATI (Computer-Assisted Telephone Interviewing) — interviewer-assisted
+   - rEQ (Respondent-completed Electronic Questionnaire, i.e., online) — 
+     offered for the FIRST TIME in the 2018 cycle
+   Questionnaire available in both English and French.
+
+6. Timeline:
+   Data collection: September to December 2018
+   Public Use Microdata File (PUMF) released: January 26, 2021
+
+7. Response rate:
+   Overall response rate: 40.9%
+   - Regular sample: 42.2%
+   - Oversample: 37.1%
+
+8. Weights:
+   - WGHT_PER: person-level survey weight, adjusted for non-response 
+     and population benchmarks (age, sex, province)
+   - Bootstrap weights: provided for design-based variance estimation 
+     (accounting for the complex stratified design)
+   - Record linkage to personal tax files used to supplement income data 
+     (since 2014)
+
+9. Data processing:
+   Statistics Canada's standard SSPE (Survey Support Processing Environment) 
+   generalized processing steps were applied. Automated and manual edits 
+   were performed, including consistency, flow, and family edits. The CATI 
+   system included built-in validation and questionnaire flow controls.
+
+10. Cleaning, imputation, etc.:
+    - Donor imputation used to address item non-response (e.g., hours 
+      volunteered, donation amounts, income)
+    - Score functions matched donors and recipients on relevant characteristics
+    - Income data linked from personal tax records (administrative linkage) 
+      to reduce non-response on income questions
+    - Approximately 88 variables were subject to imputation in prior cycles; 
+      similar approach applied in 2018
+
+11. Sources of error:
+    - Sampling error: inherent variability due to surveying a sample rather 
+      than the full population; estimated using bootstrap resampling methods
+    - Non-response error: overall response rate of ~41% means non-response 
+      bias is a significant concern; weights partially correct for this
+    - Coverage error: exclusion of territories and institutionalized persons 
+      means results are not fully representative of all Canadians
+    - Measurement error: self-reported data on volunteering hours and 
+      donation amounts may involve recall bias or social desirability bias
+
+12. Limitations / known biases:
+    - Excludes Yukon, NWT, Nunavut → results not generalizable to all Canada
+    - Excludes institutionalized persons (who may have different 
+      volunteering/donating patterns)
+    - Low response rate (~41%) increases risk of non-response bias
+    - Introduction of online mode (rEQ) in 2018 affects comparability 
+      with previous cycles (2004, 2007, 2010, 2013)
+    - Questionnaire was significantly reworked in 2018 (new international 
+      standards, new online tech questions) → results CANNOT be directly 
+      compared to earlier GVP cycles
+    - Income questions historically have high non-response rates even 
+      after imputation
 
 ## Rubric
 
